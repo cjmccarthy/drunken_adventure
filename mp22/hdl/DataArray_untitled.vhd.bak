@@ -1,0 +1,26 @@
+--
+-- VHDL Architecture ece411.DataArray.untitled
+--
+-- Created:
+--          by - mccart18.ews (gelib-057-27.ews.illinois.edu)
+--          at - 01:26:19 03/05/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY DataArray IS
+-- Declarations
+
+END DataArray ;
+
+--
+ARCHITECTURE untitled OF DataArray IS
+BEGIN
+END ARCHITECTURE untitled;
+
