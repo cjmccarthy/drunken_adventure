@@ -1,0 +1,32 @@
+--
+-- VHDL Architecture ece411.OFFSET5_SHIFT.untitled
+--
+-- Created:
+--          by - mccart18.ews (gelib-057-16.ews.illinois.edu)
+--          at - 03:52:04 03/12/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY OFFSET5_SHIFT IS
+   PORT( 
+      offset5_SEXT : IN     LC3B_WORD;
+      offset5_F    : OUT    LC3B_WORD
+   );
+
+-- Declarations
+
+END OFFSET5_SHIFT ;
+
+--
+ARCHITECTURE untitled OF OFFSET5_SHIFT IS
+BEGIN
+  offset5_F <= offset5_SEXT(14 downto 0) & '0';
+END ARCHITECTURE untitled;
+

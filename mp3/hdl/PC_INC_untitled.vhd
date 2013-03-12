@@ -1,0 +1,35 @@
+--
+-- VHDL Architecture ece411.PC_INC.untitled
+--
+-- Created:
+--          by - mccart18.ews (gelib-057-16.ews.illinois.edu)
+--          at - 01:20:53 03/12/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY PC_INC IS
+   PORT( 
+      PC_OUT   : IN     LC3B_WORD;
+      PC_PLUS2 : OUT    LC3B_WORD
+   );
+
+-- Declarations
+
+END PC_INC ;
+
+--
+ARCHITECTURE untitled OF PC_INC IS
+BEGIN
+  PROCESS (PC_OUT)
+  BEGIN
+    		PC_PLUS2 <= STD_LOGIC_VECTOR(UNSIGNED(PC_OUT) + 2 ) AFTER DELAY_ADDER;
+  END PROCESS;
+END untitled;
+
