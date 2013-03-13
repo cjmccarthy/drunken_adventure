@@ -70,7 +70,7 @@ m 1
 decl (Decl
 n "D_MADDR"
 t "LC3B_WORD"
-o 6
+o 8
 suid 111,0
 )
 )
@@ -81,7 +81,7 @@ port (LogicalPort
 decl (Decl
 n "D_MDATAIN"
 t "LC3B_WORD"
-o 7
+o 2
 suid 112,0
 )
 )
@@ -93,7 +93,7 @@ m 1
 decl (Decl
 n "D_MDATAOUT"
 t "lc3b_word"
-o 14
+o 9
 suid 113,0
 )
 )
@@ -105,7 +105,7 @@ m 1
 decl (Decl
 n "D_MREAD_L"
 t "std_logic"
-o 11
+o 10
 suid 114,0
 )
 )
@@ -116,7 +116,7 @@ port (LogicalPort
 decl (Decl
 n "D_MRESP_H"
 t "STD_LOGIC"
-o 8
+o 3
 suid 115,0
 )
 )
@@ -128,7 +128,7 @@ m 1
 decl (Decl
 n "D_MWRITEH_L"
 t "std_logic"
-o 12
+o 11
 suid 116,0
 )
 )
@@ -140,7 +140,7 @@ m 1
 decl (Decl
 n "D_MWRITEL_L"
 t "std_logic"
-o 13
+o 12
 suid 117,0
 )
 )
@@ -152,7 +152,7 @@ m 1
 decl (Decl
 n "I_ADDR"
 t "lc3b_word"
-o 4
+o 13
 suid 118,0
 )
 )
@@ -163,7 +163,7 @@ port (LogicalPort
 decl (Decl
 n "I_DATAIN"
 t "LC3B_WORD"
-o 9
+o 4
 suid 119,0
 )
 )
@@ -175,7 +175,7 @@ m 1
 decl (Decl
 n "I_MREAD_L"
 t "std_logic"
-o 11
+o 14
 suid 120,0
 )
 )
@@ -186,7 +186,7 @@ port (LogicalPort
 decl (Decl
 n "I_MRESP_H"
 t "STD_LOGIC"
-o 6
+o 5
 suid 121,0
 )
 )
@@ -197,7 +197,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 3
+o 6
 suid 122,0
 )
 )
@@ -208,7 +208,7 @@ port (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 11
+o 7
 suid 123,0
 )
 )
@@ -289,73 +289,73 @@ uid 1595,0
 )
 *35 (MRCItem
 litem &16
-pos 2
+pos 13
 dimension 20
 uid 1597,0
 )
 *36 (MRCItem
 litem &17
-pos 3
+pos 10
 dimension 20
 uid 1599,0
 )
 *37 (MRCItem
 litem &18
-pos 4
+pos 2
 dimension 20
 uid 1601,0
 )
 *38 (MRCItem
 litem &19
-pos 5
+pos 11
 dimension 20
 uid 1603,0
 )
 *39 (MRCItem
 litem &20
-pos 6
+pos 12
 dimension 20
 uid 1605,0
 )
 *40 (MRCItem
 litem &21
-pos 7
+pos 3
 dimension 20
 uid 1607,0
 )
 *41 (MRCItem
 litem &22
-pos 8
+pos 4
 dimension 20
 uid 1609,0
 )
 *42 (MRCItem
 litem &23
-pos 9
+pos 5
 dimension 20
 uid 1611,0
 )
 *43 (MRCItem
 litem &24
-pos 10
+pos 6
 dimension 20
 uid 1613,0
 )
 *44 (MRCItem
 litem &25
-pos 11
+pos 7
 dimension 20
 uid 1615,0
 )
 *45 (MRCItem
 litem &26
-pos 12
+pos 9
 dimension 20
 uid 1617,0
 )
 *46 (MRCItem
 litem &27
-pos 13
+pos 8
 dimension 20
 uid 1619,0
 )
@@ -588,23 +588,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface.info"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface.user"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -616,31 +616,31 @@ value "interface"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DATAPATH"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/DATAPATH"
 )
 (vvPair
 variable "date"
-value "03/12/13"
+value "03/13/13"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "12"
+value "13"
 )
 (vvPair
 variable "entity_name"
@@ -668,7 +668,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-16.ews.illinois.edu"
+value "gelib-057-05.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -700,11 +700,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DATAPATH/interface"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/DATAPATH/interface"
 )
 (vvPair
 variable "package_name"
@@ -728,7 +728,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -736,7 +736,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -760,7 +760,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "23:17:35"
+value "08:01:53"
 )
 (vvPair
 variable "unit"
@@ -768,7 +768,7 @@ value "DATAPATH"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -827,13 +827,15 @@ uid 1526,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,8100,61000,9000"
+st "D_MADDR     : OUT    LC3B_WORD  ;"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "D_MADDR"
 t "LC3B_WORD"
-o 6
+o 8
 suid 111,0
 )
 )
@@ -870,12 +872,14 @@ uid 1531,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,2700,61000,3600"
+st "D_MDATAIN   : IN     LC3B_WORD  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "D_MDATAIN"
 t "LC3B_WORD"
-o 7
+o 2
 suid 112,0
 )
 )
@@ -913,13 +917,15 @@ uid 1536,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,9000,61000,9900"
+st "D_MDATAOUT  : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "D_MDATAOUT"
 t "lc3b_word"
-o 14
+o 9
 suid 113,0
 )
 )
@@ -957,13 +963,15 @@ uid 1541,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,9900,61000,10800"
+st "D_MREAD_L   : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "D_MREAD_L"
 t "std_logic"
-o 11
+o 10
 suid 114,0
 )
 )
@@ -1000,12 +1008,14 @@ uid 1546,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,3600,61000,4500"
+st "D_MRESP_H   : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "D_MRESP_H"
 t "STD_LOGIC"
-o 8
+o 3
 suid 115,0
 )
 )
@@ -1043,13 +1053,15 @@ uid 1551,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,10800,61000,11700"
+st "D_MWRITEH_L : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "D_MWRITEH_L"
 t "std_logic"
-o 12
+o 11
 suid 116,0
 )
 )
@@ -1087,13 +1099,15 @@ uid 1556,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,11700,61000,12600"
+st "D_MWRITEL_L : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "D_MWRITEL_L"
 t "std_logic"
-o 13
+o 12
 suid 117,0
 )
 )
@@ -1131,13 +1145,15 @@ uid 1561,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,12600,61000,13500"
+st "I_ADDR      : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "I_ADDR"
 t "lc3b_word"
-o 4
+o 13
 suid 118,0
 )
 )
@@ -1174,12 +1190,14 @@ uid 1566,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,4500,61000,5400"
+st "I_DATAIN    : IN     LC3B_WORD  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "I_DATAIN"
 t "LC3B_WORD"
-o 9
+o 4
 suid 119,0
 )
 )
@@ -1217,13 +1235,15 @@ uid 1571,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,13500,60000,14400"
+st "I_MREAD_L   : OUT    std_logic "
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "I_MREAD_L"
 t "std_logic"
-o 11
+o 14
 suid 120,0
 )
 )
@@ -1260,12 +1280,14 @@ uid 1576,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,5400,61000,6300"
+st "I_MRESP_H   : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "I_MRESP_H"
 t "STD_LOGIC"
-o 6
+o 5
 suid 121,0
 )
 )
@@ -1302,12 +1324,14 @@ uid 1581,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,6300,61000,7200"
+st "RESET_L     : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 3
+o 6
 suid 122,0
 )
 )
@@ -1344,12 +1368,14 @@ uid 1586,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,7200,61000,8100"
+st "STALL_L     : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 11
+o 7
 suid 123,0
 )
 )
@@ -1386,6 +1412,8 @@ uid 1591,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,1800,61000,2700"
+st "CLK         : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1482,7 +1510,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45200,50950"
+xt "32200,50050,45700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -2107,6 +2135,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1619,0
+lastUid 2999,0
 activeModelName "Symbol:CDM"
 )

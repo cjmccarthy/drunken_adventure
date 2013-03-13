@@ -28,17 +28,17 @@ END CONTROL_ROM ;
 --CONTROL WORD STRUCTURE:
 --  BITS 15 DOWNTO 13 are ALUOP
 --  BIT  12           is  PCMUXSel
---  BIT  11           is  LD_MAR
---  BIT  10           is  LD_MDR
+--  BIT  11           is  LD_MAR/LD_MDR
+--  BIT  10           is  WDATAMUXSel
 --  BIT  9            is  MDRMUXSel
 --  BIT  8            is  SR2MUXSel
---  BIT  7            is  SRMUXSel
+--  BIT  7            is  SR1MUXSel
 --  BIT  6            is  ADDR1MUXSel
 --  BITS 5 DOWNTO 4   are ADDR2MuxSel
 --  BIT  3            is  LD_REG
---  BIT  2            is  MEM_READ
---  BIT  1            is  MEM_WRITEH
---  BIT  0            is  MEM_WRITEL
+--  BIT  2            is  MEM_READ_L
+--  BIT  1            is  MEM_WRITEH_L
+--  BIT  0            is  MEM_WRITEL_L
 ARCHITECTURE untitled OF CONTROL_ROM IS
 BEGIN
   PROCESS(CINDEX)
@@ -60,16 +60,16 @@ BEGIN
         --ADDR2MUXSel = 01
       when "0110000" => -- LDR
         CONTROL_WORD <= "0000111001101000" after DELAY_ROM;
-        --LD_MAR = 1
-        --LD_MDR = 1
+        --LD_MAR/LD_MDR = 1
+        --WDATAMUXSel = 1
         --MDRMUXSel = 1
         --ADDR1MUXSel = 1
         --ADDR2MUXSel = 10
       when "0111000" => -- STR
-        CONTROL_WORD <= "0000110011100000" after DELAY_ROM;
+        CONTROL_WORD <= "0000100011100000" after DELAY_ROM;
         --LD_MAR = 1
         --LD_MDR = 1
-        --SRMUXSel = 1
+        --SR1MUXSel = 1
         --ADDR1MUXSel = 1
         --ADDR2MUXSel = 10
       when others =>

@@ -360,23 +360,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/mp3_cpu/symbol.sb.info"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/mp3_cpu/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/mp3_cpu/symbol.sb.user"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/mp3_cpu/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -388,31 +388,31 @@ value "symbol"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/mp3_cpu"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/mp3_cpu"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/mp3_cpu"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/mp3_cpu"
 )
 (vvPair
 variable "date"
-value "03/12/13"
+value "03/13/13"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "12"
+value "13"
 )
 (vvPair
 variable "entity_name"
@@ -440,7 +440,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-16.ews.illinois.edu"
+value "gelib-057-05.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -472,11 +472,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/mp3_cpu/symbol.sb"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/mp3_cpu/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/mp3_cpu/symbol.sb"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/mp3_cpu/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -500,7 +500,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -508,7 +508,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -532,7 +532,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "23:18:07"
+value "08:03:30"
 )
 (vvPair
 variable "unit"
@@ -540,7 +540,7 @@ value "mp3_cpu"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -1319,7 +1319,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 436,0
+lastUid 459,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

@@ -16,7 +16,7 @@ USE ece411.LC3b_types.all;
 
 ENTITY SEXT6 IS
    PORT( 
-      IR6down      : IN     LC3B_OFFSET6;
+      IR6down   : IN     LC3B_INDEX6;
       offset6_F : OUT    LC3B_WORD
    );
 
@@ -27,6 +27,6 @@ END SEXT6 ;
 --
 ARCHITECTURE untitled OF SEXT6 IS
 BEGIN
-  offset6_SEXT <= IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down & '0' after DELAY_MUX2;
+  offset6_F <= IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down(5) & IR6down & '0' after DELAY_MUX2;
 END ARCHITECTURE untitled;
 

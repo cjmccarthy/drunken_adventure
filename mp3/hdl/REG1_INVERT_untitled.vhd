@@ -32,7 +32,7 @@ BEGIN
 		IF(RESET_L = '0') THEN
 			STATE := '1';  -- DEFAULT VALUE
 		ELSIF(CLK = '1' AND CLK'EVENT AND EN = '1') THEN -- HIGH ENABLE
-			STATE := 0;
+			STATE := '0';
 		ELSIF(EN /= '0' AND EN /= '1' AND CLK = '1' AND CLK'EVENT) THEN
 			STATE := 'X';
 		END IF;

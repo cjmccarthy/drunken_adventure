@@ -29,6 +29,6 @@ END DMwrite_Reset ;
 --
 ARCHITECTURE untitled OF DMwrite_Reset IS
 BEGIN
-  DMReset<=((STALL_L NAND MRESP_H) OR MREAD_L)after DELAY_LOGIC4;
+  DMReset<=((STALL_L NAND MRESP_H) OR WRITE_L)after DELAY_LOGIC4;
 END ARCHITECTURE untitled;
 

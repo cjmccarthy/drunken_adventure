@@ -15,16 +15,16 @@ LIBRARY ece411;
 USE ece411.LC3b_types.all;
 
 ENTITY IRSPLITTER IS
-   PORT(
-      IR_IN    : IN    LC3B_WORD; 
-      CINDEX     : OUT   LC3B_CWORD;
-      IR11down  : OUT   LC3B_OFFSET11;
-      IR9down   : OUT   LC3B_OFFSET9;
-      IR6down   : OUT   LC3B_OFFSET6;
-      IR5down   : OUT   LC3B_OFFSET5;
-      SR1_OUT   : OUT   LC3B_REG;
-      SR2_OUT   : OUT   LC3B_REG;
-      DR_OUT    : OUT   LC3B_REG
+   PORT( 
+      IR_IN    : IN     STD_LOGIC_VECTOR (15 DOWNTO 0);
+      CINDEX   : OUT    LC3B_CWORD;
+      IR11down : OUT    LC3B_OFFSET11;
+      IR9down  : OUT    LC3B_OFFSET9;
+      IR6down  : OUT    LC3B_INDEX6;
+      IR5down  : OUT    LC3B_IMM5;
+      SR1_OUT  : OUT    LC3B_REG;
+      SR2_OUT  : OUT    LC3B_REG;
+      DR_OUT   : OUT    STD_LOGIC_VECTOR (2 DOWNTO 0)
    );
 
 -- Declarations
@@ -34,7 +34,7 @@ END IRSPLITTER ;
 --
 ARCHITECTURE untitled OF IRSPLITTER IS
 BEGIN
-  CWORD <= IR_IN(15 DOWNTO 12) & IR_IN(5) & "00" ;
+  CINDEX <= IR_IN(15 DOWNTO 12) & IR_IN(5) & "00" ;
   IR11down <= IR_IN(10 DOWNTO 0);
   IR9down <=  IR_IN(8 DOWNTO 0);
   IR6down <=  IR_IN(5 DOWNTO 0);
