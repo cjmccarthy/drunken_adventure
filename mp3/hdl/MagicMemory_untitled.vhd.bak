@@ -1,0 +1,23 @@
+--
+-- VHDL Architecture ece411.MagicMemory.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (linux6.ews.illinois.edu)
+--          at - 15:03:24 03/12/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+ENTITY MagicMemory IS
+END ENTITY MagicMemory;
+
+--
+ARCHITECTURE untitled OF MagicMemory IS
+BEGIN
+END ARCHITECTURE untitled;
+
