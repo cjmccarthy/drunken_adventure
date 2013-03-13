@@ -35,27 +35,31 @@ END CONTROL_ROM ;
 --  BIT  7            is  SRMUXSel
 --  BIT  6            is  ADDR1MUXSel
 --  BITS 5 DOWNTO 4   are ADDR2MuxSel
+--  BIT  3            is  LD_REG
+--  BIT  2            is  MEM_READ
+--  BIT  1            is  MEM_WRITEH
+--  BIT  0            is  MEM_WRITEL
 ARCHITECTURE untitled OF CONTROL_ROM IS
 BEGIN
   PROCESS(CINDEX)
   BEGIN
     case CINDEX is
       when "0001000" => -- ADD
-        CONTROL_WORD <= "0000000000000000" after DELAY_ROM;
+        CONTROL_WORD <= "0000000000001000" after DELAY_ROM;
       when "0001100" => -- ADDimm
-        CONTROL_WORD <= "0000000100000000" after DELAY_ROM;
+        CONTROL_WORD <= "0000000100001000" after DELAY_ROM;
         --SR2MUXSel = 1
       when "0101000" => -- AND
-        CONTROL_WORD <= "0010000000000000" after DELAY_ROM;
+        CONTROL_WORD <= "0010000000001000" after DELAY_ROM;
       when "0101100" => -- ANDimm
-        CONTROL_WORD <= "0010000100000000" after DELAY_ROM;
+        CONTROL_WORD <= "0010000100001000" after DELAY_ROM;
         --SR2MUXSel = 1
       when "0000000" => -- BR
         CONTROL_WORD <= "0001000000010000" after DELAY_ROM;
         --PCMUXSel = 1
         --ADDR2MUXSel = 01
       when "0110000" => -- LDR
-        CONTROL_WORD <= "0000111001100000" after DELAY_ROM;
+        CONTROL_WORD <= "0000111001101000" after DELAY_ROM;
         --LD_MAR = 1
         --LD_MDR = 1
         --MDRMUXSel = 1

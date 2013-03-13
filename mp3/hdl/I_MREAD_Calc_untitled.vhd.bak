@@ -1,0 +1,46 @@
+--
+-- VHDL Architecture ece411.I_MREAD_Calc.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (evrt-252-16.ews.illinois.edu)
+--          at - 21:14:44 03/12/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY I_MREAD_Calc IS
+   PORT( 
+      CLK       : IN     std_logic;
+      I_MRESP_H : IN     STD_LOGIC;
+      RESET_L   : IN     STD_LOGIC;
+      STALL_H   : IN     std_logic;
+      I_MREAD_L : OUT    std_logic
+   );
+
+-- Declarations
+
+END I_MREAD_Calc ;
+
+--
+ARCHITECTURE untitled OF I_MREAD_Calc IS
+BEGIN
+  IMC:PROCESS(CLK,I_MRESP_H,STALL_H)
+  VARIABLE state: STD_LOGIC;
+  BEGIN
+		IF(RESET_L = '0') THEN
+			STATE := '0';  -- DEFAULT VALUE
+		ELSIF(CLK = '1' AND CLK'EVENT AND STALL_H = '0') THEN -- HIGH ENABLE
+			STATE := 1;
+		ELSIF(EN /= '0' AND EN /= '1' AND CLK = '1' AND CLK'EVENT) THEN
+			STATE := (OTHERS => 'X');
+		END IF;
+		F <= STATE AFTER DELAY_REG;
+  END PROCESS IMC;
+END ARCHITECTURE untitled;
+

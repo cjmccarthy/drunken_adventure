@@ -36,6 +36,9 @@ END CONTROL_ROM ;
 --  BIT  6            is  ADDR1MUXSel
 --  BITS 5 DOWNTO 4   are ADDR2MuxSel
 --  BIT  3            is  LD_REG
+--  BIT  2            is  MEM_READ_L
+--  BIT  1            is  MEM_WRITEH_L
+--  BIT  0            is  MEM_WRITEL_L
 ARCHITECTURE untitled OF CONTROL_ROM IS
 BEGIN
   PROCESS(CINDEX)
