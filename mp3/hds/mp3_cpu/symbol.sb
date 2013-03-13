@@ -532,7 +532,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "21:36:11"
+value "23:18:07"
 )
 (vvPair
 variable "unit"
@@ -599,8 +599,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,58000,2700"
-st "RESET_L : IN     STD_LOGIC 
-"
+st "RESET_L : IN     STD_LOGIC "
 )
 thePort (LogicalPort
 decl (Decl
@@ -1320,7 +1319,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 344,0
+lastUid 436,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

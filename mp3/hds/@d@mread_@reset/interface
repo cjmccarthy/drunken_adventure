@@ -25,11 +25,11 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 8,0
+suid 7,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
-uid 81,0
+uid 74,0
 optionalChildren [
 *2 (RefLabelRowHdr
 )
@@ -68,53 +68,53 @@ tm "EolColHdrMgr"
 port (LogicalPort
 m 1
 decl (Decl
-n "IMReset"
+n "DMReset"
 t "STD_LOGIC"
-o 6
-suid 5,0
+o 2
+suid 4,0
 )
 )
-uid 179,0
+uid 172,0
 )
 *15 (LogPort
 port (LogicalPort
 decl (Decl
 n "MREAD_L"
 t "STD_LOGIC"
-o 1
-suid 6,0
+o 5
+suid 5,0
 )
 )
-uid 181,0
+uid 174,0
 )
 *16 (LogPort
 port (LogicalPort
 decl (Decl
 n "MRESP_H"
 t "std_logic"
-o 7
-suid 7,0
+o 3
+suid 6,0
 )
 )
-uid 183,0
+uid 176,0
 )
 *17 (LogPort
 port (LogicalPort
 decl (Decl
 n "STALL_L"
 t "STD_LOGIC"
-o 4
-suid 8,0
+o 7
+suid 7,0
 )
 )
-uid 185,0
+uid 178,0
 )
 ]
 )
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
-uid 94,0
+uid 87,0
 optionalChildren [
 *18 (Sheet
 sheetRow (SheetRow
@@ -138,50 +138,50 @@ litem &1
 pos 3
 dimension 20
 )
-uid 96,0
+uid 89,0
 optionalChildren [
 *20 (MRCItem
 litem &2
 pos 0
 dimension 20
-uid 97,0
+uid 90,0
 )
 *21 (MRCItem
 litem &3
 pos 1
 dimension 23
-uid 98,0
+uid 91,0
 )
 *22 (MRCItem
 litem &4
 pos 2
 hidden 1
 dimension 20
-uid 99,0
+uid 92,0
 )
 *23 (MRCItem
 litem &14
 pos 0
 dimension 20
-uid 180,0
+uid 173,0
 )
 *24 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 182,0
+uid 175,0
 )
 *25 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 184,0
+uid 177,0
 )
 *26 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 186,0
+uid 179,0
 )
 ]
 )
@@ -192,74 +192,74 @@ fontColor "0,0,0"
 font "courier,10,0"
 textAngle 90
 )
-uid 100,0
+uid 93,0
 optionalChildren [
 *27 (MRCItem
 litem &5
 pos 0
 dimension 20
-uid 101,0
+uid 94,0
 )
 *28 (MRCItem
 litem &7
 pos 1
 dimension 50
-uid 102,0
+uid 95,0
 )
 *29 (MRCItem
 litem &8
 pos 2
 dimension 100
-uid 103,0
+uid 96,0
 )
 *30 (MRCItem
 litem &9
 pos 3
 dimension 50
-uid 104,0
+uid 97,0
 )
 *31 (MRCItem
 litem &10
 pos 4
 dimension 100
-uid 105,0
+uid 98,0
 )
 *32 (MRCItem
 litem &11
 pos 5
 dimension 100
-uid 106,0
+uid 99,0
 )
 *33 (MRCItem
 litem &12
 pos 6
 dimension 50
-uid 107,0
+uid 100,0
 )
 *34 (MRCItem
 litem &13
 pos 7
 dimension 80
-uid 108,0
+uid 101,0
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
-uid 95,0
+uid 88,0
 vaOverrides [
 ]
 )
 ]
 )
-uid 80,0
+uid 73,0
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *35 (LEmptyRow
 )
-uid 110,0
+uid 103,0
 optionalChildren [
 *36 (RefLabelRowHdr
 )
@@ -296,7 +296,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
-uid 122,0
+uid 115,0
 optionalChildren [
 *47 (Sheet
 sheetRow (SheetRow
@@ -320,26 +320,26 @@ litem &35
 pos 3
 dimension 20
 )
-uid 124,0
+uid 117,0
 optionalChildren [
 *49 (MRCItem
 litem &36
 pos 0
 dimension 20
-uid 125,0
+uid 118,0
 )
 *50 (MRCItem
 litem &37
 pos 1
 dimension 23
-uid 126,0
+uid 119,0
 )
 *51 (MRCItem
 litem &38
 pos 2
 hidden 1
 dimension 20
-uid 127,0
+uid 120,0
 )
 ]
 )
@@ -350,62 +350,62 @@ fontColor "0,0,0"
 font "courier,10,0"
 textAngle 90
 )
-uid 128,0
+uid 121,0
 optionalChildren [
 *52 (MRCItem
 litem &39
 pos 0
 dimension 20
-uid 129,0
+uid 122,0
 )
 *53 (MRCItem
 litem &41
 pos 1
 dimension 50
-uid 130,0
+uid 123,0
 )
 *54 (MRCItem
 litem &42
 pos 2
 dimension 100
-uid 131,0
+uid 124,0
 )
 *55 (MRCItem
 litem &43
 pos 3
 dimension 100
-uid 132,0
+uid 125,0
 )
 *56 (MRCItem
 litem &44
 pos 4
 dimension 50
-uid 133,0
+uid 126,0
 )
 *57 (MRCItem
 litem &45
 pos 5
 dimension 50
-uid 134,0
+uid 127,0
 )
 *58 (MRCItem
 litem &46
 pos 6
 dimension 80
-uid 135,0
+uid 128,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
-uid 123,0
+uid 116,0
 vaOverrides [
 ]
 )
 ]
 )
-uid 109,0
+uid 102,0
 type 1
 )
 VExpander (VariableExpander
@@ -420,11 +420,11 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@mread_@reset/interface.info"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@mread_@reset/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@mread_@reset/interface.user"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@mread_@reset/interface.user"
 )
 (vvPair
 variable "SourceDir"
@@ -444,11 +444,11 @@ value "%(unit)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@mread_@reset"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@mread_@reset"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/Mread_Reset"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DMread_Reset"
 )
 (vvPair
 variable "date"
@@ -468,7 +468,7 @@ value "12"
 )
 (vvPair
 variable "entity_name"
-value "Mread_Reset"
+value "DMread_Reset"
 )
 (vvPair
 variable "ext"
@@ -512,7 +512,7 @@ value "03"
 )
 (vvPair
 variable "module_name"
-value "Mread_Reset"
+value "DMread_Reset"
 )
 (vvPair
 variable "month"
@@ -524,11 +524,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@mread_@reset/interface"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@mread_@reset/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/Mread_Reset/interface"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DMread_Reset/interface"
 )
 (vvPair
 variable "package_name"
@@ -584,11 +584,11 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "22:40:33"
+value "23:02:32"
 )
 (vvPair
 variable "unit"
-value "Mread_Reset"
+value "DMread_Reset"
 )
 (vvPair
 variable "user"
@@ -613,16 +613,16 @@ value "13"
 ]
 )
 LanguageMgr "VhdlLangMgr"
-uid 79,0
+uid 72,0
 optionalChildren [
 *59 (SymbolBody
 uid 8,0
 optionalChildren [
 *60 (CptPort
-uid 159,0
+uid 152,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 160,0
+uid 153,0
 ro 90
 va (VaSet
 vasetType 1
@@ -631,44 +631,45 @@ fg "0,65535,0"
 xt "21000,6625,21750,7375"
 )
 tg (CPTG
-uid 161,0
+uid 154,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 162,0
+uid 155,0
 va (VaSet
 font "courier,8,0"
 )
 xt "16500,6550,20000,7450"
-st "IMReset"
+st "DMReset"
 ju 2
 blo "20000,7250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 163,0
+uid 156,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,58000,5400"
-st "IMReset : OUT    STD_LOGIC "
+st "DMReset : OUT    STD_LOGIC 
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
-n "IMReset"
+n "DMReset"
 t "STD_LOGIC"
-o 6
-suid 5,0
+o 2
+suid 4,0
 )
 )
 )
 *61 (CptPort
-uid 164,0
+uid 157,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 165,0
+uid 158,0
 ro 90
 va (VaSet
 vasetType 1
@@ -677,11 +678,11 @@ fg "0,65535,0"
 xt "14250,6625,15000,7375"
 )
 tg (CPTG
-uid 166,0
+uid 159,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 167,0
+uid 160,0
 va (VaSet
 font "courier,8,0"
 )
@@ -692,27 +693,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 168,0
+uid 161,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,59000,2700"
-st "MREAD_L : IN     STD_LOGIC  ;"
+st "MREAD_L : IN     STD_LOGIC  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "MREAD_L"
 t "STD_LOGIC"
-o 1
-suid 6,0
+o 5
+suid 5,0
 )
 )
 )
 *62 (CptPort
-uid 169,0
+uid 162,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 170,0
+uid 163,0
 ro 90
 va (VaSet
 vasetType 1
@@ -721,11 +723,11 @@ fg "0,65535,0"
 xt "14250,8625,15000,9375"
 )
 tg (CPTG
-uid 171,0
+uid 164,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 172,0
+uid 165,0
 va (VaSet
 font "courier,8,0"
 )
@@ -736,27 +738,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 173,0
+uid 166,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,59000,3600"
-st "MRESP_H : IN     std_logic  ;"
+st "MRESP_H : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "MRESP_H"
 t "std_logic"
-o 7
-suid 7,0
+o 3
+suid 6,0
 )
 )
 )
 *63 (CptPort
-uid 174,0
+uid 167,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 175,0
+uid 168,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -764,11 +767,11 @@ fg "0,65535,0"
 xt "17625,10000,18375,10750"
 )
 tg (CPTG
-uid 176,0
+uid 169,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 177,0
+uid 170,0
 ro 270
 va (VaSet
 font "courier,8,0"
@@ -780,19 +783,20 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 178,0
+uid 171,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,59000,4500"
-st "STALL_L : IN     STD_LOGIC  ;"
+st "STALL_L : IN     STD_LOGIC  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "STALL_L"
 t "STD_LOGIC"
-o 4
-suid 8,0
+o 7
+suid 7,0
 )
 )
 )
@@ -825,8 +829,8 @@ uid 12,0
 va (VaSet
 font "courier,8,1"
 )
-xt "14750,8000,20750,8900"
-st "Mread_Reset"
+xt "14750,8000,21250,8900"
+st "DMread_Reset"
 blo "14750,8700"
 )
 )
@@ -1167,7 +1171,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,49050,46700,49950"
+xt "32200,49050,47200,49950"
 st "
 %library/%unit/%view
 "
@@ -1316,7 +1320,7 @@ tm "PanelText"
 )
 parentGraphicsRef (HdmGraphicsRef
 libraryName "ece411"
-entityName "IMREAD_Calc"
+entityName "DMREAD_Calc"
 viewName "struct.bd"
 )
 defaultSymbolBody (SymbolBody
@@ -1506,6 +1510,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 232,0
+lastUid 179,0
 activeModelName "Symbol:CDM"
 )

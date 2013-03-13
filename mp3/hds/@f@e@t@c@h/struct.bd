@@ -63,8 +63,8 @@ uid 901,0
 )
 (Instance
 name "U_0"
-duLibraryName "ece411"
-duName "I_MREAD_Calc"
+duLibraryName "ECE411"
+duName "IMREAD_Calc"
 elements [
 ]
 mwi 0
@@ -256,7 +256,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "22:02:10"
+value "22:40:32"
 )
 (vvPair
 variable "unit"
@@ -2515,7 +2515,7 @@ va (VaSet
 font "courier,8,1"
 )
 xt "15750,34100,18750,35000"
-st "ece411"
+st "ECE411"
 blo "15750,34800"
 tm "BdLibraryNameMgr"
 )
@@ -2524,8 +2524,8 @@ uid 1190,0
 va (VaSet
 font "courier,8,1"
 )
-xt "15750,35000,22250,35900"
-st "I_MREAD_Calc"
+xt "15750,35000,21750,35900"
+st "IMREAD_Calc"
 blo "15750,35700"
 tm "CptNameMgr"
 )
@@ -3594,7 +3594,7 @@ viewArea "-27793,7912,44188,51424"
 cachedDiagramExtent "-21500,-18000,71000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,-51000"
-lastUid 1195,0
+lastUid 1297,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

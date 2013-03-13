@@ -29,6 +29,6 @@ END IMread_Reset ;
 --
 ARCHITECTURE untitled OF IMread_Reset IS
 BEGIN
-  IMReset<=((STALL_L AND MRESH_H) AND (NOT(MREAD_L)))after DELAY_LOGIC4;
+  IMReset<=((STALL_L NAND MRESP_H) OR MREAD_L)after DELAY_LOGIC4;
 END ARCHITECTURE untitled;
 
