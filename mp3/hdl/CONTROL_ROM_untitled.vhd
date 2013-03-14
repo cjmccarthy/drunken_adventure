@@ -67,9 +67,11 @@ BEGIN
         --ADDR2MUXSel = 10
         --MEM_READ_L = 0
       when "0111000" => -- STR
-        CW_IN <= "0000100011100100" after DELAY_ROM;
+        CW_IN <= "0110101011100100" after DELAY_ROM;
+        --ALUOP = 011 (PASS)
         --LD_MAR = 1
         --LD_MDR = 1
+        --MDRMUXSel = 1
         --SR1MUXSel = 1
         --ADDR1MUXSel = 1
         --ADDR2MUXSel = 10

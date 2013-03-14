@@ -89,15 +89,6 @@ mwi 0
 uid 1371,0
 )
 (Instance
-name "DECODE_CONTROL_RIPPER"
-duLibraryName "ece411"
-duName "CONTROL_RIPPER"
-elements [
-]
-mwi 0
-uid 1710,0
-)
-(Instance
 name "U_1"
 duLibraryName "ece411"
 duName "BUF16"
@@ -114,6 +105,15 @@ elements [
 ]
 mwi 0
 uid 2185,0
+)
+(Instance
+name "DECODE_CONTROL_RIPPER"
+duLibraryName "ece411"
+duName "CONTROL_RIPPER"
+elements [
+]
+mwi 0
+uid 1710,0
 )
 ]
 libraryRefs [
@@ -169,19 +169,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DECODE"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/14/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -209,7 +209,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "evrt-252-04.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -301,7 +301,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "23:02:43"
+value "13:26:26"
 )
 (vvPair
 variable "unit"
@@ -935,7 +935,7 @@ lang 11
 decl (Decl
 n "IR11down"
 t "LC3B_OFFSET11"
-o 21
+o 22
 suid 15,0
 )
 declText (MLText
@@ -954,7 +954,7 @@ lang 11
 decl (Decl
 n "IR5down"
 t "LC3B_IMM5"
-o 22
+o 23
 suid 16,0
 )
 declText (MLText
@@ -973,7 +973,7 @@ lang 11
 decl (Decl
 n "IR6down"
 t "LC3B_INDEX6"
-o 23
+o 24
 suid 17,0
 )
 declText (MLText
@@ -992,7 +992,7 @@ lang 11
 decl (Decl
 n "IR9down"
 t "LC3B_OFFSET9"
-o 24
+o 25
 suid 18,0
 )
 declText (MLText
@@ -1570,7 +1570,7 @@ decl (Decl
 n "DR_OUT"
 t "STD_LOGIC_VECTOR"
 b "(2 DOWNTO 0)"
-o 9
+o 10
 suid 37,0
 )
 declText (MLText
@@ -2698,6 +2698,7 @@ m 1
 decl (Decl
 n "ALUOP"
 t "LC3B_ALUOP"
+posAdd 0
 o 2
 suid 3,0
 )
@@ -3006,44 +3007,6 @@ suid 11,0
 )
 )
 *97 (CptPort
-uid 1694,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 1695,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "79000,36625,79750,37375"
-)
-tg (CPTG
-uid 1696,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 1697,0
-va (VaSet
-font "courier,8,0"
-)
-xt "74000,36550,78000,37450"
-st "PCMUXsel"
-ju 2
-blo "78000,37250"
-)
-)
-thePort (LogicalPort
-lang 11
-m 1
-decl (Decl
-n "PCMUXsel"
-t "STD_LOGIC"
-o 3
-suid 12,0
-)
-)
-)
-*98 (CptPort
 uid 1698,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3081,7 +3044,7 @@ suid 13,0
 )
 )
 )
-*99 (CptPort
+*98 (CptPort
 uid 1702,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3119,7 +3082,7 @@ suid 14,0
 )
 )
 )
-*100 (CptPort
+*99 (CptPort
 uid 1706,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3154,6 +3117,46 @@ n "WDATAMUXSel"
 t "STD_LOGIC"
 o 6
 suid 15,0
+)
+)
+)
+*100 (CptPort
+uid 2360,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 2361,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "79000,36625,79750,37375"
+)
+tg (CPTG
+uid 2362,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 2363,0
+va (VaSet
+font "courier,8,0"
+)
+xt "76000,36550,78000,37450"
+st "BRen"
+ju 2
+blo "78000,37250"
+)
+)
+thePort (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "BRen"
+t "STD_LOGIC"
+prec "--PCMUXsel     : OUT    STD_LOGIC;"
+preAdd 0
+o 3
+suid 16,0
 )
 )
 )
@@ -3711,7 +3714,7 @@ uid 2203,0
 decl (Decl
 n "CW_IN"
 t "LC3B_WORD"
-o 25
+o 21
 suid 77,0
 )
 declText (MLText
@@ -3729,7 +3732,7 @@ uid 2213,0
 decl (Decl
 n "DEC_PC_OUT"
 t "LC3B_WORD"
-o 10
+o 9
 suid 78,0
 )
 declText (MLText
@@ -4640,7 +4643,7 @@ pts [
 "81000,39000"
 ]
 )
-start &98
+start &97
 end &83
 sat 32
 eat 32
@@ -4676,7 +4679,7 @@ pts [
 "81000,41000"
 ]
 )
-start &99
+start &98
 end &84
 sat 32
 eat 32
@@ -4968,12 +4971,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,25,1268,719"
-viewArea "-51880,18270,16435,50575"
+windowSize "-6,28,1268,722"
+viewArea "-34722,-9375,90683,53268"
 cachedDiagramExtent "-33000,-7600,88500,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,-51000"
-lastUid 2216,0
+lastUid 2363,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6103,7 +6106,7 @@ m 4
 decl (Decl
 n "IR11down"
 t "LC3B_OFFSET11"
-o 21
+o 22
 suid 15,0
 )
 )
@@ -6116,7 +6119,7 @@ m 4
 decl (Decl
 n "IR5down"
 t "LC3B_IMM5"
-o 22
+o 23
 suid 16,0
 )
 )
@@ -6129,7 +6132,7 @@ m 4
 decl (Decl
 n "IR6down"
 t "LC3B_INDEX6"
-o 23
+o 24
 suid 17,0
 )
 )
@@ -6142,7 +6145,7 @@ m 4
 decl (Decl
 n "IR9down"
 t "LC3B_OFFSET9"
-o 24
+o 25
 suid 18,0
 )
 )
@@ -6227,7 +6230,7 @@ decl (Decl
 n "DR_OUT"
 t "STD_LOGIC_VECTOR"
 b "(2 DOWNTO 0)"
-o 9
+o 10
 suid 37,0
 )
 )
@@ -6359,7 +6362,7 @@ m 4
 decl (Decl
 n "CW_IN"
 t "LC3B_WORD"
-o 25
+o 21
 suid 77,0
 )
 )
@@ -6371,7 +6374,7 @@ m 1
 decl (Decl
 n "DEC_PC_OUT"
 t "LC3B_WORD"
-o 10
+o 9
 suid 78,0
 )
 )
@@ -6429,7 +6432,7 @@ uid 72,0
 )
 *226 (MRCItem
 litem &196
-pos 18
+pos 19
 dimension 20
 uid 263,0
 )
@@ -6441,55 +6444,55 @@ uid 277,0
 )
 *228 (MRCItem
 litem &198
-pos 19
+pos 20
 dimension 20
 uid 319,0
 )
 *229 (MRCItem
 litem &199
-pos 20
+pos 21
 dimension 20
 uid 321,0
 )
 *230 (MRCItem
 litem &200
-pos 21
+pos 22
 dimension 20
 uid 323,0
 )
 *231 (MRCItem
 litem &201
-pos 22
+pos 23
 dimension 20
 uid 325,0
 )
 *232 (MRCItem
 litem &202
-pos 14
+pos 15
 dimension 20
 uid 457,0
 )
 *233 (MRCItem
 litem &203
-pos 15
+pos 16
 dimension 20
 uid 459,0
 )
 *234 (MRCItem
 litem &204
-pos 12
+pos 13
 dimension 20
 uid 461,0
 )
 *235 (MRCItem
 litem &205
-pos 13
+pos 14
 dimension 20
 uid 491,0
 )
 *236 (MRCItem
 litem &206
-pos 11
+pos 12
 dimension 20
 uid 586,0
 )
@@ -6525,25 +6528,25 @@ uid 790,0
 )
 *242 (MRCItem
 litem &212
-pos 16
+pos 17
 dimension 20
 uid 792,0
 )
 *243 (MRCItem
 litem &213
-pos 17
+pos 18
 dimension 20
 uid 794,0
 )
 *244 (MRCItem
 litem &214
-pos 9
+pos 10
 dimension 20
 uid 1362,0
 )
 *245 (MRCItem
 litem &215
-pos 10
+pos 11
 dimension 20
 uid 1398,0
 )
@@ -6561,19 +6564,19 @@ uid 1574,0
 )
 *248 (MRCItem
 litem &218
-pos 8
+pos 9
 dimension 20
 uid 2004,0
 )
 *249 (MRCItem
 litem &219
-pos 23
+pos 24
 dimension 20
 uid 2212,0
 )
 *250 (MRCItem
 litem &220
-pos 24
+pos 8
 dimension 20
 uid 2216,0
 )

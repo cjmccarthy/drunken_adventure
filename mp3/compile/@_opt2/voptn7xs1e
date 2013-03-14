@@ -4,9 +4,9 @@ K3
 cModel Technology
 Z0 d/home/mccart18
 T_opt
-VeR23Mneh63PNLGm==_JhB3
+V<:f2Kb:F:Gjz4I4Kmh@YB1
 Z1 04 7 6 work mp3_cpu struct 1
-=21-80c16ee1b975-5141554f-78e96-729a
+=4-78e7d1c87f18-51422470-55b1c-46cd
 Z2 o-quiet +acc -auto_acc_if_foreign -work ece411 -L ece411
 n@_opt
 Z3 OE;O;10.1d;51
@@ -20,9 +20,9 @@ n@_opt1
 R3
 R4
 T_opt2
-VjB[aYzAfBlSMW^CPK98Re1
+VMd;<SfeehO]Fn81oJ^G:80
 R1
-=1-80c16ee1b975-514156be-279ef-232c
+=18-78e7d1c87f18-5142397e-d25b3-4f3d
 o-quiet +acc -auto_acc_if_foreign -work ece411 -L ece411 -L mp3lib
 n@_opt2
 R3
@@ -123,7 +123,7 @@ Z26 !s90 -work|ece411|-nologo|-f|/tmp/Files1|
 Z27 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmwrite_calc_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmread_calc_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/and2_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd|
 R17
 R18
-!s100 V585RCa:`:dg8eZ[4l>>;1
+Z28 !s100 V585RCa:`:dg8eZ[4l>>;1
 !i10b 1
 Auntitled
 R6
@@ -141,26 +141,65 @@ R26
 R27
 R17
 R18
-!s100 ;HL0QHB[@7jkoYXQ>m8JB1
+Z29 !s100 ;HL0QHB[@7jkoYXQ>m8JB1
 !i10b 1
-Ebuf1
-Z28 w1363115101
+Eand3
+Z30 w1363236707
 R6
 R7
 R8
 R9
 R22
-Z29 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF1_untitled.vhd
-Z30 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF1_untitled.vhd
+Z31 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/and3_untitled.vhd
+Z32 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/and3_untitled.vhd
+l0
+L17
+Vmg3dVzXLOJiV`T:@4ZAJC2
+R13
+32
+Z33 !s108 1363236719.758865
+R15
+Z34 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/and3_untitled.vhd|
+R17
+R18
+!s100 z=K_83AWm3<^nW6V`cL_C2
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 4 and3 0 22 mg3dVzXLOJiV`T:@4ZAJC2
+l29
+L28
+VmV6;@;Z>YYafXXe6;W7X:2
+R13
+32
+R33
+R15
+R34
+R17
+R18
+!s100 b<g6A<mRIAlAM7<Iza3Ak3
+!i10b 1
+Ebuf1
+Z35 w1363115101
+R6
+R7
+R8
+R9
+R22
+Z36 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF1_untitled.vhd
+Z37 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF1_untitled.vhd
 l0
 L16
 V427eA0:IkI3ggICbMe6Oh3
 R13
 33
-Z31 !s108 1363229750.590627
-Z32 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files2|
-Z33 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF1_untitled.vhd|
-Z34 o-work ece411 -nologo -2008
+Z38 !s108 1363229750.590627
+Z39 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files2|
+Z40 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF1_untitled.vhd|
+Z41 o-work ece411 -nologo -2008
 R18
 !s100 7O8b4Eg]6F5g:_]^G3oJZ1
 !i10b 1
@@ -175,31 +214,31 @@ L24
 VJ>OddO52C=W59n8>]g1>G1
 R13
 33
-R31
-R32
-R33
-R34
+R38
+R39
+R40
+R41
 R18
 !s100 B50FFPAOV_aj@?e=aVVnL0
 !i10b 1
 Ebuf16
-Z35 w1363115094
+Z42 w1363115094
 R6
 R7
 R8
 R9
 R10
-Z36 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd
-Z37 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd
+Z43 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd
+Z44 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd
 l0
 L17
 V:a3CR0=`bXTOL3eTY]3[A2
 R13
 33
-Z38 !s108 1363178938.464740
-Z39 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files0|
-Z40 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd|
-R34
+Z45 !s108 1363178938.464740
+Z46 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files0|
+Z47 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd|
+R41
 R18
 !s100 5F7`XF?f1VN4DYj:UhFOO1
 !i10b 1
@@ -214,10 +253,10 @@ L25
 V>C0jVED]Ml4n6NW<h`Pzz0
 R13
 33
-R38
-R39
-R40
-R34
+R45
+R46
+R47
+R41
 R18
 !s100 G:JPMbRa4aVn4D^PQHh]B3
 !i10b 1
@@ -228,17 +267,17 @@ R7
 R8
 R9
 R22
-Z41 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF3_untitled.vhd
-Z42 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF3_untitled.vhd
+Z48 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF3_untitled.vhd
+Z49 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF3_untitled.vhd
 l0
 L18
 V:TN`;6^0F>8R7YBk7dnLY0
 R13
 33
-Z43 !s108 1363229750.097336
-R39
-Z44 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF3_untitled.vhd|
-R34
+Z50 !s108 1363229750.097336
+R46
+Z51 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/BUF3_untitled.vhd|
+R41
 R18
 !s100 ld=fj;:RZdD]X1ALNh2Jn2
 !i10b 1
@@ -253,31 +292,31 @@ L29
 VLfE6d6?:[i0`cD?=`LbdG2
 R13
 33
-R43
-R39
-R44
-R34
+R50
+R46
+R51
+R41
 R18
 !s100 GNY]fUcoZDdoU:=1?OA1B0
 !i10b 1
 Eclkgen
-Z45 w1363113287
+Z52 w1363113287
 R6
 R7
 R8
 R9
 R10
-Z46 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CLKgen_untitled.vhd
-Z47 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CLKgen_untitled.vhd
+Z53 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CLKgen_untitled.vhd
+Z54 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CLKgen_untitled.vhd
 l0
 L17
 VKQk8Pa[5d4oZeGAJ9LdXP0
 R13
 33
-Z48 !s108 1363178825.323552
-Z49 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files1|
-Z50 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT11_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/OFFSET5_SHIFT_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/IRSPLITTER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CLKgen_untitled.vhd|
-R34
+Z55 !s108 1363178825.323552
+Z56 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files1|
+Z57 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT11_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/OFFSET5_SHIFT_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/IRSPLITTER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CLKgen_untitled.vhd|
+R41
 R18
 !s100 ePGR4]:<^DL5m_D3B`jUW2
 !i10b 1
@@ -292,10 +331,10 @@ L27
 VdhInjUL9fG`KeSO=T??OZ3
 R13
 33
-R48
-R49
-R50
-R34
+R55
+R56
+R57
+R41
 R18
 !s100 JTWmh<H^CKI2Q4PGg0Y3m2
 !i10b 1
@@ -306,16 +345,16 @@ R7
 R8
 R9
 R22
-Z51 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/comp16_untitled.vhd
-Z52 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/comp16_untitled.vhd
+Z58 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/comp16_untitled.vhd
+Z59 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/comp16_untitled.vhd
 l0
 L17
 VjUY2eYQ[lL:aCBjc[zCg30
 R13
 32
-Z53 !s108 1363232873.809696
+Z60 !s108 1363232873.809696
 R26
-Z54 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/comp16_untitled.vhd|
+Z61 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/comp16_untitled.vhd|
 R17
 R18
 !s100 4ZnS:NB6>UQP5BP?kWRaN3
@@ -331,70 +370,70 @@ L27
 VBBUEgWEo]j`N5NBg?;;`_0
 R13
 32
-R53
+R60
 R26
-R54
+R61
 R17
 R18
 !s100 <e_L87ozf:J59D>_f@c_03
 !i10b 1
 Econtrol_ripper
-Z55 w1363190738
+Z62 w1363285208
 R6
 R7
 R8
 R9
 R22
-Z56 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd
-Z57 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd
+Z63 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd
+Z64 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd
 l0
 L17
-Vi8llQCd3PiI<c^N=_@bf12
+VEWf115[28fV2_GzI?cS@A2
 R13
 33
-Z58 !s108 1363205339.412124
-R39
-Z59 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd|
-R34
+Z65 !s108 1363285601.807882
+R46
+Z66 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|
+R41
 R18
-!s100 L]8T28I_^]GNLVSW=BTmT2
+!s100 [g<8>XiM96;138hZG=U?;0
 !i10b 1
 Auntitled
 R6
 R7
 R8
 R9
-DEx4 work 14 control_ripper 0 22 i8llQCd3PiI<c^N=_@bf12
-l57
-L56
-V5h=8?mjn?Xn_OUYAJYVOM2
+DEx4 work 14 control_ripper 0 22 EWf115[28fV2_GzI?cS@A2
+l58
+L57
+VzceGc`CeUPPcUIm^bY0oA0
 R13
 33
-R58
-R39
-R59
-R34
+R65
+R46
+R66
+R41
 R18
-!s100 ;L^Y3iT=PSe:AK5aRfCOQ0
+!s100 A6KkPJV_K`Fn<<9YETJYD2
 !i10b 1
 Econtrol_rom
-Z60 w1363232511
+Z67 w1363293546
 R6
 R7
 R8
 R9
 R22
-Z61 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd
-Z62 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd
+Z68 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd
+Z69 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd
 l0
 L17
 V>iBDSQSn9ObHa;g?=RdL>0
 R13
 33
-Z63 !s108 1363232873.660712
-R39
-Z64 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd|
-R34
+Z70 !s108 1363293617.717843
+R46
+Z71 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CONTROL_ROM_untitled.vhd|
+R41
 R18
 !s100 I3T>:4W`IUPHRAZdPd6b;0
 !i10b 1
@@ -406,34 +445,34 @@ R9
 DEx4 work 11 control_rom 0 22 >iBDSQSn9ObHa;g?=RdL>0
 l43
 L42
-V>l0LJi07lDf3]JO7:;FDB1
+Vf8B1nRcj^iXE6A<_?ldzN2
 R13
 33
-R63
-R39
-R64
-R34
+R70
+R46
+R71
+R41
 R18
-!s100 >:XM]h`agFSEFO6?9:5^;3
+!s100 XaGNDO8Mk?E@CSYb5E8MD3
 !i10b 1
 Ecword_reg16
-Z65 w1363219704
+Z72 w1363219704
 R6
 R7
 R8
 R9
 R22
-Z66 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CWORD_REG16_untitled.vhd
-Z67 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CWORD_REG16_untitled.vhd
+Z73 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CWORD_REG16_untitled.vhd
+Z74 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CWORD_REG16_untitled.vhd
 l0
 L16
 VQ9^C?aNK]eVmU2J9KUMEo3
 R13
 33
-Z68 !s108 1363220121.350313
-R32
-Z69 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CWORD_REG16_untitled.vhd|
-R34
+Z75 !s108 1363220121.350313
+R39
+Z76 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/CWORD_REG16_untitled.vhd|
+R41
 R18
 !s100 hieZHSAG=oLSHZC_7DQAN3
 !i10b 1
@@ -448,30 +487,30 @@ L28
 V@<?3KMDK`fZ`;PZdom:;53
 R13
 33
-R68
-R32
-R69
-R34
+R75
+R39
+R76
+R41
 R18
 !s100 >[aKMB<0Gl6USE=ocnUj^3
 !i10b 1
 Edatapath
-Z70 w1363236533
+Z77 w1363294586
 R6
 R7
 R8
 R9
 R22
-Z71 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd
-Z72 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd
+Z78 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd
+Z79 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd
 l0
 L16
 V`KDGi[:z?BI[F[nHfCMgZ3
 R13
 32
-Z73 !s108 1363236534.812096
-R26
-Z74 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|
+Z80 !s108 1363294588.097844
+R15
+Z81 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|
 R17
 R18
 !s100 >lz>]LVSaQfe[1iV<6;Q`3
@@ -480,13 +519,13 @@ Astruct
 DEx6 ece411 9 writeback 0 22 GFe1[R^AaJooOI2;MnE871
 DEx6 ece411 7 regfile 0 22 7B2h49doT[D6Rmlnl3X0<1
 DEx6 ece411 6 mux2_3 0 22 FHg]2[FPJoVVn1i58dBUT1
-Z75 DEx6 ece411 7 mux2_16 0 22 bW90;8C@kKFZzK5Vm[hZj3
+Z82 DEx6 ece411 7 mux2_16 0 22 bW90;8C@kKFZzK5Vm[hZj3
 DEx6 ece411 19 mem_writeback_latch 0 22 ?=aNzQ]Un20bUFVj90[K^0
-DEx6 ece411 10 mem_access 0 22 5M1_0XgMOJd6C>o6SYXW_1
+DEx6 ece411 10 mem_access 0 22 <HZ<PNU6JaH?4>^JGJG4g1
 DEx6 ece411 18 fetch_decode_latch 0 22 zzfDlCzZZeVc<UYiS]Ke11
-DEx6 ece411 5 fetch 0 22 E91koVKP:?cf`ARXmO>I23
-DEx6 ece411 17 execute_mem_latch 0 22 of=bnnN;2Y9a:jcPBZ;z?1
-DEx6 ece411 7 execute 0 22 X4`gGRHkjiiTolWejez^=1
+DEx6 ece411 5 fetch 0 22 2PaIHBd9m4h:ULz>bGOWS3
+DEx6 ece411 17 execute_mem_latch 0 22 8<gjjIkB9Maz[XP0f]]YA1
+DEx6 ece411 7 execute 0 22 gf?m?o<hc?:mG5nfD6dH@1
 DEx6 ece411 20 decode_execute_latch 0 22 X=VM;h3L`4z]K]0h4ln8Q0
 DEx6 ece411 6 decode 0 22 0i1b?X6=15hNZj;W>K2]o1
 DEx4 work 8 datapath 0 22 `KDGi[:z?BI[F[nHfCMgZ3
@@ -494,35 +533,35 @@ R6
 R7
 R8
 R9
-l343
+l350
 L55
-VmVII=<l=ai03b]1oaB^3D0
+V@F5dG9Kh2lP;b3i_4n4bN3
 R13
 32
-R73
-R26
-R74
+R80
+R15
+R81
 R17
 R18
-!s100 hR3Tg@75G]IKklGTJLWdz1
+!s100 P0LWVOW7RmiTnmjV^YnNQ3
 !i10b 1
 Edecode
-Z76 w1363233899
+Z83 w1363293615
 R6
 R7
 R8
 R9
 R22
-Z77 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd
-Z78 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd
+Z84 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd
+Z85 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd
 l0
 L16
 V0i1b?X6=15hNZj;W>K2]o1
 R13
 32
-Z79 !s108 1363233900.679250
-R15
-Z80 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|
+Z86 !s108 1363293617.921280
+R26
+Z87 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|
 R17
 R18
 !s100 C:a=B=9R99ElD<iGI=ZHI0
@@ -536,50 +575,50 @@ DEx6 ece411 13 offset5_shift 0 22 gK`oH68dF>eXLl48c4^Lg2
 DEx6 ece411 10 noop_check 0 22 dkzX^DTQI0XOkemlA9Xho0
 DEx6 ece411 10 irsplitter 0 22 @4KGE<N[n^QQd2mGYITmX2
 DEx6 ece411 11 control_rom 0 22 >iBDSQSn9ObHa;g?=RdL>0
-Z81 DEx6 ece411 14 control_ripper 0 22 i8llQCd3PiI<c^N=_@bf12
-Z82 DEx6 ece411 5 buf16 0 22 :a3CR0=`bXTOL3eTY]3[A2
+Z88 DEx6 ece411 14 control_ripper 0 22 EWf115[28fV2_GzI?cS@A2
+Z89 DEx6 ece411 5 buf16 0 22 :a3CR0=`bXTOL3eTY]3[A2
 DEx4 work 6 decode 0 22 0i1b?X6=15hNZj;W>K2]o1
 R6
 R7
 R8
 R9
-l175
+l176
 L60
-VhjVZ4WKD<ZM[Seb93i=?T3
+Vz[N^4d7<k47EX1NiA@_Zf3
 R13
 32
-R79
-R15
-R80
+R86
+R26
+R87
 R17
 R18
-!s100 @?8k=ZXzXPXD35E:CPT_;0
+!s100 Z1F2D:M;IPWfc<DYPFQh:3
 !i10b 1
 Edecode_execute_latch
-R76
+Z90 w1363233899
 R6
 R7
 R8
 R9
 R22
-Z83 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd
-Z84 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd
+Z91 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd
+Z92 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd
 l0
 L16
 VX=VM;h3L`4z]K]0h4ln8Q0
 R13
 32
-R79
+Z93 !s108 1363233900.679250
 R15
-R80
+Z94 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|
 R17
 R18
 !s100 ^GnehdU1EJJoDb_03<>b<2
 !i10b 1
 Astruct
-Z85 DEx6 ece411 4 reg3 0 22 aQi6DAe=M=VY`jn2CA]5I3
-Z86 DEx6 ece411 5 reg16 0 22 cdnBDKl9;aK4YHQdG[AH]0
-Z87 DEx6 ece411 11 cword_reg16 0 22 Q9^C?aNK]eVmU2J9KUMEo3
+Z95 DEx6 ece411 4 reg3 0 22 aQi6DAe=M=VY`jn2CA]5I3
+Z96 DEx6 ece411 5 reg16 0 22 cdnBDKl9;aK4YHQdG[AH]0
+Z97 DEx6 ece411 11 cword_reg16 0 22 Q9^C?aNK]eVmU2J9KUMEo3
 DEx4 work 20 decode_execute_latch 0 22 X=VM;h3L`4z]K]0h4ln8Q0
 R6
 R7
@@ -590,31 +629,31 @@ L64
 VC7CB7oIW:i@0`4Q=kbG_W1
 R13
 32
-R79
+R93
 R15
-R80
+R94
 R17
 R18
 !s100 mQGg86fLOUfm=:eKYf]Hk2
 !i10b 1
 Edelaymresph
-Z88 w1363222710
+Z98 w1363222710
 R6
 R7
 R8
 R9
 R22
-Z89 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/Delaymresph_untitled.vhd
-Z90 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/Delaymresph_untitled.vhd
+Z99 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/Delaymresph_untitled.vhd
+Z100 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/Delaymresph_untitled.vhd
 l0
 L17
 VQC57z5_Zg>D[`CzA_8PKJ2
 R13
 33
-Z91 !s108 1363222722.290000
-R39
-Z92 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/Delaymresph_untitled.vhd|
-R34
+Z101 !s108 1363222722.290000
+R46
+Z102 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/Delaymresph_untitled.vhd|
+R41
 R18
 !s100 ZQ^I;Wf8AYhX@=n>7`GYf3
 !i10b 1
@@ -629,31 +668,31 @@ L28
 VX_ZAi?KJi[EogT4m2RaKN3
 R13
 33
-R91
-R39
-R92
-R34
+R101
+R46
+R102
+R41
 R18
 !s100 jkA=4@f`]_Ia>`lDZ<D`43
 !i10b 1
 Edm_delay
-Z93 w1363235702
+Z103 w1363235702
 R6
 R7
 R8
 R9
 R22
-Z94 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/DM_Delay_untitled.vhd
-Z95 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/DM_Delay_untitled.vhd
+Z104 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/DM_Delay_untitled.vhd
+Z105 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/DM_Delay_untitled.vhd
 l0
 L16
 VZSR?70:WIfCgJmOP<_gnK1
 R13
 33
-Z96 !s108 1363235718.060129
-R39
-Z97 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/DM_Delay_untitled.vhd|
-R34
+Z106 !s108 1363235718.060129
+R46
+Z107 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/DM_Delay_untitled.vhd|
+R41
 R18
 !s100 OYYU8DgEQeKX`Uk4eC?n;0
 !i10b 1
@@ -668,39 +707,39 @@ L24
 V=MLa0oOcjiWL;SClJH7c_2
 R13
 33
-R96
-R39
-R97
-R34
+R106
+R46
+R107
+R41
 R18
 !s100 Ln7lgJJi:Wz65AKC_ScDh0
 !i10b 1
 Edmread_calc
-Z98 w1363235715
+Z108 w1363235715
 R6
 R7
 R8
 R9
 R22
-Z99 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmread_calc_struct.vhd
-Z100 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmread_calc_struct.vhd
+Z109 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmread_calc_struct.vhd
+Z110 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmread_calc_struct.vhd
 l0
 L16
 VV7K7X7?I;_6PDjz?hU<X[2
 R13
 32
-Z101 !s108 1363235718.240537
+Z111 !s108 1363235718.240537
 R26
-Z102 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmwrite_calc_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmread_calc_struct.vhd|
+Z112 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmwrite_calc_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmread_calc_struct.vhd|
 R17
 R18
 !s100 z8oaVMJMFaVNlOJdgok6L3
 !i10b 1
 Astruct
-Z103 DEx6 ece411 12 reg1_invertb 0 22 ?OfR_?G2eUkg9H=U713G?2
+Z113 DEx6 ece411 12 reg1_invertb 0 22 ?OfR_?G2eUkg9H=U713G?2
 DEx6 ece411 12 dmread_reset 0 22 UL=@TPTDlO1SOB@^4moL;1
-Z104 DEx6 ece411 8 dm_delay 0 22 ZSR?70:WIfCgJmOP<_gnK1
-Z105 DEx6 ece411 4 and2 0 22 9^j[zIO?Jo:@FGlN?[onP2
+Z114 DEx6 ece411 8 dm_delay 0 22 ZSR?70:WIfCgJmOP<_gnK1
+Z115 DEx6 ece411 4 and2 0 22 9^j[zIO?Jo:@FGlN?[onP2
 DEx4 work 11 dmread_calc 0 22 V7K7X7?I;_6PDjz?hU<X[2
 R6
 R7
@@ -711,31 +750,31 @@ L47
 VbUHa9;z6ziilK44X`@kcZ0
 R13
 32
-R101
+R111
 R26
-R102
+R112
 R17
 R18
 !s100 =e_eQ68VK=:Q?]dlDcWG02
 !i10b 1
 Edmread_reset
-Z106 w1363147352
+Z116 w1363147352
 R6
 R7
 R8
 R9
 R10
-Z107 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMread_Reset_untitled.vhd
-Z108 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMread_Reset_untitled.vhd
+Z117 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMread_Reset_untitled.vhd
+Z118 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMread_Reset_untitled.vhd
 l0
 L17
 VUL=@TPTDlO1SOB@^4moL;1
 R13
 33
-Z109 !s108 1363179331.645037
-Z110 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files3|
-Z111 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/REG1_INVERTb_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMread_Reset_untitled.vhd|
-R34
+Z119 !s108 1363179331.645037
+Z120 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files3|
+Z121 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/REG1_INVERTb_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMread_Reset_untitled.vhd|
+R41
 R18
 !s100 MBA54eBIcR75:]]GP@W;Y2
 !i10b 1
@@ -750,39 +789,39 @@ L30
 Vg]ZmC8[33iZ6G1in=YQWh3
 R13
 33
-R109
-R110
-R111
-R34
+R119
+R120
+R121
+R41
 R18
 !s100 h]ZlengNdk:ALk4Qd62Dd1
 !i10b 1
 Edmwrite_calc
-R98
+R108
 R6
 R7
 R8
 R9
 R22
-Z112 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmwrite_calc_struct.vhd
-Z113 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmwrite_calc_struct.vhd
+Z122 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmwrite_calc_struct.vhd
+Z123 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/dmwrite_calc_struct.vhd
 l0
 L16
 V^=0U=HdQW<=DhU?ZTAN4?2
 R13
 32
-R101
+R111
 R26
-R102
+R112
 R17
 R18
 !s100 a:=fe8codZPFGa3==>US>3
 !i10b 1
 Astruct
-R103
+R113
 DEx6 ece411 13 dmwrite_reset 0 22 Oca4R=FCGCEI0jMZj@e222
-R104
-R105
+R114
+R115
 DEx4 work 12 dmwrite_calc 0 22 ^=0U=HdQW<=DhU?ZTAN4?2
 R6
 R7
@@ -793,31 +832,31 @@ L47
 V36>o2a7na;Aen9EIYYH?Z1
 R13
 32
-R101
+R111
 R26
-R102
+R112
 R17
 R18
 !s100 jWMb8Jm3bdF<5LL9oUFQH1
 !i10b 1
 Edmwrite_reset
-Z114 w1363179373
+Z124 w1363179373
 R6
 R7
 R8
 R9
 R10
-Z115 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMwrite_Reset_untitled.vhd
-Z116 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMwrite_Reset_untitled.vhd
+Z125 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMwrite_Reset_untitled.vhd
+Z126 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMwrite_Reset_untitled.vhd
 l0
 L17
 VOca4R=FCGCEI0jMZj@e222
 R13
 33
-Z117 !s108 1363179454.504004
-R49
-Z118 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMwrite_Reset_untitled.vhd|
-R34
+Z127 !s108 1363179454.504004
+R56
+Z128 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/DMwrite_Reset_untitled.vhd|
+R41
 R18
 !s100 a4iZ6V]4U5JZj<9TG;jKA2
 !i10b 1
@@ -832,119 +871,120 @@ L30
 VW0KPd@zBH27>T?a0TI:5D2
 R13
 33
-R117
-R49
-R118
-R34
+R127
+R56
+R128
+R41
 R18
 !s100 X01o?S^JBe[T?]jAoS@I?2
 !i10b 1
 Eexecute
-Z119 w1363234622
+Z129 w1363285599
 R6
 R7
 R8
 R9
 R22
-Z120 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd
-Z121 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd
+Z130 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd
+Z131 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd
 l0
 L16
-VX4`gGRHkjiiTolWejez^=1
+Vgf?m?o<hc?:mG5nfD6dH@1
 R13
 32
-Z122 !s108 1363234636.638711
-R15
-Z123 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd|
+Z132 !s108 1363285601.990099
+R26
+Z133 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|
 R17
 R18
-!s100 _8KVY7D<I9mnR3gIc<<DC0
+!s100 5OF9?1KfQ0L2hBaS44m5i0
 !i10b 1
 Astruct
 DEx6 ece411 7 mux4_16 0 22 AGf_2WRkHJemd3674g=7X2
-R75
-R81
-Z124 DEx6 ece411 4 buf3 0 22 :TN`;6^0F>8R7YBk7dnLY0
 R82
+DEx6 ece411 5 gencc 0 22 QgEzYYYZ3?9m42fcM2=WD3
+R88
+Z134 DEx6 ece411 4 buf3 0 22 :TN`;6^0F>8R7YBk7dnLY0
+R89
 DEx6 ece411 3 alu 0 22 n5FjISSGDCN[NW01fCE0V3
 DEx6 ece411 5 add16 0 22 P@X=bPjHOWIeb2dV_YMb:3
-DEx4 work 7 execute 0 22 X4`gGRHkjiiTolWejez^=1
+DEx4 work 7 execute 0 22 gf?m?o<hc?:mG5nfD6dH@1
 R6
 R7
 R8
 R9
-l150
+l161
 L60
-V;8E4FaFFcnnZ5l[>2SkkS3
+VcCV<9HbgXPaV?A6?_8mGK2
 R13
 32
-R122
-R15
-R123
+R132
+R26
+R133
 R17
 R18
-!s100 @LQZ[=U925EJBMBdlnoDM0
+!s100 J5if5VH5bDjE3g36GhF2;3
 !i10b 1
 Eexecute_mem_latch
-R119
+Z135 w1363285497
 R6
 R7
 R8
 R9
 R22
-Z125 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd
-Z126 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd
+Z136 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd
+Z137 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd
 l0
 L16
-Vof=bnnN;2Y9a:jcPBZ;z?1
+V8<gjjIkB9Maz[XP0f]]YA1
 R13
 32
-R122
-R15
-R123
+R132
+R26
+R133
 R17
 R18
-!s100 W8@TOJECF49[amC`[3N]Z2
+!s100 YTd<j>XknPVc=XJ]j]hb42
 !i10b 1
 Astruct
-R85
-R86
-R87
-DEx4 work 17 execute_mem_latch 0 22 of=bnnN;2Y9a:jcPBZ;z?1
+R95
+R96
+R97
+DEx4 work 17 execute_mem_latch 0 22 8<gjjIkB9Maz[XP0f]]YA1
 R6
 R7
 R8
 R9
-l98
-L54
-V;`GL0J?o9g?d7O?OAM?zZ1
+l100
+L56
+VGcFi_RlKFM3:g5<g9mdjd1
 R13
 32
-R122
-R15
-R123
+R132
+R26
+R133
 R17
 R18
-!s100 m6zVdHi<QcN[Q9n6FC9Vh2
+!s100 DL>hcVN7gSGkTkZ_h]=SX0
 !i10b 1
 Efakeyfakey
-Z127 w1363224576
+Z138 w1363224576
 R6
 R7
 R8
 R9
 R22
-Z128 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/FakeyFakey_untitled.vhd
-Z129 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/FakeyFakey_untitled.vhd
+Z139 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/FakeyFakey_untitled.vhd
+Z140 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/FakeyFakey_untitled.vhd
 l0
 L17
 V^j;XW6WlfTcRS]ENe1m:[2
 R13
 33
-Z130 !s108 1363224584.278598
-R39
-Z131 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/FakeyFakey_untitled.vhd|
-R34
+Z141 !s108 1363224584.278598
+R46
+Z142 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/FakeyFakey_untitled.vhd|
+R41
 R18
 !s100 m>3AnNg?RK;^e4MXHVjad0
 !i10b 1
@@ -959,80 +999,82 @@ L29
 Vi7T5UGOa?]8oP88jG:^bD2
 R13
 33
-R130
-R39
-R131
-R34
+R141
+R46
+R142
+R41
 R18
 !s100 Jiani4[^<XMJiS0FjZ@GI3
 !i10b 1
 Efetch
-R119
+Z143 w1363293955
 R6
 R7
 R8
 R9
 R22
-Z132 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd
-Z133 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd
+Z144 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd
+Z145 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd
 l0
 L16
-VE91koVKP:?cf`ARXmO>I23
+V2PaIHBd9m4h:ULz>bGOWS3
 R13
 32
-R122
+Z146 !s108 1363293957.668249
 R15
-R123
+Z147 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|
 R17
 R18
-!s100 4[6^GJzn4VL=z:4N5690D0
+!s100 ?nO[i?VH2IUdERQ4dgYn91
 !i10b 1
 Astruct
-R86
-DEx6 ece411 6 pc_inc 0 22 WzPLAXokB=EUjGjEhE[zP2
-R75
-DEx6 ece411 11 imread_calc 0 22 GcG4TjPJ0eZTV8<U:1Jc<1
+R96
+Z148 DEx6 ece411 4 reg1 0 22 3g2R_e>iQWXkanJIK?Ok?1
+DEx6 ece411 6 pc_inc 0 22 gSZPgU^dG1b@:N=g`1Sdg3
 R82
-DEx4 work 5 fetch 0 22 E91koVKP:?cf`ARXmO>I23
+DEx6 ece411 11 imread_calc 0 22 GcG4TjPJ0eZTV8<U:1Jc<1
+R89
+DEx6 mp3lib 4 and2 0 22 3@X38[^SS<iTf@DH=N6JF1
+DEx4 work 5 fetch 0 22 2PaIHBd9m4h:ULz>bGOWS3
 R6
 R7
 R8
 R9
-l115
-L52
-V71QQ7OX?=8`nT@zjn7X4G2
+l136
+L53
+VS;i6Y[o0Z`T>4YcMb<]J82
 R13
 32
-R122
+R146
 R15
-R123
+R147
 R17
 R18
-!s100 beREZ5AXGgzC4^@F_aL4h3
+!s100 9faBeMS:JZ5g][o<g3G?93
 !i10b 1
 Efetch_decode_latch
-Z134 w1363221589
+Z149 w1363221589
 R6
 R7
 R8
 R9
 R22
-Z135 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd
-Z136 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd
+Z150 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd
+Z151 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd
 l0
 L16
 VzzfDlCzZZeVc<UYiS]Ke11
 R13
 32
-Z137 !s108 1363221591.020192
+Z152 !s108 1363221591.020192
 R26
-Z138 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|
+Z153 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|
 R17
 R18
 !s100 BbR8CLN^B4bdKmnlgEG`M2
 !i10b 1
 Astruct
-R86
+R96
 DEx4 work 18 fetch_decode_latch 0 22 zzfDlCzZZeVc<UYiS]Ke11
 R6
 R7
@@ -1043,22 +1085,61 @@ L50
 VZ;:5=KCYzaTPV3OM9zC7]2
 R13
 32
-R137
+R152
 R26
-R138
+R153
 R17
 R18
 !s100 IMajS0z;KIAnSc3UIee=00
 !i10b 1
-Eimread_calc
-Z139 w1363228662
+Egencc
+Z154 w1363278065
 R6
 R7
 R8
 R9
 R22
-Z140 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd
-Z141 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd
+Z155 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/GenCC_untitled.vhd
+Z156 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/GenCC_untitled.vhd
+l0
+L17
+VQgEzYYYZ3?9m42fcM2=WD3
+R13
+33
+Z157 !s108 1363278899.118087
+R46
+Z158 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/GenCC_untitled.vhd|
+R41
+R18
+!s100 T5PG6Z[fKzYG?5Vm;3C4@0
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 5 gencc 0 22 QgEzYYYZ3?9m42fcM2=WD3
+l30
+L29
+V4fY^WO@R0d56oa[eN4ZXX3
+R13
+33
+R157
+R46
+R158
+R41
+R18
+!s100 Iz?e[4@HlQK5d9hiO@IA[1
+!i10b 1
+Eimread_calc
+Z159 w1363228662
+R6
+R7
+R8
+R9
+R22
+Z160 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd
+Z161 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd
 l0
 L16
 VGcG4TjPJ0eZTV8<U:1Jc<1
@@ -1092,23 +1173,23 @@ R18
 !s100 bjIP9kVn<42>AX=;6bLRW2
 !i10b 1
 Eimread_reset
-Z142 w1363227997
+Z162 w1363227997
 R6
 R7
 R8
 R9
 R22
-Z143 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/IMread_Reset_untitled.vhd
-Z144 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/IMread_Reset_untitled.vhd
+Z163 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/IMread_Reset_untitled.vhd
+Z164 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/IMread_Reset_untitled.vhd
 l0
 L17
 V_SL43cNVEjz@EURGK6?oN1
 R13
 33
-Z145 !s108 1363228094.318250
-R39
-Z146 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/IMread_Reset_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd|
-R34
+Z165 !s108 1363228094.318250
+R46
+Z166 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/IMread_Reset_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd|
+R41
 R18
 !s100 eH>GnJP?HFfkAc_z3A4OL0
 !i10b 1
@@ -1123,31 +1204,31 @@ L30
 VIoEzVgcD=L]7KTkjnd@db1
 R13
 33
-R145
-R39
-R146
-R34
+R165
+R46
+R166
+R41
 R18
 !s100 5a1IfDUaifalcO`2c1@9l0
 !i10b 1
 Einvert1
-Z147 w1363139932
+Z167 w1363139932
 R6
 R7
 R8
 R9
 R22
-Z148 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/INVERT1_untitled.vhd
-Z149 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/INVERT1_untitled.vhd
+Z168 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/INVERT1_untitled.vhd
+Z169 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/INVERT1_untitled.vhd
 l0
 L16
 VekcJl[ZlS0EhaF2dbeY0I1
 R13
 33
-Z150 !s108 1363230663.459965
-R39
-Z151 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/INVERT1_untitled.vhd|
-R34
+Z170 !s108 1363230663.459965
+R46
+Z171 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/INVERT1_untitled.vhd|
+R41
 R18
 !s100 BYRbTSY`zoDazD7?DlkoI1
 !i10b 1
@@ -1162,31 +1243,31 @@ L24
 VWd;M?l:fii1FRdZoAd2_>0
 R13
 33
-R150
-R39
-R151
-R34
+R170
+R46
+R171
+R41
 R18
 !s100 @@cm:1Q20i6eFUjozdUB]0
 !i10b 1
 Eirsplitter
-Z152 w1363178873
+Z172 w1363178873
 R6
 R7
 R8
 R9
 R10
-Z153 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/IRSPLITTER_untitled.vhd
-Z154 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/IRSPLITTER_untitled.vhd
+Z173 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/IRSPLITTER_untitled.vhd
+Z174 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/IRSPLITTER_untitled.vhd
 l0
 L17
 V@4KGE<N[n^QQd2mGYITmX2
 R13
 33
-Z155 !s108 1363178890.742593
-R39
-Z156 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT11_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/OFFSET5_SHIFT_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/IRSPLITTER_untitled.vhd|
-R34
+Z175 !s108 1363178890.742593
+R46
+Z176 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT11_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/OFFSET5_SHIFT_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/IRSPLITTER_untitled.vhd|
+R41
 R18
 !s100 OBeF`Ah93f^k]Cec`6dXa2
 !i10b 1
@@ -1201,10 +1282,10 @@ L35
 VQ75b<138NeI0SYBVEmFNO3
 R13
 33
-R155
-R39
-R156
-R34
+R175
+R46
+R176
+R41
 R18
 !s100 Ln8JF0]RhFb=Zi=0oX;<P1
 !i10b 1
@@ -1213,17 +1294,17 @@ R8
 R9
 R5
 R10
-Z157 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/ece411package.vhd
-Z158 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/ece411package.vhd
+Z177 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/ece411package.vhd
+Z178 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/ece411package.vhd
 l0
 L12
 VD<bO^JHkQX:e:g72C@WeW1
 R13
 32
 b1
-Z159 !s108 1363178825.036347
+Z179 !s108 1363178825.036347
 R15
-Z160 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/ece411package.vhd|
+Z180 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/ece411package.vhd|
 R17
 R18
 !s100 ;ef2[;8ggK52aJejcRQY:0
@@ -1237,32 +1318,32 @@ L133
 VR^[;m<LJ;46FKVeHJ2XnJ2
 R13
 32
-R159
+R179
 R15
-R160
+R180
 R17
 R18
 nbody
 !s100 MZ0nRi8e9hHg34eHd^iV:2
 !i10b 1
 Emagicmemory
-Z161 w1363226882
+Z181 w1363226882
 R6
 R7
 R8
 R9
 R22
-Z162 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/MagicMemory_untitled.vhd
-Z163 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/MagicMemory_untitled.vhd
+Z182 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/MagicMemory_untitled.vhd
+Z183 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/MagicMemory_untitled.vhd
 l0
 L17
 Vm5]hMdjccVQ=GNSV^^RU=1
 R13
 33
-Z164 !s108 1363226906.318767
-R39
-Z165 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/MagicMemory_untitled.vhd|
-R34
+Z184 !s108 1363226906.318767
+R46
+Z185 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/MagicMemory_untitled.vhd|
+R41
 R18
 !s100 Idk>`SiV4X;;NeL4mlU?@2
 !i10b 1
@@ -1277,86 +1358,87 @@ L35
 V>56k`kgX[`a<hU8G7Sjl21
 R13
 33
-R164
-R39
-R165
-R34
+R184
+R46
+R185
+R41
 R18
 !s100 8ll;[>[fV05KV`?W5K;o]0
 !i10b 1
 Emem_access
-Z166 w1363236532
+R77
 R6
 R7
 R8
 R9
 R22
-Z167 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd
-Z168 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd
+Z186 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd
+Z187 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd
 l0
 L16
-V5M1_0XgMOJd6C>o6SYXW_1
+V<HZ<PNU6JaH?4>^JGJG4g1
 R13
 32
-R73
-R26
-R74
+R80
+R15
+R81
 R17
 R18
-!s100 bK@]U5zdLfeD^fcAefOWP2
+!s100 f@iY2::LVF[h_]zQVnU=L0
 !i10b 1
 Astruct
-R86
-DEx6 mp3lib 3 or3 0 22 1V9gWb3]5QT[jfPFJOh081
-R75
-R104
+R96
+DEx6 ece411 8 nzp_calc 0 22 YEF`a4?YKJ[mVH;9L0PW80
+R82
+R114
 DEx6 ece411 12 dmwrite_calc 0 22 ^=0U=HdQW<=DhU?ZTAN4?2
 DEx6 ece411 11 dmread_calc 0 22 V7K7X7?I;_6PDjz?hU<X[2
-R81
-R124
-R82
-DEx4 work 10 mem_access 0 22 5M1_0XgMOJd6C>o6SYXW_1
+R88
+R134
+R89
+DEx6 ece411 4 and3 0 22 mg3dVzXLOJiV`T:@4ZAJC2
+DEx4 work 10 mem_access 0 22 <HZ<PNU6JaH?4>^JGJG4g1
 R6
 R7
 R8
 R9
-l183
-L62
-V<[4oMP;SQ`Rje@l;;ZDd91
+l197
+L63
+VPZUZG^;l?9OcW_?RZH2S]3
 R13
 32
-R73
-R26
-R74
+R80
+R15
+R81
 R17
 R18
-!s100 0GTA<0lGl?:HfRe<=oY4J2
+!s100 8BN`=]hDaI_60Tk_XO=^Z3
 !i10b 1
 Emem_writeback_latch
-Z169 w1363234623
+Z188 w1363234623
 R6
 R7
 R8
 R9
 R22
-Z170 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd
-Z171 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd
+Z189 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd
+Z190 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd
 l0
 L16
 V?=aNzQ]Un20bUFVj90[K^0
 R13
 32
-R122
+Z191 !s108 1363234636.638711
 R15
-R123
+Z192 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd|
 R17
 R18
 !s100 =jVoj:8GaC]HN6mBBdMJN2
 !i10b 1
 Astruct
-R85
-R86
-R87
+R95
+R96
+R97
 DEx4 work 19 mem_writeback_latch 0 22 ?=aNzQ]Un20bUFVj90[K^0
 R6
 R7
@@ -1367,30 +1449,30 @@ L54
 VR9><2J=jh6Vl8JEfZEH1H3
 R13
 32
-R122
+R191
 R15
-R123
+R192
 R17
 R18
 !s100 hVG^Mjh@?[Da?Q7ged_W03
 !i10b 1
 Emp3_cpu
-R70
+Z193 w1363294587
 R6
 R7
 R8
 R9
 R22
-Z172 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd
-Z173 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd
+Z194 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd
+Z195 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd
 l0
 L16
 VOol>1IoYRfDmbYQYCzOYO0
 R13
 32
-R73
-R26
-R74
+R80
+R15
+R81
 R17
 R18
 !s100 :W0;@XzSg16]`@A_ERKgR1
@@ -1410,9 +1492,9 @@ L42
 VDl`lT9zDBY]188F@UfhWb3
 R13
 32
-R73
-R26
-R74
+R80
+R15
+R81
 R17
 R18
 !s100 <^Ado>T3M2Xf3P5U770cg1
@@ -1424,8 +1506,8 @@ R7
 R8
 R9
 R10
-Z174 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_16_untitled.vhd
-Z175 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_16_untitled.vhd
+Z196 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_16_untitled.vhd
+Z197 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_16_untitled.vhd
 l0
 L17
 VbW90;8C@kKFZzK5Vm[hZj3
@@ -1463,16 +1545,16 @@ R7
 R8
 R9
 R10
-Z176 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_3_untitled.vhd
-Z177 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_3_untitled.vhd
+Z198 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_3_untitled.vhd
+Z199 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_3_untitled.vhd
 l0
 L17
 VFHg]2[FPJoVVn1i58dBUT1
 R13
 32
-Z178 !s108 1363179485.997979
+Z200 !s108 1363179485.997979
 R15
-Z179 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_3_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/regfile_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd|
+Z201 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_3_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/regfile_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd|
 R17
 R18
 !s100 7Wd38cAnSd2PfbRTT5caV0
@@ -1488,9 +1570,9 @@ L28
 Vcn18<_iD5oc`E2nA5_G;R2
 R13
 32
-R178
+R200
 R15
-R179
+R201
 R17
 R18
 !s100 O^0QBK6YWn;JKd<DozEMP1
@@ -1502,8 +1584,8 @@ R7
 R8
 R9
 R10
-Z180 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux4_16_untitled.vhd
-Z181 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux4_16_untitled.vhd
+Z202 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux4_16_untitled.vhd
+Z203 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux4_16_untitled.vhd
 l0
 L17
 VAGf_2WRkHJemd3674g=7X2
@@ -1534,23 +1616,62 @@ R17
 R18
 !s100 IQ?MzoG0MDLF:^fbnYcN;3
 !i10b 1
-Enoop_check
-Z182 w1363232872
+Enand3
+Z204 w1363291499
 R6
 R7
 R8
 R9
 R22
-Z183 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/noop_check_struct.vhd
-Z184 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/noop_check_struct.vhd
+Z205 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/nand3_untitled.vhd
+Z206 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/nand3_untitled.vhd
+l0
+L17
+V8OI:Oi:ieGjQ]P2km_iSb2
+R13
+32
+Z207 !s108 1363291514.074153
+R15
+Z208 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/nand3_untitled.vhd|
+R17
+R18
+!s100 3i:GgR:j9fSl;kEAD:7SM1
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 5 nand3 0 22 8OI:Oi:ieGjQ]P2km_iSb2
+l29
+L28
+V5_kj[]I5Y``O2zH=3jY=23
+R13
+32
+R207
+R15
+R208
+R17
+R18
+!s100 5?Pi>LZM[VbNLFF9ZjTL12
+!i10b 1
+Enoop_check
+Z209 w1363232872
+R6
+R7
+R8
+R9
+R22
+Z210 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/noop_check_struct.vhd
+Z211 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/noop_check_struct.vhd
 l0
 L16
 VdkzX^DTQI0XOkemlA9Xho0
 R13
 32
-Z185 !s108 1363232874.130979
-Z186 !s90 -work|ece411|-nologo|-f|/tmp/Files3|
-Z187 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/noop_check_struct.vhd|
+Z212 !s108 1363232874.130979
+Z213 !s90 -work|ece411|-nologo|-f|/tmp/Files3|
+Z214 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/noop_check_struct.vhd|
 R17
 R18
 !s100 LkDLzhfVEF2WjnI8bO49H1
@@ -1558,7 +1679,7 @@ R18
 Astruct
 DEx6 ece411 7 noop_cw 0 22 ;4FT:<jH2Vc`VnKIV@S6m3
 DEx6 ece411 10 noop_const 0 22 hH^:Zca``0[iaT65:5[em0
-R75
+R82
 DEx6 ece411 6 comp16 0 22 jUY2eYQ[lL:aCBjc[zCg30
 DEx4 work 10 noop_check 0 22 dkzX^DTQI0XOkemlA9Xho0
 R6
@@ -1570,31 +1691,31 @@ L44
 VT[RD]Vd=;VgQd17PDcK6:2
 R13
 32
-R185
-R186
-R187
+R212
+R213
+R214
 R17
 R18
 !s100 CA9n_6O735fLQD_NK`QKo3
 !i10b 1
 Enoop_const
-Z188 w1363232723
+Z215 w1363232723
 R6
 R7
 R8
 R9
 R22
-Z189 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CONST_untitled.vhd
-Z190 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CONST_untitled.vhd
+Z216 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CONST_untitled.vhd
+Z217 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CONST_untitled.vhd
 l0
 L17
 VhH^:Zca``0[iaT65:5[em0
 R13
 33
-Z191 !s108 1363232873.948493
-R32
-Z192 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CW_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CONST_untitled.vhd|
-R34
+Z218 !s108 1363232873.948493
+R39
+Z219 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CW_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CONST_untitled.vhd|
+R41
 R18
 !s100 0R9[1@bAZ1BGF7kCRGYN;3
 !i10b 1
@@ -1609,31 +1730,31 @@ L27
 VUU3nLZXWgc@bf?zCY^_]n2
 R13
 33
-R191
-R32
-R192
-R34
+R218
+R39
+R219
+R41
 R18
 !s100 k`:b>16M0QB`3m:_F^zd<1
 !i10b 1
 Enoop_cw
-Z193 w1363232741
+Z220 w1363232741
 R6
 R7
 R8
 R9
 R22
-Z194 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CW_untitled.vhd
-Z195 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CW_untitled.vhd
+Z221 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CW_untitled.vhd
+Z222 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NOOP_CW_untitled.vhd
 l0
 L17
 V;4FT:<jH2Vc`VnKIV@S6m3
 R13
 33
-R191
-R32
-R192
-R34
+R218
+R39
+R219
+R41
 R18
 !s100 R0oA1B2LYic:?bo7PU1Yz0
 !i10b 1
@@ -1648,12 +1769,93 @@ L27
 VS>o6Df[6Gm=`c^_;j>76i2
 R13
 33
-R191
-R32
-R192
-R34
+R218
+R39
+R219
+R41
 R18
 !s100 ^DaIoCML:L_28c2PMA8<W3
+!i10b 1
+Enzp_calc
+Z223 w1363285498
+R6
+R7
+R8
+R9
+R22
+Z224 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/nzp_calc_struct.vhd
+Z225 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/nzp_calc_struct.vhd
+l0
+L16
+VYEF`a4?YKJ[mVH;9L0PW80
+R13
+32
+Z226 !s108 1363285602.775565
+Z227 !s90 -work|ece411|-nologo|-f|/tmp/Files5|
+Z228 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/writeback_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/nzp_calc_struct.vhd|
+R17
+R18
+!s100 ZJ5X[7fMC8=<TI]WV_7[I2
+!i10b 1
+Astruct
+R148
+DEx6 ece411 6 nzphit 0 22 B^N6maCni=TP>EBcg7G?D2
+R115
+DEx4 work 8 nzp_calc 0 22 YEF`a4?YKJ[mVH;9L0PW80
+R6
+R7
+R8
+R9
+l90
+L48
+VWZz5GC^XdS1cb^QVjVHX=3
+R13
+32
+R226
+R227
+R228
+R17
+R18
+!s100 PQoo`]:kA5R[0h;31TUiN3
+!i10b 1
+Enzphit
+Z229 w1363282817
+R6
+R7
+R8
+R9
+R22
+Z230 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NZPhit_untitled.vhd
+Z231 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NZPhit_untitled.vhd
+l0
+L17
+VB^N6maCni=TP>EBcg7G?D2
+R13
+33
+Z232 !s108 1363285602.598702
+Z233 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files4|
+Z234 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/NZPhit_untitled.vhd|
+R41
+R18
+!s100 =d5;eMD7W`KXmAcaZO`B>1
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 6 nzphit 0 22 B^N6maCni=TP>EBcg7G?D2
+l30
+L29
+V3RLReHHLXS2CZkJSEz01c1
+R13
+33
+R232
+R233
+R234
+R41
+R18
+!s100 Y]MKTNRL4Z3LSH2zzd<MV3
 !i10b 1
 Eoffset5_shift
 R5
@@ -1662,17 +1864,17 @@ R7
 R8
 R9
 R10
-Z196 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/OFFSET5_SHIFT_untitled.vhd
-Z197 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/OFFSET5_SHIFT_untitled.vhd
+Z235 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/OFFSET5_SHIFT_untitled.vhd
+Z236 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/OFFSET5_SHIFT_untitled.vhd
 l0
 L17
 VgK`oH68dF>eXLl48c4^Lg2
 R13
 33
-R155
-R39
-R156
-R34
+R175
+R46
+R176
+R41
 R18
 !s100 _[bGi4iOi^1YDL`nJ?gSC1
 !i10b 1
@@ -1687,30 +1889,30 @@ L28
 V6JEj?Ng5GPn@MEzVhI^N10
 R13
 33
-R155
-R39
-R156
-R34
+R175
+R46
+R176
+R41
 R18
 !s100 dgWaTHD_[8l6]^oRcHMlX2
 !i10b 1
 Eor2
-Z198 w1363222157
+Z237 w1363222157
 R6
 R7
 R8
 R9
 R22
-Z199 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/or2_untitled.vhd
-Z200 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/or2_untitled.vhd
+Z238 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/or2_untitled.vhd
+Z239 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/or2_untitled.vhd
 l0
 L17
 Vzd250[ARGW=DI:ScP2fB:3
 R13
 32
-Z201 !s108 1363222186.209292
+Z240 !s108 1363222186.209292
 R15
-Z202 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/or2_untitled.vhd|
+Z241 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/or2_untitled.vhd|
 R17
 R18
 !s100 ZSXM5RA[7@S5`0X<cZO473
@@ -1726,31 +1928,31 @@ L27
 VTB]D?7238P8zLa1OZkF;B2
 R13
 32
-R201
+R240
 R15
-R202
+R241
 R17
 R18
 !s100 JH4gnEHgi:DF@LP8I10WM1
 !i10b 1
 Eor_def0
-Z203 w1363206383
+Z242 w1363206383
 R6
 R7
 R8
 R9
 R22
-Z204 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/OR_Def0_untitled.vhd
-Z205 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/OR_Def0_untitled.vhd
+Z243 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/OR_Def0_untitled.vhd
+Z244 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/OR_Def0_untitled.vhd
 l0
 L17
 VfQ2gS2XGeS2n;M=ULT:2`1
 R13
 33
-Z206 !s108 1363206422.605703
-R39
-Z207 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/OR_Def0_untitled.vhd|
-R34
+Z245 !s108 1363206422.605703
+R46
+Z246 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/OR_Def0_untitled.vhd|
+R41
 R18
 !s100 d]ScKNfe6fmU;N:6>fQSS0
 !i10b 1
@@ -1765,51 +1967,90 @@ L28
 VObQ<^Qc>UL<QH<@GQAmP00
 R13
 33
-R206
-R39
-R207
-R34
+R245
+R46
+R246
+R41
 R18
 !s100 HYo@R?>Zn5IKo_@9f3DBH0
 !i10b 1
 Epc_inc
-R5
+Z247 w1363289122
 R6
 R7
 R8
 R9
-R10
-Z208 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/PC_INC_untitled.vhd
-Z209 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/PC_INC_untitled.vhd
+R22
+Z248 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/PC_INC_untitled.vhd
+Z249 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/PC_INC_untitled.vhd
 l0
 L17
-VWzPLAXokB=EUjGjEhE[zP2
+VgSZPgU^dG1b@:N=g`1Sdg3
 R13
 33
-Z210 !s108 1363179273.267054
-R49
-Z211 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/PC_INC_untitled.vhd|
-R34
+Z250 !s108 1363289195.190124
+R46
+Z251 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/PC_REG16_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/PC_INC_untitled.vhd|
+R41
 R18
-!s100 iXHcjnjoJeiN_cWXHk:111
+!s100 =JeJd3RQjEm5Y90glKTMT3
 !i10b 1
 Auntitled
 R6
 R7
 R8
 R9
-DEx4 work 6 pc_inc 0 22 WzPLAXokB=EUjGjEhE[zP2
+DEx4 work 6 pc_inc 0 22 gSZPgU^dG1b@:N=g`1Sdg3
 l29
 L28
 VMB:Y4=AgL3Lf6i3N^bCjP2
 R13
 33
-R210
-R49
-R211
-R34
+R250
+R46
+R251
+R41
 R18
 !s100 ?]m[oeOX[332<^5a;RR3@1
+!i10b 1
+Epc_reg16
+Z252 w1363289164
+R6
+R7
+R8
+R9
+R22
+Z253 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/PC_REG16_untitled.vhd
+Z254 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/PC_REG16_untitled.vhd
+l0
+L17
+Vc5Nob9=I1@RX1?]kiFj?j0
+R13
+33
+R250
+R46
+R251
+R41
+R18
+!s100 mWDiabTL9o[fP7[^Cz?CX1
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 8 pc_reg16 0 22 c5Nob9=I1@RX1?]kiFj?j0
+l30
+L29
+VdB^E6oO0gHoiba:?dFDG01
+R13
+33
+R250
+R46
+R251
+R41
+R18
+!s100 =FBKefHMhO<S`9l9j[:2m2
 !i10b 1
 Ereg1
 R5
@@ -1818,16 +2059,16 @@ R7
 R8
 R9
 R22
-Z212 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg1_untitled.vhd
-Z213 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg1_untitled.vhd
+Z255 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg1_untitled.vhd
+Z256 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg1_untitled.vhd
 l0
 L17
 V3g2R_e>iQWXkanJIK?Ok?1
 R13
 32
-Z214 !s108 1363210832.579361
+Z257 !s108 1363210832.579361
 R26
-Z215 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/or2_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg1_untitled.vhd|
+Z258 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/imread_calc_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/or2_untitled.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg1_untitled.vhd|
 R17
 R18
 !s100 H5MG8h84CO3^[DOaijE=V1
@@ -1843,30 +2084,30 @@ L29
 VYg9`L`7Q@LZ4=[BjAG4Wa1
 R13
 32
-R214
+R257
 R26
-R215
+R258
 R17
 R18
 !s100 UUKd;ZcIz]GB2Q2WK<9Nj3
 !i10b 1
 Ereg16
-Z216 w1363211544
+Z259 w1363211544
 R6
 R7
 R8
 R9
 R22
-Z217 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg16_untitled.vhd
-Z218 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg16_untitled.vhd
+Z260 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg16_untitled.vhd
+Z261 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg16_untitled.vhd
 l0
 L17
 VcdnBDKl9;aK4YHQdG[AH]0
 R13
 32
-Z219 !s108 1363211586.156454
+Z262 !s108 1363211586.156454
 R15
-Z220 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg16_untitled.vhd|
+Z263 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/reg16_untitled.vhd|
 R17
 R18
 !s100 SP]KfY5Se?e0:zTz2VF<A3
@@ -1882,31 +2123,31 @@ L29
 VRDHEJ5QlBWiTCX=Ya_3Jl0
 R13
 32
-R219
+R262
 R15
-R220
+R263
 R17
 R18
 !s100 _4M]mj8z5zz22_DUkRb<C0
 !i10b 1
 Ereg1_invert
-Z221 w1363228643
+Z264 w1363228643
 R6
 R7
 R8
 R9
 R22
-Z222 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd
-Z223 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd
+Z265 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd
+Z266 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/REG1_INVERT_untitled.vhd
 l0
 L16
 Vn0;jBg<CA];OeX7l]04IQ3
 R13
 33
-R43
-R39
-R44
-R34
+R50
+R46
+R51
+R41
 R18
 !s100 g5j<b9:9^oiW0N[4Z2S761
 !i10b 1
@@ -1921,31 +2162,31 @@ L28
 VN>?>N?Oa@1lA;i=2HSa5g0
 R13
 33
-R43
-R39
-R44
-R34
+R50
+R46
+R51
+R41
 R18
 !s100 OlRzhQO>DV5?z3UmgnOGW2
 !i10b 1
 Ereg1_invertb
-Z224 w1363146144
+Z267 w1363146144
 R6
 R7
 R8
 R9
 R10
-Z225 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/REG1_INVERTb_untitled.vhd
-Z226 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/REG1_INVERTb_untitled.vhd
+Z268 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/REG1_INVERTb_untitled.vhd
+Z269 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/REG1_INVERTb_untitled.vhd
 l0
 L16
 V?OfR_?G2eUkg9H=U713G?2
 R13
 33
-R109
-R110
-R111
-R34
+R119
+R120
+R121
+R41
 R18
 !s100 aiAhz;DT8hSe=diEiIiO82
 !i10b 1
@@ -1960,10 +2201,10 @@ L28
 Vbie5KTYb[Ck2;dz7HJL991
 R13
 33
-R109
-R110
-R111
-R34
+R119
+R120
+R121
+R41
 R18
 !s100 H0DJVj5>BN8AgYjYAeLhh1
 !i10b 1
@@ -1974,16 +2215,16 @@ R7
 R8
 R9
 R10
-Z227 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/reg3_untitled.vhd
-Z228 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/reg3_untitled.vhd
+Z270 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/reg3_untitled.vhd
+Z271 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/reg3_untitled.vhd
 l0
 L17
 VaQi6DAe=M=VY`jn2CA]5I3
 R13
 32
-Z229 !s108 1363178938.686601
+Z272 !s108 1363178938.686601
 R26
-Z230 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/add16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux4_16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/alu_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/reg3_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/reg16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/decode_struct.vhd|
+Z273 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/add16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux4_16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/mux2_16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/alu_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/reg3_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/reg16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/decode_struct.vhd|
 R17
 R18
 !s100 b0jn^N2O<`A=9ng=::bSL2
@@ -1999,9 +2240,9 @@ L29
 V;<LTO^FVeHkYGmXOM<TY_2
 R13
 32
-R229
+R272
 R26
-R230
+R273
 R17
 R18
 !s100 WVo8_oQ0dh<[<D45=?;bZ1
@@ -2013,16 +2254,16 @@ R7
 R8
 R9
 R10
-Z231 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/regfile_untitled.vhd
-Z232 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/regfile_untitled.vhd
+Z274 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/regfile_untitled.vhd
+Z275 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/regfile_untitled.vhd
 l0
 L17
 V7B2h49doT[D6Rmlnl3X0<1
 R13
 32
-R178
+R200
 R15
-R179
+R201
 R17
 R18
 !s100 8dfD=g_cK13cizOE0Q52R1
@@ -2038,9 +2279,9 @@ L33
 V741D`WK7ZZdhcR<13e5na3
 R13
 32
-R178
+R200
 R15
-R179
+R201
 R17
 R18
 !s100 XBAWRU>9MjcMo0YDZOBiE3
@@ -2052,17 +2293,17 @@ R7
 R8
 R9
 R10
-Z233 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT11_untitled.vhd
-Z234 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT11_untitled.vhd
+Z276 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT11_untitled.vhd
+Z277 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT11_untitled.vhd
 l0
 L17
 VLc:0E^gbniE6Xd0`lA;z>0
 R13
 33
-R155
-R39
-R156
-R34
+R175
+R46
+R176
+R41
 R18
 !s100 ]0>5j]1EQ9U7P:L`GLcW:1
 !i10b 1
@@ -2077,31 +2318,31 @@ L28
 VEMWXo@FS5>kOb1]l>Seee0
 R13
 33
-R155
-R39
-R156
-R34
+R175
+R46
+R176
+R41
 R18
 !s100 `ff_J@oJ@WfL6:mOXO7gS2
 !i10b 1
 Esext5
-Z235 w1363178906
+Z278 w1363178906
 R6
 R7
 R8
 R9
 R10
-Z236 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd
-Z237 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd
+Z279 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd
+Z280 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd
 l0
 L17
 VIQ?QK>P]<Q;Bd7D48zTY@2
 R13
 33
-Z238 !s108 1363178912.854368
-R39
-Z239 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd|
-R34
+Z281 !s108 1363178912.854368
+R46
+Z282 !s107 /home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/BUF16_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/CONTROL_RIPPER_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd|/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT5_untitled.vhd|
+R41
 R18
 !s100 RQ_lQnCZDlV3FW963gj[;0
 !i10b 1
@@ -2116,31 +2357,31 @@ L28
 VzI@Sl?L^CeAknoEAc]]O@3
 R13
 33
-R238
-R39
-R239
-R34
+R281
+R46
+R282
+R41
 R18
 !s100 KmI2zDIiziV`b?jlb>ZoA3
 !i10b 1
 Esext6
-Z240 w1363178924
+Z283 w1363178924
 R6
 R7
 R8
 R9
 R10
-Z241 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd
-Z242 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd
+Z284 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd
+Z285 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT6_untitled.vhd
 l0
 L17
 Vo1]87N[Be8Da;IdhQIL1X2
 R13
 33
-R38
-R39
-R40
-R34
+R45
+R46
+R47
+R41
 R18
 !s100 n^bYH[P]3e7^h]9LS]6_>2
 !i10b 1
@@ -2155,10 +2396,10 @@ L28
 VH?RN18mh]09[b85hfLzN[1
 R13
 33
-R38
-R39
-R40
-R34
+R45
+R46
+R47
+R41
 R18
 !s100 9<BNki@km0YfK7hVNk@h=1
 !i10b 1
@@ -2169,17 +2410,17 @@ R7
 R8
 R9
 R10
-Z243 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd
-Z244 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd
+Z286 8/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd
+Z287 F/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl/SEXT9_untitled.vhd
 l0
 L17
 VZ<dh;6icKRl6dJ9_YjJj:3
 R13
 33
-R38
-R39
-R40
-R34
+R45
+R46
+R47
+R41
 R18
 !s100 CCkN]MzdHT;1GlB2;o39_2
 !i10b 1
@@ -2194,31 +2435,31 @@ L28
 VNc02Ze51JiUNjdCMBQzWZ1
 R13
 33
-R38
-R39
-R40
-R34
+R45
+R46
+R47
+R41
 R18
 !s100 FBjR_T`BOXZN==B0Al0Fi0
 !i10b 1
 Eworkwokry
-Z245 w1363227113
+Z288 w1363227113
 R6
 R7
 R8
 R9
 R22
-Z246 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/workwokry_untitled.vhd
-Z247 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/workwokry_untitled.vhd
+Z289 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/workwokry_untitled.vhd
+Z290 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/workwokry_untitled.vhd
 l0
 L17
 V0Ek]]NVh4cEO6S;WdA1iN1
 R13
 33
-Z248 !s108 1363227120.233134
-R39
-Z249 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/workwokry_untitled.vhd|
-R34
+Z291 !s108 1363227120.233134
+R46
+Z292 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/workwokry_untitled.vhd|
+R41
 R18
 !s100 4G3RG29:JnBjoC?gzFAh93
 !i10b 1
@@ -2233,52 +2474,91 @@ L29
 V2K>mRcI9eH>dCCJ9:VFX[2
 R13
 33
-R248
-R39
-R249
-R34
+R291
+R46
+R292
+R41
 R18
 !s100 3O;THX2fMZ2>S8DciWUc11
 !i10b 1
 Ewriteback
-Z250 w1363213318
+R129
 R6
 R7
 R8
 R9
 R22
-Z251 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/writeback_struct.vhd
-Z252 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/writeback_struct.vhd
+Z293 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/writeback_struct.vhd
+Z294 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/writeback_struct.vhd
 l0
 L16
 VGFe1[R^AaJooOI2;MnE871
 R13
 32
-Z253 !s108 1363213322.994153
-R15
-Z254 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/writeback_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_writeback_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_decode_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/fetch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_mem_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/execute_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_execute_latch_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/decode_struct.vhd|
+R226
+R227
+R228
 R17
 R18
 !s100 MX[DUh1dC2>lI4=jFnlce3
 !i10b 1
 Astruct
-R75
-R81
-R124
+R82
+R88
+R134
 DEx4 work 9 writeback 0 22 GFe1[R^AaJooOI2;MnE871
 R6
 R7
 R8
 R9
-l103
+l104
 L52
-VSYiJ0j6Q1JKO5W1fiSGg[2
+V?3]VUT<zkRcI[X2aB?FUk3
 R13
 32
-R253
-R15
-R254
+R226
+R227
+R228
 R17
 R18
-!s100 >TUa4Ie>=3bi=jkSSFUe;3
+!s100 <hekAn[`_5o]h7[EVaZS<3
+!i10b 1
+Exnor2
+Z295 w1363292337
+R6
+R7
+R8
+R9
+R22
+Z296 8/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/xnor2_untitled.vhd
+Z297 F/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/xnor2_untitled.vhd
+l0
+L17
+V=[fnG1D7PF?Z__TcKLL=X1
+R13
+32
+Z298 !s108 1363292346.229868
+R15
+Z299 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mp3_cpu_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/datapath_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/mem_access_struct.vhd|/home/hyunyi1/ece411/drunken_adventure/mp3/hdl/xnor2_untitled.vhd|
+R17
+R18
+!s100 m1NJiJkYEC7TZa;OV`fG83
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 5 xnor2 0 22 =[fnG1D7PF?Z__TcKLL=X1
+l30
+L29
+VV>k2nCJ]]C7Rg13:<2?W?0
+R13
+32
+R298
+R15
+R299
+R17
+R18
+!s100 gk<ZA[Kj?3]Y;IT50II=G1
 !i10b 1

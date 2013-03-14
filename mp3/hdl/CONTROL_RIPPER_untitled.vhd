@@ -18,7 +18,8 @@ ENTITY CONTROL_RIPPER IS
    PORT( 
       CONTROL_WORD : IN     LC3B_WORD;
       ALUOP        : OUT    LC3B_ALUOP;
-      PCMUXsel     : OUT    STD_LOGIC;
+      --PCMUXsel     : OUT    STD_LOGIC;
+      BRen         : OUT    STD_LOGIC;
       LD_MAR       : OUT    STD_LOGIC;
       LD_MDR       : OUT    STD_LOGIC;
       WDATAMUXSel  : OUT    STD_LOGIC;
@@ -56,7 +57,8 @@ END CONTROL_RIPPER ;
 ARCHITECTURE untitled OF CONTROL_RIPPER IS
 BEGIN
   ALUOP       <=CONTROL_WORD(15 downto 13);
-  PCMUXSel    <=CONTROL_WORD(12);
+  BRen        <=CONTROL_WORD(12);
+  --PCMUXSel    <=CONTROL_WORD(12);
   LD_MAR      <=CONTROL_WORD(11);
   LD_MDR      <=CONTROL_WORD(11);
   WDATAMUXSel <=CONTROL_WORD(10);

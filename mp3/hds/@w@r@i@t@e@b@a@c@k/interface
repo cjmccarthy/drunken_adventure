@@ -70,7 +70,7 @@ m 1
 decl (Decl
 n "DR"
 t "lc3b_reg"
-o 59
+o 9
 suid 11,0
 )
 )
@@ -82,7 +82,7 @@ m 1
 decl (Decl
 n "LD_REG"
 t "STD_LOGIC"
-o 57
+o 10
 suid 12,0
 )
 )
@@ -94,7 +94,7 @@ m 1
 decl (Decl
 n "WDATA"
 t "LC3B_WORD"
-o 58
+o 11
 suid 13,0
 )
 )
@@ -116,7 +116,7 @@ port (LogicalPort
 decl (Decl
 n "DR_WB_IN"
 t "lc3b_REG"
-o 60
+o 2
 suid 15,0
 )
 )
@@ -127,7 +127,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 6
+o 3
 suid 16,0
 )
 )
@@ -138,7 +138,7 @@ port (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 7
+o 4
 suid 17,0
 )
 )
@@ -149,7 +149,7 @@ port (LogicalPort
 decl (Decl
 n "WB_ALU_IN"
 t "LC3B_WORD"
-o 61
+o 5
 suid 18,0
 )
 )
@@ -160,7 +160,7 @@ port (LogicalPort
 decl (Decl
 n "WB_CONTROL_WORD_IN"
 t "LC3B_WORD"
-o 63
+o 6
 suid 19,0
 )
 )
@@ -171,7 +171,7 @@ port (LogicalPort
 decl (Decl
 n "WB_MDR_IN"
 t "LC3B_WORD"
-o 62
+o 7
 suid 20,0
 )
 )
@@ -183,7 +183,7 @@ decl (Decl
 n "WB_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 68
+o 8
 suid 21,0
 )
 )
@@ -574,19 +574,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/WRITEBACK"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/14/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -614,7 +614,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux6.ews.illinois.edu"
+value "evrt-252-04.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -706,7 +706,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "17:19:38"
+value "13:25:15"
 )
 (vvPair
 variable "unit"
@@ -782,7 +782,7 @@ m 1
 decl (Decl
 n "DR"
 t "lc3b_reg"
-o 59
+o 9
 suid 11,0
 )
 )
@@ -829,7 +829,7 @@ m 1
 decl (Decl
 n "LD_REG"
 t "STD_LOGIC"
-o 57
+o 10
 suid 12,0
 )
 )
@@ -876,7 +876,7 @@ m 1
 decl (Decl
 n "WDATA"
 t "LC3B_WORD"
-o 58
+o 11
 suid 13,0
 )
 )
@@ -966,7 +966,7 @@ thePort (LogicalPort
 decl (Decl
 n "DR_WB_IN"
 t "lc3b_REG"
-o 60
+o 2
 suid 15,0
 )
 )
@@ -1011,7 +1011,7 @@ thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 6
+o 3
 suid 16,0
 )
 )
@@ -1056,7 +1056,7 @@ thePort (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 7
+o 4
 suid 17,0
 )
 )
@@ -1101,7 +1101,7 @@ thePort (LogicalPort
 decl (Decl
 n "WB_ALU_IN"
 t "LC3B_WORD"
-o 61
+o 5
 suid 18,0
 )
 )
@@ -1146,7 +1146,7 @@ thePort (LogicalPort
 decl (Decl
 n "WB_CONTROL_WORD_IN"
 t "LC3B_WORD"
-o 63
+o 6
 suid 19,0
 )
 )
@@ -1191,7 +1191,7 @@ thePort (LogicalPort
 decl (Decl
 n "WB_MDR_IN"
 t "LC3B_WORD"
-o 62
+o 7
 suid 20,0
 )
 )
@@ -1237,7 +1237,7 @@ decl (Decl
 n "WB_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 68
+o 8
 suid 21,0
 )
 )
@@ -1327,7 +1327,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45700,50950"
+xt "32200,50050,45200,50950"
 st "
 by %user on %dd %month %year
 "
@@ -1952,6 +1952,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 300,0
+lastUid 323,0
 activeModelName "Symbol:CDM"
 )

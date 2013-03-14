@@ -71,7 +71,7 @@ decl (Decl
 n "DR_OUT"
 t "STD_LOGIC_VECTOR"
 b "(2 DOWNTO 0)"
-o 16
+o 10
 suid 595,0
 )
 )
@@ -83,7 +83,7 @@ m 1
 decl (Decl
 n "offset5_SEXT"
 t "LC3B_WORD"
-o 40
+o 17
 suid 596,0
 )
 )
@@ -96,7 +96,7 @@ m 1
 decl (Decl
 n "SR1_OUT"
 t "LC3B_REG"
-o 28
+o 12
 suid 597,0
 )
 )
@@ -109,7 +109,7 @@ m 1
 decl (Decl
 n "SR1MUXSel"
 t "STD_LOGIC"
-o 56
+o 11
 suid 598,0
 )
 )
@@ -122,7 +122,7 @@ m 1
 decl (Decl
 n "SR2_OUT"
 t "LC3B_REG"
-o 32
+o 14
 suid 599,0
 )
 )
@@ -134,7 +134,7 @@ m 1
 decl (Decl
 n "SR2MUXSel"
 t "STD_LOGIC"
-o 30
+o 13
 suid 600,0
 )
 )
@@ -158,7 +158,7 @@ m 1
 decl (Decl
 n "CONTROL_WORD"
 t "LC3B_WORD"
-o 54
+o 7
 suid 602,0
 )
 )
@@ -170,7 +170,7 @@ m 1
 decl (Decl
 n "DEC_PC_OUT"
 t "LC3B_WORD"
-o 69
+o 9
 suid 603,0
 )
 )
@@ -182,7 +182,7 @@ decl (Decl
 n "Decode_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 65
+o 3
 suid 604,0
 )
 )
@@ -194,7 +194,7 @@ decl (Decl
 n "DECODE_PC_PLUS2"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 52
+o 2
 suid 605,0
 )
 )
@@ -206,7 +206,7 @@ m 1
 decl (Decl
 n "DECODE_PC_PLUS2_OUT"
 t "LC3B_WORD"
-o 54
+o 8
 suid 606,0
 )
 )
@@ -218,7 +218,7 @@ decl (Decl
 n "IR_IN"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 18
+o 4
 suid 607,0
 )
 )
@@ -230,7 +230,7 @@ m 1
 decl (Decl
 n "offset11_F"
 t "LC3B_WORD"
-o 50
+o 15
 suid 608,0
 )
 )
@@ -242,7 +242,7 @@ m 1
 decl (Decl
 n "offset5_F"
 t "LC3B_WORD"
-o 51
+o 16
 suid 609,0
 )
 )
@@ -254,7 +254,7 @@ m 1
 decl (Decl
 n "offset6_F"
 t "LC3B_WORD"
-o 52
+o 18
 suid 610,0
 )
 )
@@ -266,7 +266,7 @@ m 1
 decl (Decl
 n "offset9_F"
 t "LC3B_WORD"
-o 53
+o 19
 suid 611,0
 )
 )
@@ -277,7 +277,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 6
+o 5
 suid 612,0
 )
 )
@@ -288,7 +288,7 @@ port (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 7
+o 6
 suid 613,0
 )
 )
@@ -727,19 +727,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DECODE"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/14/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -767,7 +767,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "evrt-252-04.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -859,7 +859,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "23:03:03"
+value "13:26:26"
 )
 (vvPair
 variable "unit"
@@ -936,7 +936,7 @@ decl (Decl
 n "DR_OUT"
 t "STD_LOGIC_VECTOR"
 b "(2 DOWNTO 0)"
-o 16
+o 10
 suid 595,0
 )
 )
@@ -983,7 +983,7 @@ m 1
 decl (Decl
 n "offset5_SEXT"
 t "LC3B_WORD"
-o 40
+o 17
 suid 596,0
 )
 )
@@ -1031,7 +1031,7 @@ m 1
 decl (Decl
 n "SR1_OUT"
 t "LC3B_REG"
-o 28
+o 12
 suid 597,0
 )
 )
@@ -1078,7 +1078,7 @@ m 1
 decl (Decl
 n "SR1MUXSel"
 t "STD_LOGIC"
-o 56
+o 11
 suid 598,0
 )
 )
@@ -1126,7 +1126,7 @@ m 1
 decl (Decl
 n "SR2_OUT"
 t "LC3B_REG"
-o 32
+o 14
 suid 599,0
 )
 )
@@ -1172,7 +1172,7 @@ m 1
 decl (Decl
 n "SR2MUXSel"
 t "STD_LOGIC"
-o 30
+o 13
 suid 600,0
 )
 )
@@ -1265,7 +1265,7 @@ m 1
 decl (Decl
 n "CONTROL_WORD"
 t "LC3B_WORD"
-o 54
+o 7
 suid 602,0
 )
 )
@@ -1312,7 +1312,7 @@ m 1
 decl (Decl
 n "DEC_PC_OUT"
 t "LC3B_WORD"
-o 69
+o 9
 suid 603,0
 )
 )
@@ -1358,7 +1358,7 @@ decl (Decl
 n "Decode_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 65
+o 3
 suid 604,0
 )
 )
@@ -1404,7 +1404,7 @@ decl (Decl
 n "DECODE_PC_PLUS2"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 52
+o 2
 suid 605,0
 )
 )
@@ -1451,7 +1451,7 @@ m 1
 decl (Decl
 n "DECODE_PC_PLUS2_OUT"
 t "LC3B_WORD"
-o 54
+o 8
 suid 606,0
 )
 )
@@ -1497,7 +1497,7 @@ decl (Decl
 n "IR_IN"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 18
+o 4
 suid 607,0
 )
 )
@@ -1544,7 +1544,7 @@ m 1
 decl (Decl
 n "offset11_F"
 t "LC3B_WORD"
-o 50
+o 15
 suid 608,0
 )
 )
@@ -1591,7 +1591,7 @@ m 1
 decl (Decl
 n "offset5_F"
 t "LC3B_WORD"
-o 51
+o 16
 suid 609,0
 )
 )
@@ -1638,7 +1638,7 @@ m 1
 decl (Decl
 n "offset6_F"
 t "LC3B_WORD"
-o 52
+o 18
 suid 610,0
 )
 )
@@ -1685,7 +1685,7 @@ m 1
 decl (Decl
 n "offset9_F"
 t "LC3B_WORD"
-o 53
+o 19
 suid 611,0
 )
 )
@@ -1730,7 +1730,7 @@ thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 6
+o 5
 suid 612,0
 )
 )
@@ -1775,7 +1775,7 @@ thePort (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 7
+o 6
 suid 613,0
 )
 )
@@ -2491,7 +2491,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 6146,0
+lastUid 6169,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
