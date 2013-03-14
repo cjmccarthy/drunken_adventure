@@ -21,6 +21,7 @@ ENTITY CONTROL_RIPPER IS
       PCMUXsel     : OUT    STD_LOGIC;
       LD_MAR       : OUT    STD_LOGIC;
       LD_MDR       : OUT    STD_LOGIC;
+      WDATAMUXSel  : OUT    STD_LOGIC;
       MDRMUXSel    : OUT    STD_LOGIC;
       SR2MUXSel    : OUT    STD_LOGIC;
       SR1MUXSel    : OUT    STD_LOGIC;
@@ -56,7 +57,8 @@ BEGIN
   ALUOP       <=CONTROL_WORD(15 downto 13);
   PCMUXSel    <=CONTROL_WORD(12);
   LD_MAR      <=CONTROL_WORD(11);
-  LD_MDR      <=CONTROL_WORD(10);
+  LD_MDR      <=CONTROL_WORD(11);
+  WDATAMUXSel <=CONTROL_WORD(10);
   MDRMUXSel   <=CONTROL_WORD(9);
   SR2MUXSel   <=CONTROL_WORD(8);
   SR1MUXSel   <=CONTROL_WORD(7);

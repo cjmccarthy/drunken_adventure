@@ -26,7 +26,7 @@ model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
 ordering 1
-suid 9,0
+suid 11,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -71,24 +71,23 @@ lang 11
 decl (Decl
 n "CINDEX"
 t "LC3B_CWORD"
-o 2
-suid 8,0
+o 1
+suid 10,0
 )
 )
-uid 305,0
+uid 342,0
 )
 *15 (LogPort
 port (LogicalPort
-lang 11
 m 1
 decl (Decl
-n "CONTROL_WORD"
+n "CW_IN"
 t "LC3B_WORD"
-o 1
-suid 9,0
+o 2
+suid 11,0
 )
 )
-uid 307,0
+uid 344,0
 )
 ]
 )
@@ -144,13 +143,13 @@ uid 78,0
 litem &14
 pos 0
 dimension 20
-uid 306,0
+uid 343,0
 )
 *22 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 308,0
+uid 345,0
 )
 ]
 )
@@ -381,23 +380,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/mccart18/ece411/mp3/hdl"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/mccart18/ece411/mp3/hds"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/mccart18/ece411/mp3/hds/@c@o@n@t@r@o@l_@r@o@m/interface.info"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@c@o@n@t@r@o@l_@r@o@m/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/mccart18/ece411/mp3/hds/@c@o@n@t@r@o@l_@r@o@m/interface.user"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@c@o@n@t@r@o@l_@r@o@m/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/mccart18/ece411/mp3/hds"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -409,31 +408,31 @@ value "interface"
 )
 (vvPair
 variable "config"
-value "%(unit)_%(view)_config"
+value "%(unit)_config"
 )
 (vvPair
 variable "d"
-value "/home/mccart18/ece411/mp3/hds/@c@o@n@t@r@o@l_@r@o@m"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@c@o@n@t@r@o@l_@r@o@m"
 )
 (vvPair
 variable "d_logical"
-value "/home/mccart18/ece411/mp3/hds/CONTROL_ROM"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/CONTROL_ROM"
 )
 (vvPair
 variable "date"
-value "03/12/13"
+value "03/13/13"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "12"
+value "13"
 )
 (vvPair
 variable "entity_name"
@@ -461,7 +460,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-16.ews.illinois.edu"
+value "gelib-057-39.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -493,11 +492,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/mccart18/ece411/mp3/hds/@c@o@n@t@r@o@l_@r@o@m/interface"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@c@o@n@t@r@o@l_@r@o@m/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/mccart18/ece411/mp3/hds/CONTROL_ROM/interface"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/CONTROL_ROM/interface"
 )
 (vvPair
 variable "package_name"
@@ -521,7 +520,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -529,7 +528,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "<TBD>"
+value "$HDS_HOME/../Precision/Mgc_home/bin"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -553,7 +552,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "03:40:29"
+value "22:41:21"
 )
 (vvPair
 variable "unit"
@@ -561,7 +560,7 @@ value "CONTROL_ROM"
 )
 (vvPair
 variable "user"
-value "mccart18"
+value "hyunyi1"
 )
 (vvPair
 variable "version"
@@ -588,10 +587,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *56 (CptPort
-uid 295,0
+uid 332,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 296,0
+uid 333,0
 ro 90
 va (VaSet
 vasetType 1
@@ -600,11 +599,11 @@ fg "0,65535,0"
 xt "14250,10625,15000,11375"
 )
 tg (CPTG
-uid 297,0
+uid 334,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 298,0
+uid 335,0
 va (VaSet
 font "courier,8,0"
 )
@@ -615,69 +614,62 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 299,0
+uid 336,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,2700,61000,3600"
-st "CINDEX       : IN     LC3B_CWORD 
-"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "CINDEX"
 t "LC3B_CWORD"
-o 2
-suid 8,0
+o 1
+suid 10,0
 )
 )
 )
 *57 (CptPort
-uid 300,0
+uid 337,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 301,0
+uid 338,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "24000,8625,24750,9375"
+xt "24000,9625,24750,10375"
 )
 tg (CPTG
-uid 302,0
+uid 339,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 303,0
+uid 340,0
 va (VaSet
 font "courier,8,0"
 )
-xt "16500,8550,23000,9450"
-st "CONTROL_WORD"
+xt "20500,9550,23000,10450"
+st "CW_IN"
 ju 2
-blo "23000,9250"
+blo "23000,10250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 304,0
+uid 341,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,1800,61500,2700"
-st "CONTROL_WORD : OUT    LC3B_WORD  ;
-"
 )
 thePort (LogicalPort
-lang 11
 m 1
 decl (Decl
-n "CONTROL_WORD"
+n "CW_IN"
 t "LC3B_WORD"
-o 1
-suid 9,0
+o 2
+suid 11,0
 )
 )
 )
@@ -1391,6 +1383,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 308,0
+lastUid 345,0
 activeModelName "Symbol:CDM"
 )

@@ -42,7 +42,8 @@ END CONTROL_RIPPER ;
 --  BITS 15 DOWNTO 13 are ALUOP
 --  BIT  12           is  PCMUXSel
 --  BIT  11           is  LD_MAR
---  BIT  10           is  LD_MDR
+--  BIT  11           is  LD_MDR
+--  BIT  10           is  WDATAMUXSel
 --  BIT  9            is  MDRMUXSel
 --  BIT  8            is  SR2MUXSel
 --  BIT  7            is  SR1MUXSel

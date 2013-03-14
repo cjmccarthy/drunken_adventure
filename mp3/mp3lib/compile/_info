@@ -1,177 +1,218 @@
 m255
+K3
 13
 cModel Technology
-d/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile
+Z0 d/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile
 Econtrolrom
-w1295382395
-DP ece411 lc3b_types B]@1XTG:<E4JBo42=[EYY3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-F/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/hdl/ControlRom_Untitled.vhd
+Z1 w1295382395
+Z2 DP ece411 lc3b_types B]@1XTG:<E4JBo42=[EYY3
+Z3 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 F/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/hdl/ControlRom_Untitled.vhd
 l0
 L16
 V?V_[YIzV`QX7Oh<:[5Onk2
-OE;C;6.1c;31
+Z6 OE;C;6.1c;31
 31
-o-work /home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile -nologo -93
-tExplicit 1
+Z7 o-work /home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile -nologo -93
+Z8 tExplicit 1
+Z9 d/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile
 Auntitled
-DP ece411 lc3b_types B]@1XTG:<E4JBo42=[EYY3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+R2
+R3
+R4
 DE work controlrom ?V_[YIzV`QX7Oh<:[5Onk2
 l25
 L24
 V`UL]N^<?gF3eKIBPd8]^Z3
-OE;C;6.1c;31
+R6
 31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ece411 lc3b_types
-o-work /home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile -nologo -93
-tExplicit 1
+Z10 M3 ieee std_logic_1164
+Z11 M2 ieee numeric_std
+Z12 M1 ece411 lc3b_types
+R7
+R8
 Edram128
-w1304370359
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-d/home/engr/anbrown2/ece411/ece411_given/mp3lib/compile
-F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram128_untitled.vhd
+Z13 w1304370359
+Z14 DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
+R3
+R4
+Z15 d/home/engr/anbrown2/ece411/ece411_given/mp3lib/compile
+Z16 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram128_untitled.vhd
 l0
 L17
 VOLnS9Tb;cnSD@SNab;Lm<1
-OE;C;6.1c;31
+R6
 32
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+Z17 o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
+R8
 Auntitled
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+R14
+R3
+R4
 DE work dram128 OLnS9Tb;cnSD@SNab;Lm<1
 l33
 L30
 Vjf5MT@mjL_cC`L[SaUli]2
-OE;C;6.1c;31
+R6
 32
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ece411 lc3b_types
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R10
+R11
+R12
+R17
+R8
 Edram16
-w1304370365
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-d/home/engr/anbrown2/ece411/ece411_given/mp3lib/compile
-F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram16_untitled.vhd
+Z18 w1304370365
+R14
+R3
+R4
+R15
+Z19 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram16_untitled.vhd
 l0
 L17
 V@Y:?<>cE22ieYcMG25E0V0
-OE;C;6.1c;31
+R6
 32
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R17
+R8
 Auntitled
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+R14
+R3
+R4
 DE work dram16 @Y:?<>cE22ieYcMG25E0V0
 l33
 L30
 V3B]21?3i^Q1m8iQ:lPSmc0
-OE;C;6.1c;31
+R6
 32
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ece411 lc3b_types
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R10
+R11
+R12
+R17
+R8
 Edram256
-w1304369850
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-d/home/engr/anbrown2/ece411/ece411_given/mp3lib/compile
-F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram256_untitled.vhd
+Z20 w1304369850
+R14
+R3
+R4
+R15
+Z21 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram256_untitled.vhd
 l0
 L17
 VBh3dWMhVo;=DVb>mZnPH63
-OE;C;6.1c;31
+R6
 32
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R17
+R8
 Auntitled
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+R14
+R3
+R4
 DE work dram256 Bh3dWMhVo;=DVb>mZnPH63
 l33
 L30
 V5zSGWOoHh8F[i7Bc^L@?X1
-OE;C;6.1c;31
+R6
 32
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ece411 lc3b_types
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R10
+R11
+R12
+R17
+R8
 Edram32
-w1304370401
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-d/home/engr/anbrown2/ece411/ece411_given/mp3lib/compile
-F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram32_untitled.vhd
+Z22 w1304370401
+R14
+R3
+R4
+R15
+Z23 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram32_untitled.vhd
 l0
 L17
 VZ0]dO8Vc`hX90oemM:D9D2
-OE;C;6.1c;31
+R6
 32
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R17
+R8
 Auntitled
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+R14
+R3
+R4
 DE work dram32 Z0]dO8Vc`hX90oemM:D9D2
 l33
 L30
 VYF1OCG2zKlR`ASP>a4IKk2
-OE;C;6.1c;31
+R6
 32
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ece411 lc3b_types
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R10
+R11
+R12
+R17
+R8
 Edram64
-w1304369857
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-d/home/engr/anbrown2/ece411/ece411_given/mp3lib/compile
-F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram64_untitled.vhd
+Z24 w1304369857
+R14
+R3
+R4
+R15
+Z25 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram64_untitled.vhd
 l0
 L17
 V2AG[zM8[2GjKlVCS8nJn41
-OE;C;6.1c;31
+R6
 32
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R17
+R8
 Auntitled
-DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+R14
+R3
+R4
 DE work dram64 2AG[zM8[2GjKlVCS8nJn41
 l33
 L30
 Vh:Xm9MN2RAJfb^T7ajA=82
-OE;C;6.1c;31
+R6
 32
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ece411 lc3b_types
-o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
-tExplicit 1
+R10
+R11
+R12
+R17
+R8
+Eor3
+Z26 w1363236517
+Z27 DPx6 ece411 10 lc3b_types 0 22 D<bO^JHkQX:e:g72C@WeW1
+Z28 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z29 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z30 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z31 d/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/compile
+Z32 8/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd
+Z33 F/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd
+l0
+L17
+V1V9gWb3]5QT[jfPFJOh081
+!s100 6>[H[egcTQfW@ZUEn8Rd31
+Z34 OE;C;10.1d;51
+32
+!i10b 1
+Z35 !s108 1363236534.579564
+Z36 !s90 -work|mp3lib|-nologo|-f|/tmp/Files0|
+Z37 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd|
+Z38 o-work mp3lib -nologo
+R8
+Auntitled
+R27
+R28
+R29
+R30
+DEx4 work 3 or3 0 22 1V9gWb3]5QT[jfPFJOh081
+l29
+L28
+Vg:o`C3H=;mz9lFbR]JO@c3
+!s100 L]8KSTkJchG<LI8K8@g_S2
+R34
+32
+!i10b 1
+R35
+R36
+R37
+R38
+R8

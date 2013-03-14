@@ -1,0 +1,33 @@
+--
+-- VHDL Architecture ece411.FakeyFakey.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (gelib-057-39.ews.illinois.edu)
+--          at - 20:29:02 03/13/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY FakeyFakey IS
+   PORT( 
+      I_MREAD_L : IN     std_logic;
+      I_MRESP_H : IN     STD_LOGIC;
+      CLK1      : OUT    STD_LOGIC
+   );
+
+-- Declarations
+
+END FakeyFakey ;
+
+--
+ARCHITECTURE untitled OF FakeyFakey IS
+BEGIN
+  CLK1<= (I_MRESP_H AND NOT(I_MREAD_L)) after delay_logic2;
+END ARCHITECTURE untitled;
+

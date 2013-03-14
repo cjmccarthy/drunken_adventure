@@ -1,0 +1,31 @@
+--
+-- VHDL Architecture ece411.Delaymresph.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (gelib-057-39.ews.illinois.edu)
+--          at - 19:58:12 03/13/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY Delaymresph IS
+   PORT( 
+      MRESP_H : IN     std_logic;
+      A       : OUT    STD_LOGIC
+   );
+
+-- Declarations
+
+END Delaymresph ;
+
+--
+ARCHITECTURE untitled OF Delaymresph IS
+BEGIN
+END ARCHITECTURE untitled;
+

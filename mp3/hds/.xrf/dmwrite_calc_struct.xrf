@@ -42,102 +42,123 @@ VIEW struct.bd
 GRAPHIC 0,0 46 2 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 331,0 51 0 
+GRAPHIC 386,0 51 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 233,0 52 0 
+GRAPHIC 331,0 52 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-NO_GRAPHIC 53
+GRAPHIC 233,0 53 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 299,0 55 0 
+NO_GRAPHIC 54
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-NO_GRAPHIC 57
+GRAPHIC 299,0 56 0 
+DESIGN @d@m@write_@calc
+VIEW struct.bd
+NO_GRAPHIC 58
 LIBRARY ece411
 DESIGN @a@n@d2
 VIEW @u@n@t@i@t@l@e@d
-GRAPHIC 247,0 59 0 
+GRAPHIC 247,0 60 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-NO_GRAPHIC 64
+NO_GRAPHIC 65
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 269,0 66 0 
+GRAPHIC 368,0 67 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 289,0 68 0 
+NO_GRAPHIC 71
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 279,0 69 0 
+GRAPHIC 269,0 73 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 299,0 70 0 
+GRAPHIC 289,0 75 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 325,0 71 0 
+GRAPHIC 279,0 76 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 165,0 74 0 
+GRAPHIC 299,0 77 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-NO_GRAPHIC 81
+GRAPHIC 325,0 78 0 
+DESIGN @d@m@write_@calc
+VIEW struct.bd
+GRAPHIC 165,0 81 0 
+DESIGN @d@m@write_@calc
+VIEW struct.bd
+NO_GRAPHIC 88
 LIBRARY ece411
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-NO_GRAPHIC 83
+NO_GRAPHIC 90
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 247,0 86 0 
+GRAPHIC 247,0 93 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 269,0 87 0 
+GRAPHIC 368,0 94 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 165,0 88 0 
+GRAPHIC 269,0 95 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-NO_GRAPHIC 91
+GRAPHIC 165,0 96 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-NO_GRAPHIC 93
+NO_GRAPHIC 99
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 247,0 95 0 
+NO_GRAPHIC 101
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 241,0 97 0 
+GRAPHIC 247,0 103 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 325,0 98 0 
+GRAPHIC 241,0 105 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 235,0 99 0 
+GRAPHIC 325,0 106 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 269,0 101 0 
+GRAPHIC 235,0 107 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 165,0 108 0 
+GRAPHIC 368,0 109 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 235,0 110 0 
+GRAPHIC 185,0 111 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 199,0 111 0 
+GRAPHIC 388,0 112 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 191,0 112 0 
+GRAPHIC 269,0 114 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 185,0 113 0 
+GRAPHIC 165,0 121 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 177,0 114 0 
+GRAPHIC 235,0 123 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-GRAPHIC 299,0 118 0 
+GRAPHIC 199,0 124 0 
 DESIGN @d@m@write_@calc
 VIEW struct.bd
-NO_GRAPHIC 120
+GRAPHIC 191,0 125 0 
+DESIGN @d@m@write_@calc
+VIEW struct.bd
+GRAPHIC 388,0 126 0 
+DESIGN @d@m@write_@calc
+VIEW struct.bd
+GRAPHIC 177,0 127 0 
+DESIGN @d@m@write_@calc
+VIEW struct.bd
+GRAPHIC 299,0 131 0 
+DESIGN @d@m@write_@calc
+VIEW struct.bd
+NO_GRAPHIC 133

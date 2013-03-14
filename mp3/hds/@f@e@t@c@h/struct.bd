@@ -84,23 +84,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@f@e@t@c@h/struct.bd.info"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@f@e@t@c@h/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@f@e@t@c@h/struct.bd.user"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@f@e@t@c@h/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -112,15 +112,15 @@ value "struct"
 )
 (vvPair
 variable "config"
-value "%(unit)_%(view)_config"
+value "%(unit)_config"
 )
 (vvPair
 variable "d"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@f@e@t@c@h"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@f@e@t@c@h"
 )
 (vvPair
 variable "d_logical"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/FETCH"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/FETCH"
 )
 (vvPair
 variable "date"
@@ -164,7 +164,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-05.ews.illinois.edu"
+value "gelib-057-39.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -196,11 +196,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@f@e@t@c@h/struct.bd"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@f@e@t@c@h/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/FETCH/struct.bd"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/FETCH/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -224,7 +224,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -232,7 +232,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "<TBD>"
+value "$HDS_HOME/../Precision/Mgc_home/bin"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -256,7 +256,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "05:50:41"
+value "23:16:53"
 )
 (vvPair
 variable "unit"
@@ -264,7 +264,7 @@ value "FETCH"
 )
 (vvPair
 variable "user"
-value "mccart18"
+value "hyunyi1"
 )
 (vvPair
 variable "version"
@@ -309,7 +309,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45700,50950"
+xt "32200,50050,45200,50950"
 st "
 by %user on %dd %month %year
 "
@@ -1148,7 +1148,7 @@ uid 207,0
 decl (Decl
 n "PC_OUT"
 t "LC3B_WORD"
-o 14
+o 13
 suid 5,0
 )
 declText (MLText
@@ -1350,7 +1350,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "-11750,16625,-11000,17375"
+xt "-11750,17625,-11000,18375"
 )
 tg (CPTG
 uid 281,0
@@ -1361,9 +1361,9 @@ uid 282,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-10000,16550,-9500,17450"
+xt "-10000,17550,-9500,18450"
 st "A"
-blo "-10000,17250"
+blo "-10000,18250"
 )
 )
 thePort (LogicalPort
@@ -1418,7 +1418,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "-7375,16750,-6625,17500"
+xt "-7375,17583,-6625,18333"
 )
 tg (CPTG
 uid 289,0
@@ -1430,10 +1430,10 @@ ro 270
 va (VaSet
 font "courier,8,0"
 )
-xt "-7450,18500,-6550,20000"
+xt "-7450,19333,-6550,20833"
 st "SEL"
 ju 2
-blo "-6750,18500"
+blo "-6750,19333"
 )
 )
 thePort (LogicalPort
@@ -1489,7 +1489,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "-11000,16000,-3000,25000"
+xt "-11000,17000,-3000,25000"
 )
 oxt "-13000,18000,-5000,27000"
 ttg (MlTextGroup
@@ -1577,16 +1577,16 @@ optionalChildren [
 uid 337,0
 sl 0
 ro 270
-xt "-10000,14625,-8500,15375"
+xt "-12000,14625,-10500,15375"
 )
 (Line
 uid 338,0
 sl 0
 ro 270
-xt "-8500,15000,-8000,15000"
+xt "-10500,15000,-10000,15000"
 pts [
-"-8500,15000"
-"-8000,15000"
+"-10500,15000"
+"-10000,15000"
 ]
 )
 ]
@@ -1602,10 +1602,10 @@ uid 340,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-15000,14550,-11000,15450"
+xt "-17000,14550,-13000,15450"
 st "PCMUXSel"
 ju 2
-blo "-11000,15250"
+blo "-13000,15250"
 tm "WireNameMgr"
 )
 )
@@ -1633,7 +1633,7 @@ uid 343,0
 decl (Decl
 n "PC_IN"
 t "LC3B_WORD"
-o 13
+o 12
 suid 14,0
 )
 declText (MLText
@@ -2068,7 +2068,7 @@ archFileType "UNKNOWN"
 uid 911,0
 decl (Decl
 n "I_ADDR"
-t "lc3b_word"
+t "LC3B_WORD"
 o 9
 suid 40,0
 )
@@ -2078,7 +2078,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "23000,-9000,34000,-8100"
-st "I_ADDR    : lc3b_word
+st "I_ADDR    : LC3B_WORD
 "
 )
 )
@@ -2606,7 +2606,7 @@ uid 1477,0
 decl (Decl
 n "EXEC_ADDR"
 t "LC3B_WORD"
-o 14
+o 2
 suid 55,0
 )
 declText (MLText
@@ -2850,6 +2850,7 @@ start &82
 end &33
 sat 32
 eat 1
+sty 1
 stc 0
 st 0
 sf 1
@@ -2878,17 +2879,18 @@ uid 330,0
 va (VaSet
 vasetType 3
 )
-xt "-8000,15000,-7000,16750"
+xt "-10000,15000,-7000,17583"
 pts [
-"-8000,15000"
+"-10000,15000"
 "-7000,15000"
-"-7000,16750"
+"-7000,17583"
 ]
 )
 start &45
 end &40
 sat 32
 eat 32
+stc 0
 st 0
 sf 1
 si 0
@@ -2903,9 +2905,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "-6900,13000,-6000,17000"
+xt "-8000,15000,-7100,19000"
 st "PCMUXSel"
-blo "-6700,13000"
+blo "-7800,15000"
 tm "WireNameMgr"
 )
 )
@@ -2933,12 +2935,12 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "-17000,13000,10000,17000"
+xt "-17000,13000,10000,18000"
 pts [
 "10000,13000"
 "-17000,13000"
-"-17000,17000"
-"-11750,17000"
+"-17000,18000"
+"-11750,18000"
 ]
 )
 start &33
@@ -3151,42 +3153,6 @@ tm "WireNameMgr"
 on &54
 )
 *96 (Wire
-uid 706,0
-shape (OrthoPolyLine
-uid 707,0
-va (VaSet
-vasetType 3
-)
-xt "40000,29000,43250,29000"
-pts [
-"40000,29000"
-"43250,29000"
-]
-)
-end &25
-sat 16
-eat 32
-st 0
-sf 1
-si 0
-tg (WTG
-uid 710,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 711,0
-va (VaSet
-font "courier,8,0"
-)
-xt "40000,28100,41500,29000"
-st "CLK"
-blo "40000,28800"
-tm "WireNameMgr"
-)
-)
-on &54
-)
-*97 (Wire
 uid 889,0
 shape (OrthoPolyLine
 uid 890,0
@@ -3227,7 +3193,7 @@ tm "WireNameMgr"
 )
 on &62
 )
-*98 (Wire
+*97 (Wire
 uid 1064,0
 shape (OrthoPolyLine
 uid 1065,0
@@ -3263,7 +3229,7 @@ tm "WireNameMgr"
 )
 on &68
 )
-*99 (Wire
+*98 (Wire
 uid 1090,0
 shape (OrthoPolyLine
 uid 1091,0
@@ -3305,7 +3271,7 @@ tm "WireNameMgr"
 )
 on &66
 )
-*100 (Wire
+*99 (Wire
 uid 1102,0
 shape (OrthoPolyLine
 uid 1103,0
@@ -3341,7 +3307,7 @@ tm "WireNameMgr"
 )
 on &63
 )
-*101 (Wire
+*100 (Wire
 uid 1112,0
 shape (OrthoPolyLine
 uid 1113,0
@@ -3378,7 +3344,7 @@ tm "WireNameMgr"
 )
 on &54
 )
-*102 (Wire
+*101 (Wire
 uid 1122,0
 shape (OrthoPolyLine
 uid 1123,0
@@ -3415,7 +3381,7 @@ tm "WireNameMgr"
 )
 on &68
 )
-*103 (Wire
+*102 (Wire
 uid 1132,0
 shape (OrthoPolyLine
 uid 1133,0
@@ -3451,7 +3417,7 @@ tm "WireNameMgr"
 )
 on &52
 )
-*104 (Wire
+*103 (Wire
 uid 1158,0
 shape (OrthoPolyLine
 uid 1159,0
@@ -3488,7 +3454,7 @@ tm "WireNameMgr"
 )
 on &68
 )
-*105 (Wire
+*104 (Wire
 uid 1406,0
 shape (OrthoPolyLine
 uid 1407,0
@@ -3530,7 +3496,7 @@ tm "WireNameMgr"
 )
 on &48
 )
-*106 (Wire
+*105 (Wire
 uid 1471,0
 shape (OrthoPolyLine
 uid 1472,0
@@ -3569,6 +3535,45 @@ tm "WireNameMgr"
 )
 )
 on &80
+)
+*106 (Wire
+uid 1948,0
+shape (OrthoPolyLine
+uid 1949,0
+va (VaSet
+vasetType 3
+)
+xt "41000,29000,43250,41000"
+pts [
+"41000,41000"
+"41000,29000"
+"43250,29000"
+]
+)
+end &25
+sat 16
+eat 32
+stc 0
+st 0
+sf 1
+si 0
+tg (WTG
+uid 1950,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 1951,0
+ro 270
+va (VaSet
+font "courier,8,0"
+)
+xt "40100,30500,41000,35000"
+st "I_MREAD_L"
+blo "40800,35000"
+tm "WireNameMgr"
+)
+)
+on &66
 )
 ]
 bg "65535,65535,65535"
@@ -3687,12 +3692,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,25,1686,1029"
-viewArea "-35180,7380,23580,41820"
+windowSize "394,55,1668,967"
+viewArea "7401,7678,69410,49863"
 cachedDiagramExtent "-22500,-18000,71000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,-51000"
-lastUid 1478,0
+lastUid 2130,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4750,7 +4755,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 55,0
+suid 61,0
 usingSuid 1
 emptyRow *138 (LEmptyRow
 )
@@ -4795,7 +4800,7 @@ m 4
 decl (Decl
 n "PC_OUT"
 t "LC3B_WORD"
-o 14
+o 13
 suid 5,0
 )
 )
@@ -4818,7 +4823,7 @@ m 4
 decl (Decl
 n "PC_IN"
 t "LC3B_WORD"
-o 13
+o 12
 suid 14,0
 )
 )
@@ -4875,7 +4880,7 @@ port (LogicalPort
 m 1
 decl (Decl
 n "I_ADDR"
-t "lc3b_word"
+t "LC3B_WORD"
 o 9
 suid 40,0
 )
@@ -4932,7 +4937,7 @@ port (LogicalPort
 decl (Decl
 n "EXEC_ADDR"
 t "LC3B_WORD"
-o 14
+o 2
 suid 55,0
 )
 )

@@ -16,7 +16,7 @@ USE ece411.LC3b_types.all;
 
 ENTITY CONTROL_ROM IS
    PORT( 
-      CONTROL_WORD : OUT    LC3B_WORD;
+      CW_IN : OUT    LC3B_WORD;
       CINDEX       : IN     LC3B_CWORD
    );
 
@@ -45,34 +45,38 @@ BEGIN
   BEGIN
     case CINDEX is
       when "0001000" => -- ADD
-        CONTROL_WORD <= "0000000000001000" after DELAY_ROM;
+        CW_IN <= "0000000000001111" after DELAY_ROM;
       when "0001100" => -- ADDimm
-        CONTROL_WORD <= "0000000100001000" after DELAY_ROM;
+        CW_IN <= "0000000100001111" after DELAY_ROM;
         --SR2MUXSel = 1
       when "0101000" => -- AND
-        CONTROL_WORD <= "0010000000001000" after DELAY_ROM;
+        CW_IN <= "0010000000001111" after DELAY_ROM;
       when "0101100" => -- ANDimm
-        CONTROL_WORD <= "0010000100001000" after DELAY_ROM;
+        CW_IN <= "0010000100001111" after DELAY_ROM;
         --SR2MUXSel = 1
       when "0000000" => -- BR
-        CONTROL_WORD <= "0001000000010000" after DELAY_ROM;
+        CW_IN <= "0001000000010111" after DELAY_ROM;
         --PCMUXSel = 1
         --ADDR2MUXSel = 01
       when "0110000" => -- LDR
-        CONTROL_WORD <= "0000111001101000" after DELAY_ROM;
+        CW_IN <= "0000111001101011" after DELAY_ROM;
         --LD_MAR/LD_MDR = 1
         --WDATAMUXSel = 1
-        --MDRMUXSel = 1
+        --MDRMUXSel = 0
         --ADDR1MUXSel = 1
         --ADDR2MUXSel = 10
+        --MEM_READ_L = 0
       when "0111000" => -- STR
-        CONTROL_WORD <= "0000100011100000" after DELAY_ROM;
+        CW_IN <= "0000100011100100" after DELAY_ROM;
         --LD_MAR = 1
         --LD_MDR = 1
         --SR1MUXSel = 1
         --ADDR1MUXSel = 1
         --ADDR2MUXSel = 10
+        --MEM_WRITEH_L = 0
+        --MEM_WRITEH_L = 0
       when others =>
+        CW_IN <= "0000000000000111" after DELAY_ROM;
     end case;
   END PROCESS;
 

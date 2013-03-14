@@ -1,0 +1,42 @@
+--
+-- VHDL Architecture ece411.CWORD_REG16.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (gelib-057-39.ews.illinois.edu)
+--          at - 19:07:20 03/13/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+ENTITY CWORD_REG16 IS
+PORT( 
+	RESET_L : IN     STD_LOGIC;
+	A       : IN     STD_LOGIC_VECTOR (15 DOWNTO 0);
+	EN      : IN     STD_LOGIC;
+	CLK     : IN     STD_LOGIC;
+	F       : OUT    STD_LOGIC_VECTOR (15 DOWNTO 0)
+);
+-- DECLARATIONS
+END CWORD_REG16 ;
+
+-- HDS INTERFACE_END
+ARCHITECTURE UNTITLED OF CWORD_REG16 IS
+BEGIN
+	CWORD_REG16: PROCESS(CLK,RESET_L,A,EN)
+	VARIABLE STATE : STD_LOGIC_VECTOR (15 DOWNTO 0);
+	BEGIN
+		IF(RESET_L = '0') THEN
+			STATE := "0000000000000111";  -- DEFAULT VALUE
+		ELSIF(CLK = '1' AND CLK'EVENT AND EN = '1') THEN -- HIGH ENABLE
+			STATE := A;
+		ELSIF(EN /= '0' AND EN /= '1' AND CLK = '1' AND CLK'EVENT) THEN
+			STATE := (OTHERS => 'X');
+		END IF;
+		F <= STATE AFTER DELAY_REG;
+	END PROCESS CWORD_REG16;
+END UNTITLED;
