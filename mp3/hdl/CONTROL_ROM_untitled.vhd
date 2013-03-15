@@ -61,6 +61,8 @@ BEGIN
       when "0101100" => -- ANDimm
         CONTROL_WORD <= "00100010000011" & "000000000000000" & "111" after DELAY_ROM;
         --SR2MUXSel = 1
+      when "1001100" => --NOT
+        CONTROL_WORD <= "01000000000011" & "000000000000000" & "111" after DELAY_ROM;
       when "0000000" => -- BR
         CONTROL_WORD <= "00010000000100" & "000000000000000" & "111" after DELAY_ROM;
       when "0000100" => -- BR

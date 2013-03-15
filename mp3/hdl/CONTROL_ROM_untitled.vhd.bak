@@ -63,6 +63,8 @@ BEGIN
         --SR2MUXSel = 1
       when "0000000" => -- BR
         CONTROL_WORD <= "00010000000100" & "000000000000000" & "111" after DELAY_ROM;
+      when "0000100" => -- BR
+        CONTROL_WORD <= "00010000000100" & "000000000000000" & "111" after DELAY_ROM;
         --PCMUXSel = 1
         --ADDR2MUXSel = 01
       when "0110000" => -- LDR
