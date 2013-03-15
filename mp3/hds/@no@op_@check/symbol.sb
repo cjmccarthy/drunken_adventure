@@ -91,7 +91,7 @@ uid 169,0
 port (LogicalPort
 decl (Decl
 n "CW_IN"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 1
 suid 4,0
 )
@@ -395,23 +395,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@no@op_@check/symbol.sb.info"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@no@op_@check/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@no@op_@check/symbol.sb.user"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@no@op_@check/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -423,31 +423,31 @@ value "symbol"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@no@op_@check"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@no@op_@check"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/NoOp_Check"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/NoOp_Check"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/14/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -475,7 +475,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "evrt-252-12.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -507,11 +507,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@no@op_@check/symbol.sb"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@no@op_@check/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/NoOp_Check/symbol.sb"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/NoOp_Check/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -535,7 +535,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -543,7 +543,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -567,7 +567,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "22:47:43"
+value "20:02:51"
 )
 (vvPair
 variable "unit"
@@ -575,7 +575,7 @@ value "NoOp_Check"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -723,13 +723,13 @@ uid 181,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,1800,58500,2700"
-st "CW_IN  : IN     LC3B_WORD  ;"
+xt "44000,1800,59000,2700"
+st "CW_IN  : IN     LC3B_DWORD  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "CW_IN"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 1
 suid 4,0
 )
@@ -818,7 +818,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45200,50950"
+xt "32200,50050,45700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -1443,6 +1443,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 319,0
+lastUid 365,0
 activeModelName "Symbol:CDM"
 )

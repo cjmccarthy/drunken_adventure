@@ -25,7 +25,8 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 2,0
+ordering 1
+suid 3,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -66,15 +67,16 @@ tm "EolColHdrMgr"
 )
 *14 (LogPort
 port (LogicalPort
+lang 11
 m 1
 decl (Decl
 n "NoOp_CWout"
-t "LC3B_WORD"
-o 6
-suid 2,0
+t "LC3B_DWORD"
+o 1
+suid 3,0
 )
 )
-uid 143,0
+uid 173,0
 )
 ]
 )
@@ -130,7 +132,7 @@ uid 78,0
 litem &14
 pos 0
 dimension 20
-uid 144,0
+uid 174,0
 )
 ]
 )
@@ -361,23 +363,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@n@o@o@p_@c@w/interface.info"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@n@o@o@p_@c@w/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@n@o@o@p_@c@w/interface.user"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@n@o@o@p_@c@w/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -389,31 +391,31 @@ value "interface"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@n@o@o@p_@c@w"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@n@o@o@p_@c@w"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/NOOP_CW"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/NOOP_CW"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/14/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -441,7 +443,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "evrt-252-12.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -473,11 +475,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@n@o@o@p_@c@w/interface"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@n@o@o@p_@c@w/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/NOOP_CW/interface"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/NOOP_CW/interface"
 )
 (vvPair
 variable "package_name"
@@ -501,7 +503,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -509,7 +511,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -533,7 +535,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "22:45:42"
+value "20:02:51"
 )
 (vvPair
 variable "unit"
@@ -541,7 +543,7 @@ value "NOOP_CW"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -568,10 +570,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *54 (CptPort
-uid 138,0
+uid 168,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 139,0
+uid 169,0
 ro 90
 va (VaSet
 vasetType 1
@@ -580,11 +582,11 @@ fg "0,65535,0"
 xt "23000,6625,23750,7375"
 )
 tg (CPTG
-uid 140,0
+uid 170,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 141,0
+uid 171,0
 va (VaSet
 font "courier,8,0"
 )
@@ -596,18 +598,19 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 142,0
+uid 172,0
 va (VaSet
 font "courier,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 1
 decl (Decl
 n "NoOp_CWout"
-t "LC3B_WORD"
-o 6
-suid 2,0
+t "LC3B_DWORD"
+o 1
+suid 3,0
 )
 )
 )
@@ -1321,6 +1324,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 144,0
+lastUid 174,0
 activeModelName "Symbol:CDM"
 )

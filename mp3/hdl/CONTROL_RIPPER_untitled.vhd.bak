@@ -18,17 +18,16 @@ ENTITY CONTROL_RIPPER IS
    PORT( 
       CONTROL_WORD : IN     LC3B_WORD;
       ALUOP        : OUT    LC3B_ALUOP;
-      --PCMUXsel     : OUT    STD_LOGIC;
       BRen         : OUT    STD_LOGIC;
-      LD_MAR       : OUT    STD_LOGIC;
-      LD_MDR       : OUT    STD_LOGIC;
       WDATAMUXSel  : OUT    STD_LOGIC;
       MDRMUXSel    : OUT    STD_LOGIC;
       SR2MUXSel    : OUT    STD_LOGIC;
       SR1MUXSel    : OUT    STD_LOGIC;
-      ADDR1MUXSel  : OUT    STD_LOGIC;
+      ADDR1MUXSel  : OUT    LC3B_4MUX_SEL;
       ADDR2MUXSel  : OUT    LC3B_4MUX_SEL;
       LD_REG       : OUT    STD_LOGIC;
+      LDcc         : OUT    STD_LOGIC;
+      SR2_OUT_MUXSel  : OUT STD_LOGIC;
       MEM_READ_L   : OUT    STD_LOGIC;
       MEM_WRITEH_L : OUT    STD_LOGIC;
       MEM_WRITEL_L : OUT    STD_LOGIC
@@ -40,34 +39,41 @@ END CONTROL_RIPPER ;
 
 --
 --CONTROL WORD STRUCTURE:
---  BITS 15 DOWNTO 13 are ALUOP
---  BIT  12           is  PCMUXSel
---  BIT  11           is  LD_MAR
---  BIT  11           is  LD_MDR
---  BIT  10           is  WDATAMUXSel
---  BIT  9            is  MDRMUXSel
---  BIT  8            is  SR2MUXSel
---  BIT  7            is  SR1MUXSel
---  BIT  6            is  ADDR1MUXSel
---  BITS 5 DOWNTO 4   are ADDR2MuxSel
---  BIT  3            is  LD_REG
+--ACTIVE HIGHS
+--  BITS 31 DOWNTO 29 are ALUOP
+--  BIT  28           is  BRen
+--  BIT  27           is  WDATAMUXSel
+--  BIT  26           is  MDRMUXSel
+--  BIT  25            is  SR2MUXSel
+--  BIT  24            is  SR1MUXSel
+--  BIT  23 DOWNTO 22   are ADDR1MUXSel
+--  BITS 21 DOWNTO 20   are ADDR2MuxSel
+--  BIT  19            is  LD_REG
+--  BIT  18            is  LDcc
+
+--  BIT  17            is  SR2_OUT_MUXSel
+
+--  BITS 16-3 are unused
+
+--ACTIVE LOWS
 --  BIT  2            is  MEM_READ_L
 --  BIT  1            is  MEM_WRITEH_L
 --  BIT  0            is  MEM_WRITEL_L
 ARCHITECTURE untitled OF CONTROL_RIPPER IS
 BEGIN
-  ALUOP       <=CONTROL_WORD(15 downto 13);
-  BRen        <=CONTROL_WORD(12);
-  --PCMUXSel    <=CONTROL_WORD(12);
-  LD_MAR      <=CONTROL_WORD(11);
-  LD_MDR      <=CONTROL_WORD(11);
-  WDATAMUXSel <=CONTROL_WORD(10);
-  MDRMUXSel   <=CONTROL_WORD(9);
-  SR2MUXSel   <=CONTROL_WORD(8);
-  SR1MUXSel   <=CONTROL_WORD(7);
-  ADDR1MUXSel <=CONTROL_WORD(6);
-  ADDR2MUXSel <=CONTROL_WORD(5 downto 4);
-  LD_REG      <=CONTROL_WORD(3);
+  ALUOP       <=CONTROL_WORD(31 downto 29);
+  BRen        <=CONTROL_WORD(28);
+  WDATAMUXSel <=CONTROL_WORD(27);
+  MDRMUXSel   <=CONTROL_WORD(26);
+  SR2MUXSel   <=CONTROL_WORD(25);
+  SR1MUXSel   <=CONTROL_WORD(24);
+  ADDR1MUXSel <=CONTROL_WORD(23 downto 22);
+  ADDR2MUXSel <=CONTROL_WORD(21 downto 20);
+  LD_REG      <=CONTROL_WORD(19);
+  LDcc        <=CONTROL_WORD(18);
+  
+  SR2_OUT_MUXSel  <=  CONTROL_WORD(17);
+  
   MEM_READ_L  <=CONTROL_WORD(2);
   MEM_WRITEH_L<=CONTROL_WORD(1);
   MEM_WRITEL_L<=CONTROL_WORD(0);

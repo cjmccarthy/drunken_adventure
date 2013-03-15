@@ -16,7 +16,7 @@ USE ece411.LC3b_types.all;
 
 ENTITY NOOP_CONST IS
    PORT( 
-      NoOp_IR : OUT    LC3B_WORD
+      NoOp_IR : OUT    LC3B_DWORD
    );
 
 -- Declarations
@@ -26,6 +26,6 @@ END NOOP_CONST ;
 --
 ARCHITECTURE untitled OF NOOP_CONST IS
 BEGIN
-  NoOp_IR<="0000000000000000";
+  NoOp_IR<="0000000000000000" & "0000000000000000";
 END ARCHITECTURE untitled;
 

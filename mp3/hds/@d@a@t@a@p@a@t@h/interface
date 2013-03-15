@@ -588,23 +588,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface.info"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface.user"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -616,15 +616,15 @@ value "interface"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DATAPATH"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/DATAPATH"
 )
 (vvPair
 variable "date"
@@ -668,7 +668,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-04.ews.illinois.edu"
+value "evrt-252-12.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -700,11 +700,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@a@t@a@p@a@t@h/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DATAPATH/interface"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/DATAPATH/interface"
 )
 (vvPair
 variable "package_name"
@@ -728,7 +728,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -736,7 +736,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -760,7 +760,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "13:26:31"
+value "21:03:46"
 )
 (vvPair
 variable "unit"
@@ -768,7 +768,7 @@ value "DATAPATH"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -1510,7 +1510,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45200,50950"
+xt "32200,50050,45700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -2135,6 +2135,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 3574,0
+lastUid 3804,0
 activeModelName "Symbol:CDM"
 )

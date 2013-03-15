@@ -66,23 +66,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@no@op_@check/struct.bd.info"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@no@op_@check/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@no@op_@check/struct.bd.user"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@no@op_@check/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -94,31 +94,31 @@ value "struct"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@no@op_@check"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@no@op_@check"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/NoOp_Check"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/NoOp_Check"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/14/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -146,7 +146,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "evrt-252-12.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -178,11 +178,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@no@op_@check/struct.bd"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@no@op_@check/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/NoOp_Check/struct.bd"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/NoOp_Check/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -206,7 +206,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -214,7 +214,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -238,7 +238,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "22:47:09"
+value "20:02:48"
 )
 (vvPair
 variable "unit"
@@ -246,7 +246,7 @@ value "NoOp_Check"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -839,6 +839,7 @@ o 4
 )
 ]
 shape (Mux
+uid 318,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1188,13 +1189,17 @@ iconName "VhdlFileViewIcon.png"
 iconMaskName "VhdlFileViewIcon.msk"
 ftype 10
 )
+ordering 1
 viewiconposition 0
+blkPorts [
+"NoOp_IR"
+]
 )
 *33 (Net
 uid 213,0
 decl (Decl
 n "NoOp_Match"
-t "LC3B_WORD"
+t "STD_LOGIC"
 o 3
 suid 5,0
 )
@@ -1204,7 +1209,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,7200,37000,8100"
-st "SIGNAL NoOp_Match : LC3B_WORD
+st "SIGNAL NoOp_Match : STD_LOGIC
 "
 )
 )
@@ -1294,7 +1299,7 @@ tm "WireNameMgr"
 uid 259,0
 decl (Decl
 n "CW_IN"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 5
 suid 11,0
 )
@@ -1303,8 +1308,8 @@ uid 260,0
 va (VaSet
 font "courier,8,0"
 )
-xt "22000,1800,33500,2700"
-st "CW_IN      : LC3B_WORD
+xt "22000,1800,34000,2700"
+st "CW_IN      : LC3B_DWORD
 "
 )
 )
@@ -1390,9 +1395,10 @@ viewiconposition 0
 )
 *42 (Net
 uid 287,0
+lang 11
 decl (Decl
 n "NoOp_IR"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 1
 suid 14,0
 )
@@ -1774,12 +1780,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "523,40,1538,730"
-viewArea "5435,2274,71298,43272"
+windowSize "517,43,1532,733"
+viewArea "5400,2300,70000,37728"
 cachedDiagramExtent "0,0,69000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 294,0
+lastUid 322,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2879,7 +2885,7 @@ port (LogicalPort
 m 4
 decl (Decl
 n "NoOp_Match"
-t "LC3B_WORD"
+t "STD_LOGIC"
 o 3
 suid 5,0
 )
@@ -2913,7 +2919,7 @@ uid 261,0
 port (LogicalPort
 decl (Decl
 n "CW_IN"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 5
 suid 11,0
 )
@@ -2922,10 +2928,11 @@ uid 263,0
 )
 *98 (LeafLogPort
 port (LogicalPort
+lang 11
 m 4
 decl (Decl
 n "NoOp_IR"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 1
 suid 14,0
 )

@@ -99,8 +99,8 @@ uid 1927,0
 )
 (Instance
 name "U_0"
-duLibraryName "ece411"
-duName "CWORD_REG16"
+duLibraryName "ECE411"
+duName "CWORD_REG32"
 elements [
 ]
 mwi 0
@@ -120,23 +120,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/struct.bd.info"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/struct.bd.user"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -148,31 +148,31 @@ value "struct"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DECODE_EXECUTE_LATCH"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/DECODE_EXECUTE_LATCH"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/14/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -200,7 +200,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "evrt-252-12.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -232,11 +232,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/struct.bd"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DECODE_EXECUTE_LATCH/struct.bd"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/DECODE_EXECUTE_LATCH/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -260,7 +260,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -268,7 +268,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -292,7 +292,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "23:04:29"
+value "19:58:02"
 )
 (vvPair
 variable "unit"
@@ -300,7 +300,7 @@ value "DECODE_EXECUTE_LATCH"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -383,8 +383,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-32200,39000,-31300"
-st "CONTROL_WORD            : LC3B_WORD
-"
+st "CONTROL_WORD            : LC3B_WORD"
 )
 )
 *3 (PortIoIn
@@ -447,8 +446,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-25000,39000,-24100"
-st "offset11_F              : LC3B_WORD
-"
+st "offset11_F              : LC3B_WORD"
 )
 )
 *5 (PortIoIn
@@ -511,8 +509,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-24100,39000,-23200"
-st "offset5_F               : LC3B_WORD
-"
+st "offset5_F               : LC3B_WORD"
 )
 )
 *7 (PortIoIn
@@ -575,8 +572,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-23200,39000,-22300"
-st "offset6_F               : LC3B_WORD
-"
+st "offset6_F               : LC3B_WORD"
 )
 )
 *9 (PortIoIn
@@ -639,8 +635,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-22300,39000,-21400"
-st "offset9_F               : LC3B_WORD
-"
+st "offset9_F               : LC3B_WORD"
 )
 )
 *11 (PortIoIn
@@ -724,8 +719,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-33100,39000,-32200"
-st "CLK                     : std_logic
-"
+st "CLK                     : std_logic"
 )
 )
 *14 (PortIoIn
@@ -809,8 +803,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-28600,39000,-27700"
-st "RESET_L                 : STD_LOGIC
-"
+st "RESET_L                 : STD_LOGIC"
 )
 )
 *17 (PortIoIn
@@ -894,8 +887,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-25900,39000,-25000"
-st "STALL_L                 : std_logic
-"
+st "STALL_L                 : std_logic"
 )
 )
 *20 (Grouping
@@ -2291,8 +2283,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-16000,49000,-15100"
-st "offset11                : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "offset11                : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *68 (Net
@@ -2310,8 +2301,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-13300,49000,-12400"
-st "offset9                 : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "offset9                 : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *69 (Net
@@ -2329,8 +2319,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-14200,49000,-13300"
-st "offset6                 : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "offset6                 : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *70 (Net
@@ -2348,8 +2337,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-15100,49000,-14200"
-st "offset5                 : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "offset5                 : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *71 (PortIoIn
@@ -2674,8 +2662,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-29500,48500,-28600"
-st "DR_OUT                  : STD_LOGIC_VECTOR(2 DOWNTO 0)
-"
+st "DR_OUT                  : STD_LOGIC_VECTOR(2 DOWNTO 0)"
 )
 )
 *82 (Net
@@ -2693,8 +2680,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-20500,49000,-19600"
-st "EXECUTE_CONTROL_WORD_IN : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "EXECUTE_CONTROL_WORD_IN : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *83 (PortIoIn
@@ -2803,8 +2789,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-27700,39000,-26800"
-st "SR1_F                   : LC3B_WORD
-"
+st "SR1_F                   : LC3B_WORD"
 )
 )
 *86 (Net
@@ -2821,8 +2806,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-26800,39000,-25900"
-st "SR2_F                   : LC3B_WORD
-"
+st "SR2_F                   : LC3B_WORD"
 )
 )
 *87 (Net
@@ -2839,8 +2823,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-17800,39000,-16900"
-st "SR1                     : LC3B_WORD
-"
+st "SR1                     : LC3B_WORD"
 )
 )
 *88 (Net
@@ -2857,8 +2840,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-16900,39000,-16000"
-st "SR2                     : LC3B_WORD
-"
+st "SR2                     : LC3B_WORD"
 )
 )
 *89 (PortIoIn
@@ -2921,8 +2903,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-31300,39000,-30400"
-st "DECODE_PC_PLUS2_OUT     : LC3B_WORD
-"
+st "DECODE_PC_PLUS2_OUT     : LC3B_WORD"
 )
 )
 *91 (Net
@@ -2939,8 +2920,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-18700,39000,-17800"
-st "EXECUTE_PC_PLUS2_IN     : LC3B_WORD
-"
+st "EXECUTE_PC_PLUS2_IN     : LC3B_WORD"
 )
 )
 *92 (Net
@@ -2958,8 +2938,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-21400,48500,-20500"
-st "DR_EXECUTE_IN           : STD_LOGIC_VECTOR(2 DOWNTO 0)
-"
+st "DR_EXECUTE_IN           : STD_LOGIC_VECTOR(2 DOWNTO 0)"
 )
 )
 *93 (PortIoOut
@@ -4470,8 +4449,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-19600,39000,-18700"
-st "EXECUTE_PC_OUT          : LC3B_WORD
-"
+st "EXECUTE_PC_OUT          : LC3B_WORD"
 )
 )
 *140 (SaComponent
@@ -4674,7 +4652,7 @@ va (VaSet
 font "courier,8,1"
 )
 xt "21000,4000,24000,4900"
-st "ece411"
+st "ECE411"
 blo "21000,4700"
 tm "BdLibraryNameMgr"
 )
@@ -4684,7 +4662,7 @@ va (VaSet
 font "courier,8,1"
 )
 xt "21000,4900,27000,5800"
-st "CWORD_REG16"
+st "CWORD_REG32"
 blo "21000,5600"
 tm "CptNameMgr"
 )
@@ -4748,16 +4726,16 @@ optionalChildren [
 uid 2280,0
 sl 0
 ro 270
-xt "-4000,104625,-2500,105375"
+xt "1000,104625,2500,105375"
 )
 (Line
 uid 2281,0
 sl 0
 ro 270
-xt "-2500,105000,-2000,105000"
+xt "2500,105000,3000,105000"
 pts [
-"-2500,105000"
-"-2000,105000"
+"2500,105000"
+"3000,105000"
 ]
 )
 ]
@@ -4773,10 +4751,10 @@ uid 2283,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-10500,104500,-5000,105400"
+xt "-5500,104500,0,105400"
 st "DEC_PC_OUT"
 ju 2
-blo "-5000,105200"
+blo "0,105200"
 tm "WireNameMgr"
 )
 )
@@ -4795,8 +4773,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "21000,-30400,39000,-29500"
-st "DEC_PC_OUT              : LC3B_WORD
-"
+st "DEC_PC_OUT              : LC3B_WORD"
 )
 )
 *151 (Wire
@@ -6773,9 +6750,9 @@ uid 2285,0
 va (VaSet
 vasetType 3
 )
-xt "-2000,105000,14250,105000"
+xt "3000,105000,14250,105000"
 pts [
-"-2000,105000"
+"3000,105000"
 "14250,105000"
 ]
 )
@@ -6797,9 +6774,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "0,104100,5500,105000"
+xt "5000,104100,10500,105000"
 st "DEC_PC_OUT"
-blo "0,104800"
+blo "5000,104800"
 tm "WireNameMgr"
 )
 )
@@ -6923,11 +6900,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,25,1268,937"
-viewArea "100,82292,69466,129482"
+viewArea "-40292,82292,29074,129482"
 cachedDiagramExtent "-27500,-34900,100000,111000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-79000,-51000"
-lastUid 2291,0
+lastUid 2374,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

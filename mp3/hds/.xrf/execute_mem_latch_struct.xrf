@@ -6,49 +6,49 @@ VIEW interface
 GRAPHIC 50,0 8 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1821,0 17 0 
+GRAPHIC 2279,0 17 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1826,0 18 0 
+GRAPHIC 2284,0 18 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1831,0 19 0 
+GRAPHIC 2289,0 19 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1836,0 20 0 
+GRAPHIC 2294,0 20 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1856,0 21 0 
+GRAPHIC 2309,0 21 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1816,0 22 0 
+GRAPHIC 2269,0 22 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1846,0 23 0 
+GRAPHIC 2304,0 23 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1881,0 24 0 
+GRAPHIC 2334,0 24 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1886,0 25 0 
+GRAPHIC 2339,0 25 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1841,0 26 0 
+GRAPHIC 2299,0 26 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1851,0 27 0 
+GRAPHIC 2274,0 27 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1861,0 28 0 
+GRAPHIC 2314,0 28 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1866,0 29 0 
+GRAPHIC 2319,0 29 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1871,0 30 0 
+GRAPHIC 2324,0 30 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1876,0 31 0 
+GRAPHIC 2329,0 31 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW interface
 GRAPHIC 1,0 34 0 
@@ -66,159 +66,253 @@ VIEW struct.bd
 NO_GRAPHIC 53
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 0,0 55 2 
+GRAPHIC 0,0 56 2 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-NO_GRAPHIC 60
+GRAPHIC 1693,0 61 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-NO_GRAPHIC 61
+GRAPHIC 1583,0 62 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+NO_GRAPHIC 63
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+NO_GRAPHIC 64
 LIBRARY ece411
-DESIGN @c@w@o@r@d_@r@e@g16
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
 VIEW untitled
-GRAPHIC 998,0 63 0 
+GRAPHIC 1573,0 66 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 123,0 68 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 118,0 69 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 259,0 70 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 229,0 71 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 143,0 72 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 173,0 73 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 168,0 74 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 108,0 75 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 113,0 76 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 138,0 77 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 358,0 78 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 363,0 79 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 148,0 80 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 153,0 81 0 
+DESIGN @c@o@n@t@r@o@l_@r@i@p@p@e@r
+VIEW untitled
+GRAPHIC 158,0 82 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-NO_GRAPHIC 70
+GRAPHIC 998,0 85 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 472,0 72 0 
-DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
-VIEW struct.bd
-NO_GRAPHIC 79
-DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
-VIEW struct.bd
-GRAPHIC 230,0 81 0 
-DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
-VIEW struct.bd
-NO_GRAPHIC 88
-LIBRARY ece411
-DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
-VIEW struct.bd
-NO_GRAPHIC 90
-DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
-VIEW struct.bd
-GRAPHIC 998,0 93 0 
+NO_GRAPHIC 92
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
 GRAPHIC 472,0 94 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 230,0 95 0 
+NO_GRAPHIC 101
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-NO_GRAPHIC 98
+GRAPHIC 230,0 103 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-NO_GRAPHIC 100
+NO_GRAPHIC 110
+LIBRARY mp3lib
+DESIGN @a@n@d2
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 1680,0 112 0 
+DESIGN @a@n@d2
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 52,0 114 0 
+DESIGN @a@n@d2
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 57,0 115 0 
+DESIGN @a@n@d2
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 62,0 116 0 
+LIBRARY ece411
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 998,0 102 0 
+NO_GRAPHIC 119
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 430,0 104 0 
+GRAPHIC 1680,0 122 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 57,0 105 0 
+GRAPHIC 1573,0 123 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 440,0 106 0 
+GRAPHIC 998,0 124 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 446,0 107 0 
+GRAPHIC 472,0 125 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 436,0 108 0 
+GRAPHIC 230,0 126 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 472,0 110 0 
+NO_GRAPHIC 129
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 508,0 112 0 
+NO_GRAPHIC 131
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 43,0 113 0 
+GRAPHIC 1573,0 133 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 518,0 114 0 
+GRAPHIC 1505,0 135 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 524,0 115 0 
+GRAPHIC 1585,0 145 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 514,0 116 0 
+GRAPHIC 998,0 151 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 550,0 118 0 
+GRAPHIC 430,0 153 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 586,0 120 0 
+GRAPHIC 57,0 154 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 15,0 121 0 
+GRAPHIC 440,0 155 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 596,0 122 0 
+GRAPHIC 446,0 156 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 602,0 123 0 
+GRAPHIC 436,0 157 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 592,0 124 0 
+GRAPHIC 472,0 159 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 855,0 126 0 
+GRAPHIC 508,0 161 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 887,0 128 0 
+GRAPHIC 43,0 162 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 1122,0 129 0 
+GRAPHIC 518,0 163 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 895,0 130 0 
+GRAPHIC 524,0 164 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 903,0 131 0 
+GRAPHIC 514,0 165 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 917,0 132 0 
+GRAPHIC 550,0 167 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 230,0 134 0 
+GRAPHIC 586,0 169 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 274,0 136 0 
+GRAPHIC 15,0 170 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 270,0 137 0 
+GRAPHIC 596,0 171 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 286,0 138 0 
+GRAPHIC 602,0 172 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 280,0 139 0 
+GRAPHIC 592,0 173 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 733,0 140 0 
+GRAPHIC 855,0 175 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 1199,0 142 0 
+GRAPHIC 887,0 177 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 1231,0 144 0 
+GRAPHIC 1122,0 178 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 1191,0 145 0 
+GRAPHIC 895,0 179 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 1239,0 146 0 
+GRAPHIC 903,0 180 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 1247,0 147 0 
+GRAPHIC 917,0 181 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-GRAPHIC 1261,0 148 0 
+GRAPHIC 230,0 183 0 
 DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
 VIEW struct.bd
-NO_GRAPHIC 151
+GRAPHIC 274,0 185 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 270,0 186 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 286,0 187 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 280,0 188 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 733,0 189 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1199,0 191 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1231,0 193 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1191,0 194 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1695,0 195 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1247,0 196 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1261,0 197 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1680,0 199 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1239,0 201 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1585,0 202 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+GRAPHIC 1695,0 203 0 
+DESIGN @e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h
+VIEW struct.bd
+NO_GRAPHIC 206

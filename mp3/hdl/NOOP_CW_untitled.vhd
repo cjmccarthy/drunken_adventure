@@ -16,7 +16,7 @@ USE ece411.LC3b_types.all;
 
 ENTITY NOOP_CW IS
    PORT( 
-      NoOp_CWout : OUT    LC3B_WORD
+      NoOp_CWout : OUT    LC3B_DWORD
    );
 
 -- Declarations
@@ -26,6 +26,6 @@ END NOOP_CW ;
 --
 ARCHITECTURE untitled OF NOOP_CW IS
 BEGIN
-  NOOP_CWout <= "0000000000000111";
+  NOOP_CWout <= "0000000000000000" &"0000000000000111";
 END ARCHITECTURE untitled;
 

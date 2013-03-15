@@ -6,43 +6,43 @@ VIEW interface
 GRAPHIC 50,0 8 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1311,0 17 0 
+GRAPHIC 1517,0 17 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1316,0 18 0 
+GRAPHIC 1522,0 18 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1331,0 19 0 
+GRAPHIC 1537,0 19 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1336,0 20 0 
+GRAPHIC 1542,0 20 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1341,0 21 0 
+GRAPHIC 1547,0 21 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1326,0 22 0 
+GRAPHIC 1532,0 22 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1346,0 23 0 
+GRAPHIC 1552,0 23 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1351,0 24 0 
+GRAPHIC 1557,0 24 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1321,0 25 0 
+GRAPHIC 1527,0 25 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1356,0 26 0 
+GRAPHIC 1562,0 26 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1361,0 27 0 
+GRAPHIC 1567,0 27 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1366,0 28 0 
+GRAPHIC 1572,0 28 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
-GRAPHIC 1371,0 29 0 
+GRAPHIC 1577,0 29 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW interface
 GRAPHIC 1,0 32 0 
@@ -68,8 +68,8 @@ DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW struct.bd
 NO_GRAPHIC 59
 LIBRARY ece411
-DESIGN @c@w@o@r@d_@r@e@g16
-VIEW untitled
+DESIGN @c@w@o@r@d_@r@e@g32
+VIEW @u@n@t@i@t@l@e@d
 GRAPHIC 1210,0 61 0 
 DESIGN @m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h
 VIEW struct.bd

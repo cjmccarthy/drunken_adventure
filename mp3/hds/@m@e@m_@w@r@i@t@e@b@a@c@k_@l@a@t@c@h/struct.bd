@@ -54,8 +54,8 @@ uid 1067,0
 )
 (Instance
 name "U_3"
-duLibraryName "ece411"
-duName "CWORD_REG16"
+duLibraryName "ECE411"
+duName "CWORD_REG32"
 elements [
 ]
 mwi 0
@@ -75,23 +75,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/struct.bd.info"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/struct.bd.user"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -103,31 +103,31 @@ value "struct"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/MEM_WRITEBACK_LATCH"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/MEM_WRITEBACK_LATCH"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/14/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -155,7 +155,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "evrt-252-12.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -187,11 +187,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/struct.bd"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/MEM_WRITEBACK_LATCH/struct.bd"
+value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/MEM_WRITEBACK_LATCH/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -215,7 +215,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -223,7 +223,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -247,7 +247,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "23:08:18"
+value "20:01:32"
 )
 (vvPair
 variable "unit"
@@ -255,7 +255,7 @@ value "MEM_WRITEBACK_LATCH"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -679,7 +679,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "72200,76050,85200,76950"
+xt "72200,76050,85700,76950"
 st "
 by %user on %dd %month %year
 "
@@ -2073,7 +2073,7 @@ tm "WireNameMgr"
 uid 818,0
 decl (Decl
 n "MEM_CONTROL_WORD_OUT"
-t "lc3b_word"
+t "lc3b_dword"
 o 5
 suid 32,0
 )
@@ -2082,8 +2082,8 @@ uid 819,0
 va (VaSet
 font "courier,8,0"
 )
-xt "22000,5400,38500,6300"
-st "MEM_CONTROL_WORD_OUT : lc3b_word"
+xt "22000,5400,39000,6300"
+st "MEM_CONTROL_WORD_OUT : lc3b_dword"
 )
 )
 *62 (PortIoOut
@@ -2135,7 +2135,7 @@ tm "WireNameMgr"
 uid 906,0
 decl (Decl
 n "WB_CONTROL_WORD_IN"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 11
 suid 36,0
 )
@@ -2144,8 +2144,8 @@ uid 907,0
 va (VaSet
 font "courier,8,0"
 )
-xt "22000,10800,38500,11700"
-st "WB_CONTROL_WORD_IN   : LC3B_WORD"
+xt "22000,10800,39000,11700"
+st "WB_CONTROL_WORD_IN   : LC3B_DWORD"
 )
 )
 *64 (SaComponent
@@ -2531,7 +2531,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "42000,61550,47500,62450"
-st "A : (15:0)"
+st "A : (31:0)"
 blo "42000,62250"
 )
 )
@@ -2539,7 +2539,7 @@ thePort (LogicalPort
 decl (Decl
 n "A"
 t "STD_LOGIC_VECTOR"
-b "(15 DOWNTO 0)"
+b "(31 DOWNTO 0)"
 o 2
 )
 )
@@ -2634,7 +2634,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "46500,60550,52000,61450"
-st "F : (15:0)"
+st "F : (31:0)"
 ju 2
 blo "52000,61250"
 )
@@ -2644,7 +2644,7 @@ m 1
 decl (Decl
 n "F"
 t "STD_LOGIC_VECTOR"
-b "(15 DOWNTO 0)"
+b "(31 DOWNTO 0)"
 o 5
 )
 )
@@ -2671,9 +2671,9 @@ uid 1213,0
 va (VaSet
 font "courier,8,1"
 )
-xt "45000,65000,48000,65900"
-st "ece411"
-blo "45000,65700"
+xt "45000,61000,48000,61900"
+st "ECE411"
+blo "45000,61700"
 tm "BdLibraryNameMgr"
 )
 *82 (Text
@@ -2681,9 +2681,9 @@ uid 1214,0
 va (VaSet
 font "courier,8,1"
 )
-xt "45000,65900,51000,66800"
-st "CWORD_REG16"
-blo "45000,66600"
+xt "45000,61900,51000,62800"
+st "CWORD_REG32"
+blo "45000,62600"
 tm "CptNameMgr"
 )
 *83 (Text
@@ -2691,9 +2691,9 @@ uid 1215,0
 va (VaSet
 font "courier,8,1"
 )
-xt "45000,66800,46500,67700"
+xt "45000,62800,46500,63700"
 st "U_3"
-blo "45000,67500"
+blo "45000,63500"
 tm "InstanceNameMgr"
 )
 ]
@@ -3974,12 +3974,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,25,1268,937"
-viewArea "-5800,26366,70923,78561"
+windowSize "-6,31,1268,943"
+viewArea "5568,34588,86990,84627"
 cachedDiagramExtent "-6500,0,109000,77000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-14000,0"
-lastUid 1288,0
+lastUid 1447,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -5184,7 +5184,7 @@ uid 802,0
 port (LogicalPort
 decl (Decl
 n "MEM_CONTROL_WORD_OUT"
-t "lc3b_word"
+t "lc3b_dword"
 o 5
 suid 32,0
 )
@@ -5196,7 +5196,7 @@ port (LogicalPort
 m 1
 decl (Decl
 n "WB_CONTROL_WORD_IN"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 11
 suid 36,0
 )

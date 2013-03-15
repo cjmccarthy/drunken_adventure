@@ -1,0 +1,599 @@
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   mp3/compile/@_opt/_deps
+#	new file:   mp3/compile/@_opt/vopt036qji
+#	new file:   mp3/compile/@_opt/vopt05jmsb
+#	new file:   mp3/compile/@_opt/vopt08scdy
+#	new file:   mp3/compile/@_opt/vopt0a6bjq
+#	new file:   mp3/compile/@_opt/vopt0dc27a
+#	new file:   mp3/compile/@_opt/vopt0fs0d3
+#	new file:   mp3/compile/@_opt/vopt0kcn6f
+#	new file:   mp3/compile/@_opt/vopt0szb0v
+#	new file:   mp3/compile/@_opt/vopt0yi1t6
+#	new file:   mp3/compile/@_opt/vopt11it6r
+#	new file:   mp3/compile/@_opt/vopt13zrch
+#	new file:   mp3/compile/@_opt/vopt165g04
+#	new file:   mp3/compile/@_opt/vopt18ie6x
+#	new file:   mp3/compile/@_opt/vopt1d5409
+#	new file:   mp3/compile/@_opt/vopt1irssk
+#	new file:   mp3/compile/@_opt/vopt1qbfj0
+#	new file:   mp3/compile/@_opt/vopt1srdss
+#	new file:   mp3/compile/@_opt/vopt1wy4dc
+#	new file:   mp3/compile/@_opt/vopt1yb3j5
+#	new file:   mp3/compile/@_opt/vopt21bwzn
+#	new file:   mp3/compile/@_opt/vopt26yhs2
+#	new file:   mp3/compile/@_opt/vopt2bh7je
+#	new file:   mp3/compile/@_opt/vopt2g4xct
+#	new file:   mp3/compile/@_opt/vopt2ihvij
+#	new file:   mp3/compile/@_opt/vopt2mqi66
+#	new file:   mp3/compile/@_opt/vopt2q4hcz
+#	new file:   mp3/compile/@_opt/vopt2ta80i
+#	new file:   mp3/compile/@_opt/vopt2wq66b
+#	new file:   mp3/compile/@_opt/vopt34amc8
+#	new file:   mp3/compile/@_opt/vopt36qji1
+#	new file:   mp3/compile/@_opt/vopt39xa6k
+#	new file:   mp3/compile/@_opt/vopt3ba9cd
+#	new file:   mp3/compile/@_opt/vopt3eg000
+#	new file:   mp3/compile/@_opt/vopt3gxy5s
+#	new file:   mp3/compile/@_opt/vopt3j3nsb
+#	new file:   mp3/compile/@_opt/vopt3mgkz4
+#	new file:   mp3/compile/@_opt/vopt3t3asg
+#	new file:   mp3/compile/@_opt/vopt3znziw
+#	new file:   mp3/compile/@_opt/vopt42nrzd
+#	new file:   mp3/compile/@_opt/vopt443q57
+#	new file:   mp3/compile/@_opt/vopt479ess
+#	new file:   mp3/compile/@_opt/vopt49nczi
+#	new file:   mp3/compile/@_opt/vopt4e92sy
+#	new file:   mp3/compile/@_opt/vopt4jwqia
+#	new file:   mp3/compile/@_opt/vopt4rfdcn
+#	new file:   mp3/compile/@_opt/vopt4x2362
+#	new file:   mp3/compile/@_opt/vopt4zf1cv
+#	new file:   mp3/compile/@_opt/vopt502wij
+#	new file:   mp3/compile/@_opt/vopt52ftrc
+#	new file:   mp3/compile/@_opt/vopt572gir
+#	new file:   mp3/compile/@_opt/vopt5cm5c4
+#	new file:   mp3/compile/@_opt/vopt5h8v5g
+#	new file:   mp3/compile/@_opt/vopt5jmsb9
+#	new file:   mp3/compile/@_opt/vopt5nvgzv
+#	new file:   mp3/compile/@_opt/vopt5r8f5m
+#	new file:   mp3/compile/@_opt/vopt5ve6s7
+#	new file:   mp3/compile/@_opt/vopt5xv4z0
+#	new file:   mp3/compile/@_opt/vopt60vxbi
+#	new file:   mp3/compile/@_opt/vopt65ej5y
+#	new file:   mp3/compile/@_opt/vopt6a19z9
+#	new file:   mp3/compile/@_opt/vopt6ce753
+#	new file:   mp3/compile/@_opt/vopt6fkyrm
+#	new file:   mp3/compile/@_opt/vopt6h1xye
+#	new file:   mp3/compile/@_opt/vopt6k7ki1
+#	new file:   mp3/compile/@_opt/vopt6nkirt
+#	new file:   mp3/compile/@_opt/vopt6st9cd
+#	new file:   mp3/compile/@_opt/vopt6v78i6
+#	new file:   mp3/compile/@_opt/vopt73tnr3
+#	new file:   mp3/compile/@_opt/vopt757myw
+#	new file:   mp3/compile/@_opt/vopt78dcif
+#	new file:   mp3/compile/@_opt/vopt7atar8
+#	new file:   mp3/compile/@_opt/vopt7d02cv
+#	new file:   mp3/compile/@_opt/vopt7fd0ik
+#	new file:   mp3/compile/@_opt/vopt7k0nb0
+#	new file:   mp3/compile/@_opt/vopt7sjb5c
+#	new file:   mp3/compile/@_opt/vopt7y61zq
+#	new file:   mp3/compile/@_opt/vopt816tb9
+#	new file:   mp3/compile/@_opt/vopt83jrh2
+#	new file:   mp3/compile/@_opt/vopt86sf5m
+#	new file:   mp3/compile/@_opt/vopt886ebe
+#	new file:   mp3/compile/@_opt/vopt8ds35t
+#	new file:   mp3/compile/@_opt/vopt8icsy5
+#	new file:   mp3/compile/@_opt/vopt8qzerh
+#	new file:   mp3/compile/@_opt/vopt8scdya
+#	new file:   mp3/compile/@_opt/vopt8wi4ix
+#	new file:   mp3/compile/@_opt/vopt8yz2rn
+#	new file:   mp3/compile/@_opt/vopt91zv48
+#	new file:   mp3/compile/@_opt/vopt96ihyj
+#	new file:   mp3/compile/@_opt/vopt9b57rz
+#	new file:   mp3/compile/@_opt/vopt9grwhb
+#	new file:   mp3/compile/@_opt/vopt9i5vq4
+#	new file:   mp3/compile/@_opt/vopt9mbibq
+#	new file:   mp3/compile/@_opt/vopt9qrghg
+#	new file:   mp3/compile/@_opt/vopt9ty753
+#	new file:   mp3/compile/@_opt/vopt9wb6bw
+#	new file:   mp3/compile/@_opt/vopta4ykhs
+#	new file:   mp3/compile/@_opt/vopta6bjqi
+#	new file:   mp3/compile/@_opt/vopta9hab5
+#	new file:   mp3/compile/@_opt/voptaby8hy
+#	new file:   mp3/compile/@_opt/voptae405h
+#	new file:   mp3/compile/@_opt/voptaghyaa
+#	new file:   mp3/compile/@_opt/voptajqmyw
+#	new file:   mp3/compile/@_opt/voptam4k4n
+#	new file:   mp3/compile/@_opt/voptatq9y1
+#	new file:   mp3/compile/@_opt/voptazazqd
+#	new file:   mp3/compile/@_opt/voptb2ar4z
+#	new file:   mp3/compile/@_opt/voptb4qnar
+#	new file:   mp3/compile/@_opt/voptb7xdya
+#	new file:   mp3/compile/@_opt/voptb9ac44
+#	new file:   mp3/compile/@_opt/voptbcg3rn
+#	new file:   mp3/compile/@_opt/voptbex1yf
+#	new file:   mp3/compile/@_opt/voptbjgqqv
+#	new file:   mp3/compile/@_opt/voptbr3dh7
+#	new file:   mp3/compile/@_opt/voptbxn2bj
+#	new file:   mp3/compile/@_opt/voptbz31hc
+#	new file:   mp3/compile/@_opt/voptc0nvq4
+#	new file:   mp3/compile/@_opt/voptc23txx
+#	new file:   mp3/compile/@_opt/voptc7nfq9
+#	new file:   mp3/compile/@_opt/voptcc95hm
+#	new file:   mp3/compile/@_opt/voptchwta1
+#	new file:   mp3/compile/@_opt/voptcnfg4d
+#	new file:   mp3/compile/@_opt/voptcrwea6
+#	new file:   mp3/compile/@_opt/voptcv26yr
+#	new file:   mp3/compile/@_opt/voptcxf44i
+#	new file:   mp3/compile/@_opt/voptd0fxg3
+#	new file:   mp3/compile/@_opt/voptd52jaf
+#	new file:   mp3/compile/@_opt/voptdam84v
+#	new file:   mp3/compile/@_opt/voptdc27ak
+#	new file:   mp3/compile/@_opt/voptdf8yx6
+#	new file:   mp3/compile/@_opt/voptdhmw30
+#	new file:   mp3/compile/@_opt/voptdkvjqi
+#	new file:   mp3/compile/@_opt/voptdn8ixb
+#	new file:   mp3/compile/@_opt/voptdse9hy
+#	new file:   mp3/compile/@_opt/voptdvv7qq
+#	new file:   mp3/compile/@_opt/vopte3enxk
+#	new file:   mp3/compile/@_opt/vopte5vk3e
+#	new file:   mp3/compile/@_opt/vopte81cq0
+#	new file:   mp3/compile/@_opt/vopteaeaxs
+#	new file:   mp3/compile/@_opt/voptedk1hc
+#	new file:   mp3/compile/@_opt/voptef10q5
+#	new file:   mp3/compile/@_opt/voptekkmgh
+#	new file:   mp3/compile/@_opt/voptes7bax
+#	new file:   mp3/compile/@_opt/vopteyt049
+#	new file:   mp3/compile/@_opt/voptf1tsgt
+#	new file:   mp3/compile/@_opt/voptf37rnj
+#	new file:   mp3/compile/@_opt/voptf6dfa6
+#	new file:   mp3/compile/@_opt/voptf8tdgz
+#	new file:   mp3/compile/@_opt/voptfdd3ab
+#	new file:   mp3/compile/@_opt/voptfi0s3q
+#	new file:   mp3/compile/@_opt/voptfqjex2
+#	new file:   mp3/compile/@_opt/voptfs0d3w
+#	new file:   mp3/compile/@_opt/voptfw64qe
+#	new file:   mp3/compile/@_opt/voptfyj2x7
+#	new file:   mp3/compile/@_opt/voptg1jv9s
+#	new file:   mp3/compile/@_opt/voptg66h35
+#	new file:   mp3/compile/@_opt/voptgbs6xg
+#	new file:   mp3/compile/@_opt/voptggcwnw
+#	new file:   mp3/compile/@_opt/voptgistwm
+#	new file:   mp3/compile/@_opt/voptgmzhg8
+#	new file:   mp3/compile/@_opt/voptgqcgn1
+#	new file:   mp3/compile/@_opt/voptgti7ak
+#	new file:   mp3/compile/@_opt/voptgwz5gd
+#	new file:   mp3/compile/@_opt/voptgz5x30
+#	new file:   mp3/compile/@_opt/vopth4ikna
+#	new file:   mp3/compile/@_opt/vopth95agn
+#	new file:   mp3/compile/@_opt/vopthbi8nf
+#	new file:   mp3/compile/@_opt/voptherz92
+#	new file:   mp3/compile/@_opt/vopthg5yfv
+#	new file:   mp3/compile/@_opt/vopthjbm3e
+#	new file:   mp3/compile/@_opt/vopthmrj97
+#	new file:   mp3/compile/@_opt/vopthtb93j
+#	new file:   mp3/compile/@_opt/vopthzyywy
+#	new file:   mp3/compile/@_opt/vopti2yq9g
+#	new file:   mp3/compile/@_opt/vopti4bnf9
+#	new file:   mp3/compile/@_opt/vopti7hd3w
+#	new file:   mp3/compile/@_opt/vopti9yb9m
+#	new file:   mp3/compile/@_opt/voptic43x7
+#	new file:   mp3/compile/@_opt/voptieh131
+#	new file:   mp3/compile/@_opt/voptij4qwc
+#	new file:   mp3/compile/@_opt/voptirqcnr
+#	new file:   mp3/compile/@_opt/voptixa2g4
+#	new file:   mp3/compile/@_opt/voptizq0nx
+#	new file:   mp3/compile/@_opt/voptj0avwm
+#	new file:   mp3/compile/@_opt/voptj2qs2f
+#	new file:   mp3/compile/@_opt/voptj7afwt
+#	new file:   mp3/compile/@_opt/voptjcx4n6
+#	new file:   mp3/compile/@_opt/voptjhgtfi
+#	new file:   mp3/compile/@_opt/voptjn3g9y
+#	new file:   mp3/compile/@_opt/voptjrgefq
+#	new file:   mp3/compile/@_opt/voptjvn53a
+#	new file:   mp3/compile/@_opt/voptjx3493
+#	new file:   mp3/compile/@_opt/voptk03xmk
+#	new file:   mp3/compile/@_opt/voptk5nif0
+#	new file:   mp3/compile/@_opt/voptka989c
+#	new file:   mp3/compile/@_opt/voptkcn6f5
+#	new file:   mp3/compile/@_opt/voptkfwx2r
+#	new file:   mp3/compile/@_opt/voptkh9w8h
+#	new file:   mp3/compile/@_opt/voptkkfjw3
+#	new file:   mp3/compile/@_opt/voptknwh2x
+#	new file:   mp3/compile/@_opt/voptks29nf
+#	new file:   mp3/compile/@_opt/voptkvf7w8
+#	new file:   mp3/compile/@_opt/voptm32n26
+#	new file:   mp3/compile/@_opt/voptm5fk8z
+#	new file:   mp3/compile/@_opt/voptm8mbwh
+#	new file:   mp3/compile/@_opt/voptma2a2b
+#	new file:   mp3/compile/@_opt/voptmd81nx
+#	new file:   mp3/compile/@_opt/voptmfmzvn
+#	new file:   mp3/compile/@_opt/voptmk8mm2
+#	new file:   mp3/compile/@_opt/voptmsvafe
+#	new file:   mp3/compile/@_opt/voptmye09t
+#	new file:   mp3/compile/@_opt/voptn1esmb
+#	new file:   mp3/compile/@_opt/voptn3vqv4
+#	new file:   mp3/compile/@_opt/voptn61ffq
+#	new file:   mp3/compile/@_opt/voptn8edmg
+#	new file:   mp3/compile/@_opt/voptnd13fw
+#	new file:   mp3/compile/@_opt/voptnikr88
+#	new file:   mp3/compile/@_opt/voptnq7e2k
+#	new file:   mp3/compile/@_opt/voptnwt3wz
+#	new file:   mp3/compile/@_opt/voptny722s
+#	new file:   mp3/compile/@_opt/voptq17vea
+#	new file:   mp3/compile/@_opt/voptq6tg8n
+#	new file:   mp3/compile/@_opt/voptqbd622
+#	new file:   mp3/compile/@_opt/voptqg0wvd
+#	new file:   mp3/compile/@_opt/voptqidt17
+#	new file:   mp3/compile/@_opt/voptqmjhms
+#	new file:   mp3/compile/@_opt/voptqq0gvi
+#	new file:   mp3/compile/@_opt/voptqt67f5
+#	new file:   mp3/compile/@_opt/voptqwj5my
+#	new file:   mp3/compile/@_opt/voptqzsw8h
+#	new file:   mp3/compile/@_opt/voptr46kvv
+#	new file:   mp3/compile/@_opt/voptr9s9m7
+#	new file:   mp3/compile/@_opt/voptrb68v0
+#	new file:   mp3/compile/@_opt/voptreczej
+#	new file:   mp3/compile/@_opt/voptrgsxkc
+#	new file:   mp3/compile/@_opt/voptrjzk8z
+#	new file:   mp3/compile/@_opt/voptrmcjer
+#	new file:   mp3/compile/@_opt/voptrtz884
+#	new file:   mp3/compile/@_opt/voptrziy1g
+#	new file:   mp3/compile/@_opt/vopts2iqe1
+#	new file:   mp3/compile/@_opt/vopts4zmkt
+#	new file:   mp3/compile/@_opt/vopts75d8d
+#	new file:   mp3/compile/@_opt/vopts9ibe6
+#	new file:   mp3/compile/@_opt/voptscr22s
+#	new file:   mp3/compile/@_opt/voptse518i
+#	new file:   mp3/compile/@_opt/voptsjrn1y
+#	new file:   mp3/compile/@_opt/voptsrbcv9
+#	new file:   mp3/compile/@_opt/voptsxy1mm
+#	new file:   mp3/compile/@_opt/voptszb0ve
+#	new file:   mp3/compile/@_opt/voptt0yt17
+#	new file:   mp3/compile/@_opt/voptt2bs70
+#	new file:   mp3/compile/@_opt/voptt7ye1c
+#	new file:   mp3/compile/@_opt/vopttch4vq
+#	new file:   mp3/compile/@_opt/voptth4tk3
+#	new file:   mp3/compile/@_opt/vopttnqfef
+#	new file:   mp3/compile/@_opt/vopttr4ek8
+#	new file:   mp3/compile/@_opt/vopttva58v
+#	new file:   mp3/compile/@_opt/vopttxq3ek
+#	new file:   mp3/compile/@_opt/voptv0qwt5
+#	new file:   mp3/compile/@_opt/voptv5aikh
+#	new file:   mp3/compile/@_opt/voptvax7ex
+#	new file:   mp3/compile/@_opt/voptvfgx79
+#	new file:   mp3/compile/@_opt/voptvhxvd2
+#	new file:   mp3/compile/@_opt/voptvk3j1m
+#	new file:   mp3/compile/@_opt/voptvngh7e
+#	new file:   mp3/compile/@_opt/voptvsn8v0
+#	new file:   mp3/compile/@_opt/voptvv371t
+#	new file:   mp3/compile/@_opt/voptw3nm7q
+#	new file:   mp3/compile/@_opt/voptw53kdg
+#	new file:   mp3/compile/@_opt/voptw89b13
+#	new file:   mp3/compile/@_opt/voptwan97w
+#	new file:   mp3/compile/@_opt/voptwdw0ve
+#	new file:   mp3/compile/@_opt/voptwf9z08
+#	new file:   mp3/compile/@_opt/voptwifnkt
+#	new file:   mp3/compile/@_opt/voptwkwktj
+#	new file:   mp3/compile/@_opt/voptwsfakz
+#	new file:   mp3/compile/@_opt/voptwy20eb
+#	new file:   mp3/compile/@_opt/voptx12stw
+#	new file:   mp3/compile/@_opt/voptx3fq0n
+#	new file:   mp3/compile/@_opt/voptx6mek8
+#	new file:   mp3/compile/@_opt/voptx82dt1
+#	new file:   mp3/compile/@_opt/voptxdm2kd
+#	new file:   mp3/compile/@_opt/voptxi8rds
+#	new file:   mp3/compile/@_opt/voptxqvd75
+#	new file:   mp3/compile/@_opt/voptxwe31h
+#	new file:   mp3/compile/@_opt/voptxyv17a
+#	new file:   mp3/compile/@_opt/vopty1vtjv
+#	new file:   mp3/compile/@_opt/vopty6egd7
+#	new file:   mp3/compile/@_opt/voptyb167j
+#	new file:   mp3/compile/@_opt/voptygkv0z
+#	new file:   mp3/compile/@_opt/voptyi1t6r
+#	new file:   mp3/compile/@_opt/voptym7hta
+#	new file:   mp3/compile/@_opt/voptyqkf04
+#	new file:   mp3/compile/@_opt/voptytt6kn
+#	new file:   mp3/compile/@_opt/voptyw75tf
+#	new file:   mp3/compile/@_opt/voptyzdwd2
+#	new file:   mp3/compile/@_opt/voptz4tj0d
+#	new file:   mp3/compile/@_opt/voptz9d9tr
+#	new file:   mp3/compile/@_opt/voptzbt70i
+#	new file:   mp3/compile/@_opt/voptze0zj4
+#	new file:   mp3/compile/@_opt/voptzgdxsx
+#	new file:   mp3/compile/@_opt/voptzjjkdg
+#	new file:   mp3/compile/@_opt/voptzm0jj9
+#	new file:   mp3/compile/@_opt/voptztj8dm
+#	new file:   mp3/compile/@_opt/voptzz6y61
+#	new file:   mp3/compile/_info
+#	new file:   mp3/compile/_vmake
+#	new file:   mp3/compile/add16/_primary.dat
+#	new file:   mp3/compile/add16/_primary.dbs
+#	new file:   mp3/compile/add16/untitled.dat
+#	new file:   mp3/compile/add16/untitled.dbs
+#	new file:   mp3/compile/alu/_primary.dat
+#	new file:   mp3/compile/alu/_primary.dbs
+#	new file:   mp3/compile/alu/untitled.dat
+#	new file:   mp3/compile/alu/untitled.dbs
+#	new file:   mp3/compile/and2/_primary.dat
+#	new file:   mp3/compile/and2/_primary.dbs
+#	new file:   mp3/compile/and2/untitled.dat
+#	new file:   mp3/compile/and2/untitled.dbs
+#	new file:   mp3/compile/buf16/_primary.dat
+#	new file:   mp3/compile/buf16/_primary.dbs
+#	new file:   mp3/compile/buf16/untitled.dat
+#	new file:   mp3/compile/buf16/untitled.dbs
+#	new file:   mp3/compile/buf3/_primary.dat
+#	new file:   mp3/compile/buf3/_primary.dbs
+#	new file:   mp3/compile/buf3/untitled.dat
+#	new file:   mp3/compile/buf3/untitled.dbs
+#	new file:   mp3/compile/clkgen/_primary.dat
+#	new file:   mp3/compile/clkgen/_primary.dbs
+#	new file:   mp3/compile/clkgen/untitled.dat
+#	new file:   mp3/compile/clkgen/untitled.dbs
+#	new file:   mp3/compile/control_ripper/_primary.dat
+#	new file:   mp3/compile/control_ripper/_primary.dbs
+#	new file:   mp3/compile/control_ripper/untitled.dat
+#	new file:   mp3/compile/control_ripper/untitled.dbs
+#	new file:   mp3/compile/control_rom/_primary.dat
+#	new file:   mp3/compile/control_rom/_primary.dbs
+#	new file:   mp3/compile/control_rom/untitled.dat
+#	new file:   mp3/compile/control_rom/untitled.dbs
+#	new file:   mp3/compile/datapath/_primary.dat
+#	new file:   mp3/compile/datapath/_primary.dbs
+#	new file:   mp3/compile/datapath/struct.dat
+#	new file:   mp3/compile/datapath/struct.dbs
+#	new file:   mp3/compile/decode/_primary.dat
+#	new file:   mp3/compile/decode/_primary.dbs
+#	new file:   mp3/compile/decode/struct.dat
+#	new file:   mp3/compile/decode/struct.dbs
+#	new file:   mp3/compile/decode_execute_latch/_primary.dat
+#	new file:   mp3/compile/decode_execute_latch/_primary.dbs
+#	new file:   mp3/compile/decode_execute_latch/struct.dat
+#	new file:   mp3/compile/decode_execute_latch/struct.dbs
+#	new file:   mp3/compile/dmread_calc/_primary.dat
+#	new file:   mp3/compile/dmread_calc/_primary.dbs
+#	new file:   mp3/compile/dmread_calc/struct.dat
+#	new file:   mp3/compile/dmread_calc/struct.dbs
+#	new file:   mp3/compile/dmread_reset/_primary.dat
+#	new file:   mp3/compile/dmread_reset/_primary.dbs
+#	new file:   mp3/compile/dmread_reset/untitled.dat
+#	new file:   mp3/compile/dmread_reset/untitled.dbs
+#	new file:   mp3/compile/dmwrite_calc/_primary.dat
+#	new file:   mp3/compile/dmwrite_calc/_primary.dbs
+#	new file:   mp3/compile/dmwrite_calc/struct.dat
+#	new file:   mp3/compile/dmwrite_calc/struct.dbs
+#	new file:   mp3/compile/dmwrite_reset/_primary.dat
+#	new file:   mp3/compile/dmwrite_reset/_primary.dbs
+#	new file:   mp3/compile/dmwrite_reset/untitled.dat
+#	new file:   mp3/compile/dmwrite_reset/untitled.dbs
+#	new file:   mp3/compile/execute/_primary.dat
+#	new file:   mp3/compile/execute/_primary.dbs
+#	new file:   mp3/compile/execute/struct.dat
+#	new file:   mp3/compile/execute/struct.dbs
+#	new file:   mp3/compile/execute_mem_latch/_primary.dat
+#	new file:   mp3/compile/execute_mem_latch/_primary.dbs
+#	new file:   mp3/compile/execute_mem_latch/struct.dat
+#	new file:   mp3/compile/execute_mem_latch/struct.dbs
+#	new file:   mp3/compile/fetch/_primary.dat
+#	new file:   mp3/compile/fetch/_primary.dbs
+#	new file:   mp3/compile/fetch/struct.dat
+#	new file:   mp3/compile/fetch/struct.dbs
+#	new file:   mp3/compile/fetch_decode_latch/_primary.dat
+#	new file:   mp3/compile/fetch_decode_latch/_primary.dbs
+#	new file:   mp3/compile/fetch_decode_latch/struct.dat
+#	new file:   mp3/compile/fetch_decode_latch/struct.dbs
+#	new file:   mp3/compile/hds_args.tmp
+#	new file:   mp3/compile/imread_calc/_primary.dat
+#	new file:   mp3/compile/imread_calc/_primary.dbs
+#	new file:   mp3/compile/imread_calc/struct.dat
+#	new file:   mp3/compile/imread_calc/struct.dbs
+#	new file:   mp3/compile/imread_reset/_primary.dat
+#	new file:   mp3/compile/imread_reset/_primary.dbs
+#	new file:   mp3/compile/imread_reset/untitled.dat
+#	new file:   mp3/compile/imread_reset/untitled.dbs
+#	new file:   mp3/compile/irsplitter/_primary.dat
+#	new file:   mp3/compile/irsplitter/_primary.dbs
+#	new file:   mp3/compile/irsplitter/untitled.dat
+#	new file:   mp3/compile/irsplitter/untitled.dbs
+#	new file:   mp3/compile/lc3b_types/_primary.dat
+#	new file:   mp3/compile/lc3b_types/_primary.dbs
+#	new file:   mp3/compile/lc3b_types/body.dat
+#	new file:   mp3/compile/lc3b_types/body.dbs
+#	new file:   mp3/compile/magicmemory/_primary.dat
+#	new file:   mp3/compile/magicmemory/_primary.dbs
+#	new file:   mp3/compile/magicmemory/untitled.dat
+#	new file:   mp3/compile/magicmemory/untitled.dbs
+#	new file:   mp3/compile/mem_access/_primary.dat
+#	new file:   mp3/compile/mem_access/_primary.dbs
+#	new file:   mp3/compile/mem_access/struct.dat
+#	new file:   mp3/compile/mem_access/struct.dbs
+#	new file:   mp3/compile/mem_writeback_latch/_primary.dat
+#	new file:   mp3/compile/mem_writeback_latch/_primary.dbs
+#	new file:   mp3/compile/mem_writeback_latch/struct.dat
+#	new file:   mp3/compile/mem_writeback_latch/struct.dbs
+#	new file:   mp3/compile/modelsim.ini
+#	new file:   mp3/compile/mp3_cpu/_primary.dat
+#	new file:   mp3/compile/mp3_cpu/_primary.dbs
+#	new file:   mp3/compile/mp3_cpu/struct.dat
+#	new file:   mp3/compile/mp3_cpu/struct.dbs
+#	new file:   mp3/compile/mux2_16/_primary.dat
+#	new file:   mp3/compile/mux2_16/_primary.dbs
+#	new file:   mp3/compile/mux2_16/untitled.dat
+#	new file:   mp3/compile/mux2_16/untitled.dbs
+#	new file:   mp3/compile/mux2_3/_primary.dat
+#	new file:   mp3/compile/mux2_3/_primary.dbs
+#	new file:   mp3/compile/mux2_3/untitled.dat
+#	new file:   mp3/compile/mux2_3/untitled.dbs
+#	new file:   mp3/compile/mux4_16/_primary.dat
+#	new file:   mp3/compile/mux4_16/_primary.dbs
+#	new file:   mp3/compile/mux4_16/untitled.dat
+#	new file:   mp3/compile/mux4_16/untitled.dbs
+#	new file:   mp3/compile/offset5_shift/_primary.dat
+#	new file:   mp3/compile/offset5_shift/_primary.dbs
+#	new file:   mp3/compile/offset5_shift/untitled.dat
+#	new file:   mp3/compile/offset5_shift/untitled.dbs
+#	new file:   mp3/compile/pc_inc/_primary.dat
+#	new file:   mp3/compile/pc_inc/_primary.dbs
+#	new file:   mp3/compile/pc_inc/untitled.dat
+#	new file:   mp3/compile/pc_inc/untitled.dbs
+#	new file:   mp3/compile/reg16/_primary.dat
+#	new file:   mp3/compile/reg16/_primary.dbs
+#	new file:   mp3/compile/reg16/untitled.dat
+#	new file:   mp3/compile/reg16/untitled.dbs
+#	new file:   mp3/compile/reg1_invert/_primary.dat
+#	new file:   mp3/compile/reg1_invert/_primary.dbs
+#	new file:   mp3/compile/reg1_invert/untitled.dat
+#	new file:   mp3/compile/reg1_invert/untitled.dbs
+#	new file:   mp3/compile/reg1_invertb/_primary.dat
+#	new file:   mp3/compile/reg1_invertb/_primary.dbs
+#	new file:   mp3/compile/reg1_invertb/untitled.dat
+#	new file:   mp3/compile/reg1_invertb/untitled.dbs
+#	new file:   mp3/compile/reg3/_primary.dat
+#	new file:   mp3/compile/reg3/_primary.dbs
+#	new file:   mp3/compile/reg3/untitled.dat
+#	new file:   mp3/compile/reg3/untitled.dbs
+#	new file:   mp3/compile/regfile/_primary.dat
+#	new file:   mp3/compile/regfile/_primary.dbs
+#	new file:   mp3/compile/regfile/untitled.dat
+#	new file:   mp3/compile/regfile/untitled.dbs
+#	new file:   mp3/compile/sext11/_primary.dat
+#	new file:   mp3/compile/sext11/_primary.dbs
+#	new file:   mp3/compile/sext11/untitled.dat
+#	new file:   mp3/compile/sext11/untitled.dbs
+#	new file:   mp3/compile/sext5/_primary.dat
+#	new file:   mp3/compile/sext5/_primary.dbs
+#	new file:   mp3/compile/sext5/untitled.dat
+#	new file:   mp3/compile/sext5/untitled.dbs
+#	new file:   mp3/compile/sext6/_primary.dat
+#	new file:   mp3/compile/sext6/_primary.dbs
+#	new file:   mp3/compile/sext6/untitled.dat
+#	new file:   mp3/compile/sext6/untitled.dbs
+#	new file:   mp3/compile/sext9/_primary.dat
+#	new file:   mp3/compile/sext9/_primary.dbs
+#	new file:   mp3/compile/sext9/untitled.dat
+#	new file:   mp3/compile/sext9/untitled.dbs
+#	new file:   mp3/compile/transcript.txt
+#	new file:   mp3/compile/writeback/_primary.dat
+#	new file:   mp3/compile/writeback/_primary.dbs
+#	new file:   mp3/compile/writeback/struct.dat
+#	new file:   mp3/compile/writeback/struct.dbs
+#	new file:   mp3/hdl/BUF3_untitled.vhd
+#	modified:   mp3/hdl/CONTROL_RIPPER_untitled.vhd
+#	modified:   mp3/hdl/CONTROL_ROM_untitled.vhd
+#	modified:   mp3/hdl/CONTROL_ROM_untitled.vhd.bak
+#	modified:   mp3/hdl/DMwrite_Reset_untitled.vhd
+#	modified:   mp3/hdl/DMwrite_Reset_untitled.vhd.bak
+#	modified:   mp3/hdl/IRSPLITTER_untitled.vhd
+#	copied:     mp3/hdl/IRSPLITTER_untitled.vhd -> mp3/hdl/IRSPLITTER_untitled.vhd.bak
+#	modified:   mp3/hdl/REG1_INVERT_untitled.vhd
+#	modified:   mp3/hdl/SEXT5_untitled.vhd
+#	modified:   mp3/hdl/SEXT5_untitled.vhd.bak
+#	modified:   mp3/hdl/SEXT6_untitled.vhd
+#	modified:   mp3/hdl/SEXT6_untitled.vhd.bak
+#	modified:   mp3/hdl/and2_untitled.vhd
+#	new file:   mp3/hdl/and2_untitled.vhd.bak
+#	new file:   mp3/hdl/datapath_struct.vhd
+#	new file:   mp3/hdl/decode_execute_latch_struct.vhd
+#	new file:   mp3/hdl/decode_struct.vhd
+#	new file:   mp3/hdl/dmread_calc_struct.vhd
+#	new file:   mp3/hdl/dmwrite_calc_struct.vhd
+#	new file:   mp3/hdl/execute_mem_latch_struct.vhd
+#	new file:   mp3/hdl/execute_struct.vhd
+#	new file:   mp3/hdl/fetch_decode_latch_struct.vhd
+#	new file:   mp3/hdl/fetch_struct.vhd
+#	new file:   mp3/hdl/imread_calc_struct.vhd
+#	new file:   mp3/hdl/mem_access_struct.vhd
+#	new file:   mp3/hdl/mem_writeback_latch_struct.vhd
+#	new file:   mp3/hdl/memory_generatedinstance.vhd
+#	new file:   mp3/hdl/mp3_cpu_struct.vhd
+#	new file:   mp3/hdl/writeback_generatedinstance.vhd
+#	new file:   mp3/hdl/writeback_struct.vhd
+#	modified:   mp3/hds/.cache.dat
+#	new file:   mp3/hds/.hdlsidedata/_BUF3_untitled.vhd._fpf
+#	new file:   mp3/hds/.xrf/datapath_struct.xrf
+#	new file:   mp3/hds/.xrf/decode_execute_latch_struct.xrf
+#	new file:   mp3/hds/.xrf/decode_struct.xrf
+#	new file:   mp3/hds/.xrf/dmread_calc_struct.xrf
+#	new file:   mp3/hds/.xrf/dmwrite_calc_struct.xrf
+#	new file:   mp3/hds/.xrf/execute_mem_latch_struct.xrf
+#	new file:   mp3/hds/.xrf/execute_struct.xrf
+#	new file:   mp3/hds/.xrf/fetch_decode_latch_struct.xrf
+#	modified:   mp3/hds/.xrf/fetch_struct.xrf
+#	new file:   mp3/hds/.xrf/imread_calc_struct.xrf
+#	new file:   mp3/hds/.xrf/mem_access_struct.xrf
+#	new file:   mp3/hds/.xrf/mem_writeback_latch_struct.xrf
+#	new file:   mp3/hds/.xrf/memory_generatedinstance.xrf
+#	new file:   mp3/hds/.xrf/mp3_cpu_struct.xrf
+#	new file:   mp3/hds/.xrf/writeback_generatedinstance.xrf
+#	new file:   mp3/hds/.xrf/writeback_struct.xrf
+#	new file:   mp3/hds/@b@u@f3/symbol.sb
+#	new file:   mp3/hds/@b@u@f3/symbol.sb.bak
+#	copied:     mp3/hds/@d@e@c@o@d@e/interface -> mp3/hds/@c@o@n@t@r@o@l_@r@i@p@p@e@r/symbol.sb
+#	copied:     mp3/hds/@d@e@c@o@d@e/interface -> mp3/hds/@c@o@n@t@r@o@l_@r@i@p@p@e@r/symbol.sb.bak
+#	modified:   mp3/hds/@d@a@t@a@p@a@t@h/interface
+#	modified:   mp3/hds/@d@a@t@a@p@a@t@h/struct.bd
+#	copied:     mp3/hds/@d@a@t@a@p@a@t@h/struct.bd -> mp3/hds/@d@a@t@a@p@a@t@h/struct.bd.bak
+#	modified:   mp3/hds/@d@e@c@o@d@e/interface
+#	modified:   mp3/hds/@d@e@c@o@d@e/struct.bd
+#	modified:   mp3/hds/@d@e@c@o@d@e/struct.bd.bak
+#	copied:     mp3/hds/@d@e@c@o@d@e/interface -> mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/interface
+#	copied:     mp3/hds/@d@a@t@a@p@a@t@h/struct.bd.bak -> mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/struct.bd
+#	copied:     mp3/hds/@d@a@t@a@p@a@t@h/struct.bd.bak -> mp3/hds/@d@e@c@o@d@e_@e@x@e@c@u@t@e_@l@a@t@c@h/struct.bd.bak
+#	modified:   mp3/hds/@e@x@e@c@u@t@e/interface
+#	modified:   mp3/hds/@e@x@e@c@u@t@e/struct.bd
+#	modified:   mp3/hds/@e@x@e@c@u@t@e/struct.bd.bak
+#	copied:     mp3/hds/@d@e@c@o@d@e/interface -> mp3/hds/@e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h/interface
+#	new file:   mp3/hds/@e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h/struct.bd
+#	new file:   mp3/hds/@e@x@e@c@u@t@e_@m@e@m_@l@a@t@c@h/struct.bd.bak
+#	modified:   mp3/hds/@f@e@t@c@h/interface
+#	modified:   mp3/hds/@f@e@t@c@h/struct.bd
+#	modified:   mp3/hds/@f@e@t@c@h/struct.bd.bak
+#	new file:   mp3/hds/@f@e@t@c@h_@d@e@c@o@d@e_@l@a@t@c@h/interface
+#	new file:   mp3/hds/@f@e@t@c@h_@d@e@c@o@d@e_@l@a@t@c@h/struct.bd
+#	new file:   mp3/hds/@f@e@t@c@h_@d@e@c@o@d@e_@l@a@t@c@h/struct.bd.bak
+#	modified:   mp3/hds/@i@r@s@p@l@i@t@t@e@r/interface
+#	modified:   mp3/hds/@m@e@m_@a@c@c@e@s@s/interface
+#	modified:   mp3/hds/@m@e@m_@a@c@c@e@s@s/struct.bd
+#	modified:   mp3/hds/@m@e@m_@a@c@c@e@s@s/struct.bd.bak
+#	copied:     mp3/hds/@d@e@c@o@d@e/interface -> mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/interface
+#	new file:   mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/struct.bd
+#	new file:   mp3/hds/@m@e@m_@w@r@i@t@e@b@a@c@k_@l@a@t@c@h/struct.bd.bak
+#	modified:   mp3/hds/@s@e@x@t5/interface
+#	modified:   mp3/hds/@s@e@x@t6/interface
+#	copied:     mp3/hds/@d@e@c@o@d@e/interface -> mp3/hds/@w@r@i@t@e@b@a@c@k/interface
+#	copied:     mp3/hds/@d@e@c@o@d@e/interface -> mp3/hds/@w@r@i@t@e@b@a@c@k/interface.bak
+#	new file:   mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd
+#	new file:   mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.bak
+#	new file:   mp3/hds/_and2._epf
+#	new file:   mp3/hds/_buf3._epf
+#	new file:   mp3/hds/_decode_execute_latch._epf
+#	new file:   mp3/hds/_execute_mem_latch._epf
+#	new file:   mp3/hds/_fetch_decode_latch._epf
+#	new file:   mp3/hds/_mem_writeback_latch._epf
+#	new file:   mp3/hds/_writeback._epf
+#	modified:   mp3/hds/mp3_cpu/struct.bd
+#	modified:   mp3/hds/mp3_cpu/struct.bd.bak
+#	modified:   mp3/hds/mp3_cpu/symbol.sb
+#
+# Changed but not updated:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    mp3/hdl/CONTROL_RIPPER_untitled.vhd.bak
+#	deleted:    mp3/hds/@c@o@n@t@r@o@l_@r@i@p@p@e@r/interface
+#	deleted:    mp3/hds/@d@a@t@a@p@a@t@h/struct.bd.lck
+#	deleted:    mp3/hds/@f@e@t@c@h/struct.bd.lck
+#	deleted:    mp3/hds/@i_@m@r@e@a@d_@calc/struct.bd
+#	deleted:    mp3/hds/@i_@m@r@e@a@d_@calc/struct.bd.bak
+#	deleted:    mp3/hds/@i_@m@r@e@a@d_@calc/symbol.sb
+#	deleted:    mp3/hds/@m@e@m_@a@c@c@e@s@s/struct.bd.lck
+#	deleted:    mp3/hds/_i_mread_calc._epf
+#	deleted:    mp3/hds/mp3_cpu/struct.bd.lck
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	status.out
