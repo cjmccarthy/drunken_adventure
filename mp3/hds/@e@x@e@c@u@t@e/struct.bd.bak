@@ -283,7 +283,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "20:55:50"
+value "20:58:52"
 )
 (vvPair
 variable "unit"
@@ -4265,7 +4265,7 @@ lang 11
 decl (Decl
 n "LDcc"
 t "STD_LOGIC"
-o 24
+o 25
 suid 75,0
 )
 declText (MLText
@@ -4282,9 +4282,8 @@ st "SIGNAL LDcc                     : STD_LOGIC
 uid 2314,0
 decl (Decl
 n "CCout"
-t "STD_LOGIC_VECTOR"
-b "(2 DOWNTO 0)"
-o 26
+t "LC3b_cc"
+o 15
 suid 80,0
 )
 declText (MLText
@@ -4292,8 +4291,8 @@ uid 2315,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-48000,-35300,-20000,-34400"
-st "CCout                    : STD_LOGIC_VECTOR(2 DOWNTO 0)
+xt "-48000,-35300,-30500,-34400"
+st "CCout                    : LC3b_cc
 "
 )
 )
@@ -7130,7 +7129,7 @@ m 4
 decl (Decl
 n "LDcc"
 t "STD_LOGIC"
-o 24
+o 25
 suid 75,0
 )
 )
@@ -7141,9 +7140,8 @@ port (LogicalPort
 m 1
 decl (Decl
 n "CCout"
-t "STD_LOGIC_VECTOR"
-b "(2 DOWNTO 0)"
-o 26
+t "LC3b_cc"
+o 15
 suid 80,0
 )
 )
@@ -7201,19 +7199,19 @@ uid 72,0
 )
 *244 (MRCItem
 litem &214
-pos 15
+pos 16
 dimension 20
 uid 256,0
 )
 *245 (MRCItem
 litem &215
-pos 16
+pos 17
 dimension 20
 uid 258,0
 )
 *246 (MRCItem
 litem &216
-pos 20
+pos 21
 dimension 20
 uid 260,0
 )
@@ -7231,121 +7229,121 @@ uid 496,0
 )
 *249 (MRCItem
 litem &219
-pos 21
+pos 22
 dimension 20
 uid 498,0
 )
 *250 (MRCItem
 litem &220
-pos 22
+pos 23
 dimension 20
 uid 500,0
 )
 *251 (MRCItem
 litem &221
-pos 19
+pos 20
 dimension 20
 uid 538,0
 )
 *252 (MRCItem
 litem &222
-pos 18
+pos 19
 dimension 20
 uid 540,0
 )
 *253 (MRCItem
 litem &223
-pos 10
+pos 11
 dimension 20
 uid 663,0
 )
 *254 (MRCItem
 litem &224
-pos 13
+pos 14
 dimension 20
 uid 665,0
 )
 *255 (MRCItem
 litem &225
-pos 12
+pos 13
 dimension 20
 uid 667,0
 )
 *256 (MRCItem
 litem &226
-pos 11
+pos 12
 dimension 20
 uid 669,0
 )
 *257 (MRCItem
 litem &227
-pos 2
+pos 3
 dimension 20
 uid 695,0
 )
 *258 (MRCItem
 litem &228
-pos 14
+pos 15
 dimension 20
 uid 697,0
 )
 *259 (MRCItem
 litem &229
-pos 17
+pos 18
 dimension 20
 uid 699,0
 )
 *260 (MRCItem
 litem &230
-pos 6
+pos 7
 dimension 20
 uid 848,0
 )
 *261 (MRCItem
 litem &231
-pos 9
+pos 10
 dimension 20
 uid 849,0
 )
 *262 (MRCItem
 litem &232
-pos 7
+pos 8
 dimension 20
 uid 930,0
 )
 *263 (MRCItem
 litem &233
-pos 3
+pos 4
 dimension 20
 uid 976,0
 )
 *264 (MRCItem
 litem &234
-pos 4
+pos 5
 dimension 20
 uid 978,0
 )
 *265 (MRCItem
 litem &235
-pos 8
+pos 9
 dimension 20
 uid 1388,0
 )
 *266 (MRCItem
 litem &236
-pos 5
+pos 6
 dimension 20
 uid 1528,0
 )
 *267 (MRCItem
 litem &237
-pos 23
+pos 24
 dimension 20
 uid 2317,0
 )
 *268 (MRCItem
 litem &238
-pos 24
+pos 2
 dimension 20
 uid 2321,0
 )

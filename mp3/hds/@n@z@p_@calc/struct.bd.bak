@@ -229,7 +229,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "12:57:09"
+value "12:57:22"
 )
 (vvPair
 variable "unit"
@@ -833,8 +833,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,2700,31000,3600"
-st "CCin    : lc3b_cc
-"
+st "CCin    : lc3b_cc"
 )
 )
 *20 (Net
@@ -853,8 +852,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,4500,41500,5400"
-st "NZPin   : std_logic_vector(2 downto 0)
-"
+st "NZPin   : std_logic_vector(2 downto 0)"
 )
 )
 *21 (Net
@@ -872,8 +870,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,9900,35500,10800"
-st "SIGNAL Result  : std_logic
-"
+st "SIGNAL Result  : std_logic"
 )
 )
 *22 (Net
@@ -890,8 +887,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,5400,32000,6300"
-st "RESET_L : STD_LOGIC
-"
+st "RESET_L : STD_LOGIC"
 )
 )
 *23 (PortIoIn
@@ -954,8 +950,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,1800,32000,2700"
-st "BR      : STD_LOGIC
-"
+st "BR      : STD_LOGIC"
 )
 )
 *25 (PortIoIn
@@ -1018,8 +1013,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,3600,32000,4500"
-st "CLK     : std_logic
-"
+st "CLK     : std_logic"
 )
 )
 *27 (SaComponent
@@ -1225,8 +1219,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,9000,35500,9900"
-st "SIGNAL F       : STD_LOGIC
-"
+st "SIGNAL F       : STD_LOGIC"
 )
 )
 *35 (PortIoIn
@@ -1289,8 +1282,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,6300,32000,7200"
-st "STALL_L : STD_LOGIC
-"
+st "STALL_L : STD_LOGIC"
 )
 )
 *37 (PortIoOut
@@ -1306,16 +1298,16 @@ optionalChildren [
 uid 390,0
 sl 0
 ro 270
-xt "45500,25625,47000,26375"
+xt "40500,25625,42000,26375"
 )
 (Line
 uid 391,0
 sl 0
 ro 270
-xt "45000,26000,45500,26000"
+xt "40000,26000,40500,26000"
 pts [
-"45000,26000"
-"45500,26000"
+"40000,26000"
+"40500,26000"
 ]
 )
 ]
@@ -1331,9 +1323,9 @@ uid 393,0
 va (VaSet
 font "courier,8,0"
 )
-xt "48000,25550,50500,26450"
+xt "43000,25550,45500,26450"
 st "BRsel"
-blo "48000,26250"
+blo "43000,26250"
 tm "WireNameMgr"
 )
 )
@@ -1610,8 +1602,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,7200,32000,8100"
-st "BRsel   : STD_LOGIC
-"
+st "BRsel   : STD_LOGIC"
 )
 )
 *48 (Wire
@@ -1936,9 +1927,9 @@ uid 433,0
 va (VaSet
 vasetType 3
 )
-xt "36750,26000,45000,26000"
+xt "36750,26000,40000,26000"
 pts [
-"45000,26000"
+"40000,26000"
 "36750,26000"
 ]
 )
@@ -1960,9 +1951,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "43000,25100,45500,26000"
+xt "38000,25100,40500,26000"
 st "BRsel"
-blo "43000,25800"
+blo "38000,25800"
 tm "WireNameMgr"
 )
 )
@@ -2086,7 +2077,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "151,92,1166,782"
-viewArea "-1848,8316,64680,52080"
+viewArea "-18984,8316,47544,52080"
 cachedDiagramExtent "0,0,69000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
