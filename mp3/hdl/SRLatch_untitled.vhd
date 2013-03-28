@@ -32,7 +32,7 @@ ARCHITECTURE untitled OF SRLatch IS
   signal Qbarprev: std_logic:='1';
 BEGIN
   Qprev<=R nor Qbarprev;
-  Qbarprev<=s nor Qprev;
+  Qbarprev<=S nor Qprev;
   Qbar<=Qbarprev after 3ns;
   Q<=Qprev after 3ns;
 END ARCHITECTURE untitled;

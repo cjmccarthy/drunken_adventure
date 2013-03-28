@@ -382,15 +382,54 @@ R14
 R15
 !s100 kJW4CS8Y;8LiXib;dIR`L0
 !i10b 1
-Enot1
-Z66 w1364255523
+Enand3
+Z66 w1364491759
 R2
 R3
 R4
 R5
 R6
-Z67 8/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/not1_untitled.vhd
-Z68 F/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/not1_untitled.vhd
+Z67 8/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/nand3_untitled.vhd
+Z68 F/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/nand3_untitled.vhd
+l0
+L17
+Voz<Raik]>Hl]gndIZn@>T2
+Z69 !s100 3i:GgR:j9fSl;kEAD:7SM1
+R10
+32
+Z70 !s108 1364491769.161474
+R64
+Z71 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/nand3_untitled.vhd|
+R14
+R15
+!i10b 1
+Auntitled
+R2
+R3
+R4
+R5
+DEx4 work 5 nand3 0 22 oz<Raik]>Hl]gndIZn@>T2
+l29
+L28
+Vldo5B^dJIhC30B`O8]hHW1
+Z72 !s100 5?Pi>LZM[VbNLFF9ZjTL12
+R10
+32
+R70
+R64
+R71
+R14
+R15
+!i10b 1
+Enot1
+Z73 w1364255523
+R2
+R3
+R4
+R5
+R6
+Z74 8/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/not1_untitled.vhd
+Z75 F/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/not1_untitled.vhd
 l0
 L17
 VI]CoP]JP94gOnicG?LBLa3
@@ -422,23 +461,23 @@ R15
 !s100 jgFXjmo=TO6R0?3f[2eIb3
 !i10b 1
 Eor2
-Z69 w1364440955
+Z76 w1364440955
 R2
 R3
 R4
 R5
 R6
-Z70 8/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or2_untitled.vhd
-Z71 F/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or2_untitled.vhd
+Z77 8/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or2_untitled.vhd
+Z78 F/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or2_untitled.vhd
 l0
 L17
 V89zggZ=GYSNbceLM[G]_K0
-Z72 !s100 ZSXM5RA[7@S5`0X<cZO473
+Z79 !s100 ZSXM5RA[7@S5`0X<cZO473
 R10
 32
-Z73 !s108 1364440964.764502
+Z80 !s108 1364440964.764502
 R64
-Z74 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or2_untitled.vhd|
+Z81 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or2_untitled.vhd|
 R14
 R15
 !i10b 1
@@ -453,30 +492,30 @@ L27
 VlBZPM50<=8kSoBI]eGbU22
 R10
 32
-R73
+R80
 R64
-R74
+R81
 R14
 R15
 !s100 BDde^R21lfMj:J>5RW`_X2
 !i10b 1
 Eor3
-Z75 w1363236517
+Z82 w1363236517
 R2
 R3
 R4
 R5
 R6
-Z76 8/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd
-Z77 F/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd
+Z83 8/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd
+Z84 F/home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd
 l0
 L17
 V1V9gWb3]5QT[jfPFJOh081
 R10
 32
-Z78 !s108 1363236534.579564
+Z85 !s108 1363236534.579564
 R64
-Z79 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd|
+Z86 !s107 /home/hyunyi1/ece411/drunken_adventure/mp3/mp3lib/hdl/or3_untitled.vhd|
 R14
 R15
 !s100 6>[H[egcTQfW@ZUEn8Rd31
@@ -492,9 +531,9 @@ L28
 Vg:o`C3H=;mz9lFbR]JO@c3
 R10
 32
-R78
+R85
 R64
-R79
+R86
 R14
 R15
 !s100 L]8KSTkJchG<LI8K8@g_S2
