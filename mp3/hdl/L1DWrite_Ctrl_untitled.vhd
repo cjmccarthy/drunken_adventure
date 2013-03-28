@@ -22,7 +22,8 @@ ENTITY L1DWrite_Ctrl IS
       WriteBack : IN     STD_LOGIC;
       DWRITEH_L : IN     std_logic;
       DWRITEL_L : IN     std_logic;
-      DPMRESP_H : IN     STD_LOGIC
+      DPMRESP_H : IN     STD_LOGIC;
+      DPMREAD_L : IN     STD_LOGIC
    );
 
 -- Declarations
@@ -32,6 +33,6 @@ END L1DWrite_Ctrl ;
 --
 ARCHITECTURE untitled OF L1DWrite_Ctrl IS
 BEGIN
-	WResp <= ((DPMRESP_H AND PWL_Delay) OR (CacheHit AND (DWRITEH_L NAND DWRITEL_L)))after 3ns;
+	WResp <= (((DPMRESP_H AND PWL_Delay)AND NOT DPMREAD_L) OR (CacheHit AND (DWRITEH_L NAND DWRITEL_L)))after 3ns;
 	
 END ARCHITECTURE untitled;

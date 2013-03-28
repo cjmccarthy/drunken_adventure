@@ -69,7 +69,7 @@ port (LogicalPort
 decl (Decl
 n "CLK"
 t "std_logic"
-o 8
+o 1
 suid 38,0
 )
 )
@@ -80,7 +80,7 @@ port (LogicalPort
 decl (Decl
 n "DCacheHit"
 t "STD_LOGIC"
-o 30
+o 2
 suid 39,0
 )
 )
@@ -91,7 +91,7 @@ port (LogicalPort
 decl (Decl
 n "DCacheMIss"
 t "STD_LOGIC"
-o 27
+o 3
 suid 40,0
 )
 )
@@ -103,7 +103,7 @@ m 1
 decl (Decl
 n "DPMRead_L"
 t "STD_LOGIC"
-o 24
+o 7
 suid 41,0
 )
 )
@@ -115,7 +115,7 @@ m 1
 decl (Decl
 n "DPMWrite_L"
 t "STD_LOGIC"
-o 25
+o 8
 suid 42,0
 )
 )
@@ -126,7 +126,7 @@ port (LogicalPort
 decl (Decl
 n "DPResp_H"
 t "STD_LOGIC"
-o 23
+o 4
 suid 43,0
 )
 )
@@ -137,7 +137,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 6
+o 5
 suid 44,0
 )
 )
@@ -149,7 +149,7 @@ m 1
 decl (Decl
 n "WBSEL"
 t "STD_LOGIC"
-o 28
+o 9
 suid 45,0
 )
 )
@@ -160,7 +160,7 @@ port (LogicalPort
 decl (Decl
 n "WriteBack"
 t "STD_LOGIC"
-o 26
+o 6
 suid 46,0
 )
 )
@@ -539,19 +539,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/L1DCSM"
 )
 (vvPair
 variable "date"
-value "03/27/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "27"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -579,7 +579,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-35.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -671,7 +671,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "23:39:13"
+value "17:53:17"
 )
 (vvPair
 variable "unit"
@@ -745,7 +745,7 @@ thePort (LogicalPort
 decl (Decl
 n "CLK"
 t "std_logic"
-o 8
+o 1
 suid 38,0
 )
 )
@@ -792,7 +792,7 @@ thePort (LogicalPort
 decl (Decl
 n "DCacheHit"
 t "STD_LOGIC"
-o 30
+o 2
 suid 39,0
 )
 )
@@ -839,7 +839,7 @@ thePort (LogicalPort
 decl (Decl
 n "DCacheMIss"
 t "STD_LOGIC"
-o 27
+o 3
 suid 40,0
 )
 )
@@ -886,7 +886,7 @@ m 1
 decl (Decl
 n "DPMRead_L"
 t "STD_LOGIC"
-o 24
+o 7
 suid 41,0
 )
 )
@@ -933,7 +933,7 @@ m 1
 decl (Decl
 n "DPMWrite_L"
 t "STD_LOGIC"
-o 25
+o 8
 suid 42,0
 )
 )
@@ -980,7 +980,7 @@ thePort (LogicalPort
 decl (Decl
 n "DPResp_H"
 t "STD_LOGIC"
-o 23
+o 4
 suid 43,0
 )
 )
@@ -1025,7 +1025,7 @@ thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 6
+o 5
 suid 44,0
 )
 )
@@ -1072,7 +1072,7 @@ m 1
 decl (Decl
 n "WBSEL"
 t "STD_LOGIC"
-o 28
+o 9
 suid 45,0
 )
 )
@@ -1119,7 +1119,7 @@ thePort (LogicalPort
 decl (Decl
 n "WriteBack"
 t "STD_LOGIC"
-o 26
+o 6
 suid 46,0
 )
 )
@@ -1834,6 +1834,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 820,0
+lastUid 843,0
 activeModelName "Symbol:CDM"
 )
