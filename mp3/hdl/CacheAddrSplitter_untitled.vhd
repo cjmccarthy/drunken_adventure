@@ -30,7 +30,7 @@ END CacheAddrSplitter ;
 ARCHITECTURE untitled OF CacheAddrSplitter IS
 BEGIN
   Offset<=Address(3 downto 0);
-  Index<=Address(2 downto 0);
-  Tag<=Address(8 downto 0);
+  Index<=Address(6 downto 4);
+  Tag<=Address(15 downto 7);
 END ARCHITECTURE untitled;
 

@@ -25,6 +25,6 @@ END ENTITY CacheHitL1I;
 --
 ARCHITECTURE untitled OF CacheHitL1I IS
 BEGIN
-  CacheHit <= (((VFlag AND HIT))AND(NOT(MREAD_L))) AFTER Delay_logic2;
+  CacheHit <= (((VFlag AND HIT))AND(NOT(MREAD_L))) AFTER Delay_logic4;
 END ARCHITECTURE untitled;
 

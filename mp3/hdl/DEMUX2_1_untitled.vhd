@@ -30,8 +30,10 @@ BEGIN
 	BEGIN  
 		IF SEL = '0' THEN
 			A <= F AFTER DELAY_MUX2;
+			B <= '0' after delay_mux2;
 		ELSIF SEL = '1' THEN
 			B <= F AFTER DELAY_MUX2;
+			A <= '0' after delay_mux2;
 		ELSE
 			A <= 'X' AFTER DELAY_MUX2;
 			B <= 'X' AFTER DELAY_MUX2;

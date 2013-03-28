@@ -28,6 +28,6 @@ END DRespBAR ;
 --
 ARCHITECTURE untitled OF DRespBAR IS
 BEGIN
-  F2<=(MResp_H NAND NOT(IB_out)) after delay_logic3;
+  F2<=(MResp_H NAND NOT(IB_out)) after CLOCK_PERIOD;--delay_logic3;
 END ARCHITECTURE untitled;
 

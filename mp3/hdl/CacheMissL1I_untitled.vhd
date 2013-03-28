@@ -25,6 +25,6 @@ END ENTITY CacheMissL1I;
 --
 ARCHITECTURE untitled OF CacheMissL1I IS
 BEGIN
-  CacheMiss <= (((VFlag NAND HIT))AND(NOT(MREAD_L))) AFTER Delay_logic2;
+  CacheMiss <= (((VFlag NAND HIT))AND(NOT(MREAD_L))) AFTER Delay_logic4;
 END ARCHITECTURE untitled;
 

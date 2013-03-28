@@ -28,6 +28,6 @@ END IRespBAR ;
 --
 ARCHITECTURE untitled OF IRespBAR IS
 BEGIN
-  F3<=(IB_out NAND MResp_H) after delay_logic2;
+  F3<=(IB_out NAND MResp_H) after CLOCK_PERIOD;--delay_logic2;
 END ARCHITECTURE untitled;
 

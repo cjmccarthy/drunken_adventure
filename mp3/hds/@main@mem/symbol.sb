@@ -794,7 +794,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:18:34"
+value "14:18:19"
 )
 (vvPair
 variable "unit"
@@ -861,8 +861,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9000,61000,9900"
-st "RESET_L     : IN     std_logic  ;
-"
+st "RESET_L     : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -906,8 +905,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,8100,61000,9000"
-st "I_MRead_L   : IN     std_logic  ;
-"
+st "I_MRead_L   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -951,8 +949,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,61000,2700"
-st "CLK         : IN     std_logic  ;
-"
+st "CLK         : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -996,8 +993,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,7200,61000,8100"
-st "I_ADDR      : IN     lc3b_word  ;
-"
+st "I_ADDR      : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1042,8 +1038,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,11700,61000,12600"
-st "I_DATAIN    : OUT    LC3B_WORD  ;
-"
+st "I_DATAIN    : OUT    LC3B_WORD  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1089,8 +1084,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,12600,61000,13500"
-st "I_RESP_H    : OUT    std_logic  ;
-"
+st "I_RESP_H    : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1135,8 +1129,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,6300,61000,7200"
-st "D_ADDR      : IN     lc3b_word  ;
-"
+st "D_ADDR      : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1180,8 +1173,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,61000,4500"
-st "DRead_L     : IN     std_logic  ;
-"
+st "DRead_L     : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1225,8 +1217,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,5400,61000,6300"
-st "DWriteL_L   : IN     std_logic  ;
-"
+st "DWriteL_L   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1270,8 +1261,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,61000,5400"
-st "DWriteH_L   : IN     std_logic  ;
-"
+st "DWriteH_L   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1315,8 +1305,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,61000,3600"
-st "DDATAOUT    : IN     LC3B_WORD  ;
-"
+st "DDATAOUT    : IN     LC3B_WORD  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1361,8 +1350,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9900,61000,10800"
-st "DDatain     : OUT    LC3B_WORD  ;
-"
+st "DDatain     : OUT    LC3B_WORD  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1408,8 +1396,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,14400,61000,15300"
-st "M_Stall     : OUT    STD_LOGIC  ;
-"
+st "M_Stall     : OUT    STD_LOGIC  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1455,8 +1442,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,10800,61000,11700"
-st "DRESP_H     : OUT    STD_LOGIC  ;
-"
+st "DRESP_H     : OUT    STD_LOGIC  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1502,8 +1488,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,15300,60000,16200"
-st "NOT_M_STALL : OUT    STD_LOGIC 
-"
+st "NOT_M_STALL : OUT    STD_LOGIC "
 )
 thePort (LogicalPort
 m 1
@@ -1549,8 +1534,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,13500,61000,14400"
-st "M_STALL_L   : OUT    STD_LOGIC  ;
-"
+st "M_STALL_L   : OUT    STD_LOGIC  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2270,6 +2254,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1192,0
+lastUid 1215,0
 activeModelName "Symbol:CDM"
 )
