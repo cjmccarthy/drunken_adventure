@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 3,0
+suid 6,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -66,37 +66,37 @@ tm "EolColHdrMgr"
 )
 *14 (LogPort
 port (LogicalPort
+decl (Decl
+n "DCacheHit"
+t "std_logic"
+o 29
+suid 4,0
+)
+)
+uid 167,0
+)
+*15 (LogPort
+port (LogicalPort
 m 1
 decl (Decl
 n "F2"
 t "STD_LOGIC"
 o 6
-suid 1,0
+suid 5,0
 )
 )
-uid 66,0
+uid 169,0
 )
-*15 (LogPort
+*16 (LogPort
 port (LogicalPort
 decl (Decl
 n "IB_out"
 t "STD_LOGIC"
 o 14
-suid 2,0
+suid 6,0
 )
 )
-uid 68,0
-)
-*16 (LogPort
-port (LogicalPort
-decl (Decl
-n "MResp_H"
-t "STD_LOGIC"
-o 19
-suid 3,0
-)
-)
-uid 70,0
+uid 171,0
 )
 ]
 )
@@ -152,19 +152,19 @@ uid 92,0
 litem &14
 pos 0
 dimension 20
-uid 67,0
+uid 168,0
 )
 *23 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 69,0
+uid 170,0
 )
 *24 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 71,0
+uid 172,0
 )
 ]
 )
@@ -435,19 +435,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DRespBAR"
 )
 (vvPair
 variable "date"
-value "03/25/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "25"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -475,7 +475,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-37.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -567,7 +567,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "20:07:11"
+value "15:47:08"
 )
 (vvPair
 variable "unit"
@@ -602,10 +602,55 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *58 (CptPort
-uid 51,0
+uid 152,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 52,0
+uid 153,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,8625,15000,9375"
+)
+tg (CPTG
+uid 154,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 155,0
+va (VaSet
+font "courier,8,0"
+)
+xt "16000,8550,20500,9450"
+st "DCacheHit"
+blo "16000,9250"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 156,0
+va (VaSet
+font "courier,8,0"
+)
+xt "44000,1800,60000,2700"
+st "DCacheHit : IN     std_logic  ;
+"
+)
+thePort (LogicalPort
+decl (Decl
+n "DCacheHit"
+t "std_logic"
+o 29
+suid 4,0
+)
+)
+)
+*59 (CptPort
+uid 157,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 158,0
 ro 90
 va (VaSet
 vasetType 1
@@ -614,11 +659,11 @@ fg "0,65535,0"
 xt "20000,8625,20750,9375"
 )
 tg (CPTG
-uid 53,0
+uid 159,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 54,0
+uid 160,0
 va (VaSet
 font "courier,8,0"
 )
@@ -630,12 +675,13 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 55,0
+uid 161,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,3600,58000,4500"
-st "F2      : OUT    STD_LOGIC "
+xt "44000,3600,59000,4500"
+st "F2        : OUT    STD_LOGIC 
+"
 )
 thePort (LogicalPort
 m 1
@@ -643,15 +689,15 @@ decl (Decl
 n "F2"
 t "STD_LOGIC"
 o 6
-suid 1,0
+suid 5,0
 )
 )
 )
-*59 (CptPort
-uid 56,0
+*60 (CptPort
+uid 162,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 57,0
+uid 163,0
 ro 90
 va (VaSet
 vasetType 1
@@ -660,11 +706,11 @@ fg "0,65535,0"
 xt "14250,6625,15000,7375"
 )
 tg (CPTG
-uid 58,0
+uid 164,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 59,0
+uid 165,0
 va (VaSet
 font "courier,8,0"
 )
@@ -675,63 +721,20 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 60,0
+uid 166,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,1800,59000,2700"
-st "IB_out  : IN     STD_LOGIC  ;"
+xt "44000,2700,60000,3600"
+st "IB_out    : IN     STD_LOGIC  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "IB_out"
 t "STD_LOGIC"
 o 14
-suid 2,0
-)
-)
-)
-*60 (CptPort
-uid 61,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 62,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "14250,8625,15000,9375"
-)
-tg (CPTG
-uid 63,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 64,0
-va (VaSet
-font "courier,8,0"
-)
-xt "16000,8550,19500,9450"
-st "MResp_H"
-blo "16000,9250"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 65,0
-va (VaSet
-font "courier,8,0"
-)
-xt "44000,2700,59000,3600"
-st "MResp_H : IN     STD_LOGIC  ;"
-)
-thePort (LogicalPort
-decl (Decl
-n "MResp_H"
-t "STD_LOGIC"
-o 19
-suid 3,0
+suid 6,0
 )
 )
 )
@@ -1445,6 +1448,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 128,0
+lastUid 172,0
 activeModelName "Symbol:CDM"
 )

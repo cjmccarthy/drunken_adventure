@@ -4499,3 +4499,908 @@ run 12345\
 #    Time: 13575 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
 # 0
 # 
+# hds_restart 
+restart -force
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp3_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.datapath(struct)#1
+# Loading work.decode(struct)#1
+# Loading work.buf16(untitled)#1
+# Loading work.control_ripper(untitled)#1
+# Loading work.control_rom(untitled)#1
+# Loading work.irsplitter(untitled)#1
+# Loading work.offset5_shift(untitled)#1
+# Loading work.sext11(untitled)#1
+# Loading work.sext5(untitled)#1
+# Loading work.sext6(untitled)#1
+# Loading work.sext9(untitled)#1
+# Loading work.decode_execute_latch(struct)#1
+# Loading work.cword_reg32(untitled)#1
+# Loading work.reg16(untitled)#1
+# Loading work.reg3(untitled)#1
+# Loading work.execute(struct)#1
+# Loading work.add16(untitled)#1
+# Loading work.alu(untitled)#1
+# Loading work.buf3(untitled)#1
+# Loading work.gencc(untitled)#1
+# Loading work.mux4_16(untitled)#1
+# Loading work.execute_mem_latch(struct)#1
+# Loading mp3lib.and2(untitled)#1
+# Loading work.fetch(struct)#1
+# Loading work.imread_calc(struct)#1
+# Loading work.imread_reset(untitled)#1
+# Loading work.reg1_invert(untitled)#1
+# Loading work.mux2_16(untitled)#1
+# Loading work.pc_inc(untitled)#1
+# Loading work.reg1(untitled)#1
+# Loading work.fetch_decode_latch(struct)#1
+# Loading work.mem_access(struct)#1
+# Loading work.dmread_calc(struct)#1
+# Loading work.dm_delay(untitled)#1
+# Loading work.dmread_reset(untitled)#1
+# Loading work.reg1_invertb(untitled)#1
+# Loading work.dmwrite_calc(struct)#1
+# Loading work.dmwrite_reset(untitled)#1
+# Loading work.nzp_calc(struct)#1
+# Loading work.and2(untitled)#1
+# Loading work.nzphit(untitled)#1
+# Loading work.mem_writeback_latch(struct)#1
+# Loading work.mux2_3(untitled)#1
+# Loading work.regfile(untitled)#1
+# Loading work.writeback(struct)#1
+# Loading work.mainmem(struct)#1
+# Loading work.l1dcsm(fsm)#1
+# Loading work.l1dcache(struct)#1
+# Loading work.cacheaddrsplitter(untitled)#1
+# Loading work.cachehm(struct)#1
+# Loading work.cachehit(untitled)#1
+# Loading work.cachemiss(untitled)#1
+# Loading work.delayer(untitled)#1
+# Loading work.demux2_1(untitled)#1
+# Loading work.dataarrayl1d(untitled)#1
+# Loading work.flagarrayl1d(untitled)#1
+# Loading work.l1daddrjoiner(untitled)#1
+# Loading work.l1ddirtymux(untitled)#1
+# Loading work.l1ddirtysel(untitled)#1
+# Loading work.l1dwriteback_calc(struct)#1
+# Loading work.mem_accl1d(untitled)#1
+# Loading mp3lib.mux2_1(untitled)#1
+# Loading work.l1dwritesel(untitled)#1
+# Loading work.l1dwrite_ctrl(untitled)#1
+# Loading work.latch1(untitled)#1
+# Loading work.mux2_128(untitled)#1
+# Loading work.offset_sel_l1(struct)#1
+# Loading work.mux8_16(untitled)#1
+# Loading work.owordsplit(untitled)#1
+# Loading work.offsetoffset(untitled)#1
+# Loading work.tagsynchl1d(untitled)#1
+# Loading work.tagarrayl1d(untitled)#1
+# Loading work.tag_hit_l1(struct)#1
+# Loading work.comp16(untitled)#1
+# Loading work.zext7(untitled)#1
+# Loading work.writelogicl1d(struct)#1
+# Loading work.bytewriter(struct)#1
+# Loading work.wordjoiner(untitled)#1
+# Loading work.wordsplit(untitled)#1
+# Loading mp3lib.mux2_8(untitled)#1
+# Loading work.mux8_128(untitled)#1
+# Loading work.owordjoinera(untitled)#1
+# Loading work.owordjoinerb(untitled)#1
+# Loading work.owordjoinerc(untitled)#1
+# Loading work.owordjoinerd(untitled)#1
+# Loading work.owordjoinere(untitled)#1
+# Loading work.owordjoinerf(untitled)#1
+# Loading work.owordjoinerg(untitled)#1
+# Loading work.owordjoinerh(untitled)#1
+# Loading mp3lib.or2(untitled)#1
+# Loading work.l1icsm(fsm)#1
+# Loading work.l1icache(struct)#1
+# Loading work.cachehml1i(struct)#1
+# Loading work.cachehitl1i(untitled)#1
+# Loading work.cachemissl1i(untitled)#1
+# Loading work.delaychml1i(untitled)#1
+# Loading work.dataarrayl1i(untitled)#1
+# Loading work.flagarrayl1i(untitled)#1
+# Loading work.tagarrayl1i(untitled)#1
+# Loading work.tagsycnhl1i(untitled)#1
+# Loading work.arbiter(struct)#1
+# Loading work.drespbar(untitled)#1
+# Loading work.irespbar(untitled)#1
+# Loading mp3lib.mux2_16(untitled)#1
+# Loading mp3lib.nand3(untitled)#1
+# Loading mp3lib.nor2(untitled)#1
+# Loading mp3lib.not1(untitled)#1
+# Loading mp3lib.dram128(untitled)#1
+do mp31cp.do
+# --- Executing initialization force file for ../testcode/mp31cp.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp31cp.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: INVALID ALU OPERATION (ALUOP).
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: INVALID ALU OPERATION (ALUOP).
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# 0
+# 
+# Done loading ../testcode/mp31cp.asm program code. 
+run 1234
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 32 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 32 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# 0
+# 
+run 1234
+# 0
+# 
+# hds_restart 
+restart -force
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do mp31cp.do
+# --- Executing initialization force file for ../testcode/mp31cp.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp31cp.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: INVALID ALU OPERATION (ALUOP).
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: INVALID ALU OPERATION (ALUOP).
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# 0
+# 
+# Done loading ../testcode/mp31cp.asm program code. 
+run 12345
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 32 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 32 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# 0
+# 
+# hds_restart 
+restart -force
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp3_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.datapath(struct)#1
+# Loading work.decode(struct)#1
+# Loading work.buf16(untitled)#1
+# Loading work.control_ripper(untitled)#1
+# Loading work.control_rom(untitled)#1
+# Loading work.irsplitter(untitled)#1
+# Loading work.offset5_shift(untitled)#1
+# Loading work.sext11(untitled)#1
+# Loading work.sext5(untitled)#1
+# Loading work.sext6(untitled)#1
+# Loading work.sext9(untitled)#1
+# Loading work.decode_execute_latch(struct)#1
+# Loading work.cword_reg32(untitled)#1
+# Loading work.reg16(untitled)#1
+# Loading work.reg3(untitled)#1
+# Loading work.execute(struct)#1
+# Loading work.add16(untitled)#1
+# Loading work.alu(untitled)#1
+# Loading work.buf3(untitled)#1
+# Loading work.gencc(untitled)#1
+# Loading work.mux4_16(untitled)#1
+# Loading work.execute_mem_latch(struct)#1
+# Loading mp3lib.and2(untitled)#1
+# Loading work.fetch(struct)#1
+# Loading work.imread_calc(struct)#1
+# Loading work.imread_reset(untitled)#1
+# Loading work.reg1_invert(untitled)#1
+# Loading work.mux2_16(untitled)#1
+# Loading work.pc_inc(untitled)#1
+# Loading work.reg1(untitled)#1
+# Loading work.fetch_decode_latch(struct)#1
+# Loading work.mem_access(struct)#1
+# Loading work.dmread_calc(struct)#1
+# Loading work.dm_delay(untitled)#1
+# Loading work.dmread_reset(untitled)#1
+# Loading work.reg1_invertb(untitled)#1
+# Loading work.dmwrite_calc(struct)#1
+# Loading work.dmwrite_reset(untitled)#1
+# Loading work.nzp_calc(struct)#1
+# Loading work.and2(untitled)#1
+# Loading work.nzphit(untitled)#1
+# Loading work.mem_writeback_latch(struct)#1
+# Loading work.mux2_3(untitled)#1
+# Loading work.regfile(untitled)#1
+# Loading work.writeback(struct)#1
+# Loading work.mainmem(struct)#1
+# Loading work.l1dcsm(fsm)#1
+# Loading work.l1dcache(struct)#1
+# Loading work.cacheaddrsplitter(untitled)#1
+# Loading work.cachehm(struct)#1
+# Loading work.cachehit(untitled)#1
+# Loading work.cachemiss(untitled)#1
+# Loading work.delayer(untitled)#1
+# Loading work.demux2_1(untitled)#1
+# Loading work.dataarrayl1d(untitled)#1
+# Loading work.flagarrayl1d(untitled)#1
+# Loading work.l1daddrjoiner(untitled)#1
+# Loading work.l1ddirtymux(untitled)#1
+# Loading work.l1ddirtysel(untitled)#1
+# Loading work.l1dwriteback_calc(struct)#1
+# Loading work.mem_accl1d(untitled)#1
+# Loading mp3lib.mux2_1(untitled)#1
+# Loading work.l1dwritesel(untitled)#1
+# Loading work.l1dwrite_ctrl(untitled)#1
+# Loading work.latch1(untitled)#1
+# Loading work.mux2_128(untitled)#1
+# Loading work.offset_sel_l1(struct)#1
+# Loading work.mux8_16(untitled)#1
+# Loading work.owordsplit(untitled)#1
+# Loading work.offsetoffset(untitled)#1
+# Loading work.tagsynchl1d(untitled)#1
+# Loading work.tagarrayl1d(untitled)#1
+# Loading work.tag_hit_l1(struct)#1
+# Loading work.comp16(untitled)#1
+# Loading work.zext7(untitled)#1
+# Loading work.writelogicl1d(struct)#1
+# Loading work.bytewriter(struct)#1
+# Loading work.wordjoiner(untitled)#1
+# Loading work.wordsplit(untitled)#1
+# Loading mp3lib.mux2_8(untitled)#1
+# Loading work.mux8_128(untitled)#1
+# Loading work.owordjoinera(untitled)#1
+# Loading work.owordjoinerb(untitled)#1
+# Loading work.owordjoinerc(untitled)#1
+# Loading work.owordjoinerd(untitled)#1
+# Loading work.owordjoinere(untitled)#1
+# Loading work.owordjoinerf(untitled)#1
+# Loading work.owordjoinerg(untitled)#1
+# Loading work.owordjoinerh(untitled)#1
+# Loading mp3lib.or2(untitled)#1
+# Loading work.l1icsm(fsm)#1
+# Loading work.l1icache(struct)#1
+# Loading work.cachehml1i(struct)#1
+# Loading work.cachehitl1i(untitled)#1
+# Loading work.cachemissl1i(untitled)#1
+# Loading work.delaychml1i(untitled)#1
+# Loading work.dataarrayl1i(untitled)#1
+# Loading work.flagarrayl1i(untitled)#1
+# Loading work.tagarrayl1i(untitled)#1
+# Loading work.tagsycnhl1i(untitled)#1
+# Loading work.arbiter(struct)#1
+# Loading work.drespbar(untitled)#1
+# Loading work.irespbar(untitled)#1
+# Loading mp3lib.mux2_16(untitled)#1
+# Loading mp3lib.nand3(untitled)#1
+# Loading mp3lib.nor2(untitled)#1
+# Loading mp3lib.not1(untitled)#1
+# Loading mp3lib.dram128(untitled)#1
+do mp31cp.do
+# --- Executing initialization force file for ../testcode/mp31cp.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp31cp.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: INVALID ALU OPERATION (ALUOP).
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/aL1ICache/iTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: INVALID ALU OPERATION (ALUOP).
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/aEXECUTE/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMainMem/PRAM
+# 0
+# 
+# Done loading ../testcode/mp31cp.asm program code. 
+run 12345
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 32 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 32 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Way1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Dirty1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/LRUSTACK
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Valid1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 2  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 3  Instance: /mp3_cpu/aMainMem/aL1DCache/Tag0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 830 ns  Iteration: 1  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 850 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 875 ns  Iteration: 0  Instance: /mp3_cpu/aDATAPATH/MAIN_REG
+# 0
+# 

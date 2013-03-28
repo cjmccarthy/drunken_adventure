@@ -16,9 +16,9 @@ USE ece411.LC3b_types.all;
 
 ENTITY IRespBAR IS
    PORT( 
-      IB_out  : IN     STD_LOGIC;
-      MResp_H : IN     STD_LOGIC;
-      F3      : OUT    STD_LOGIC
+      IB_out    : IN     STD_LOGIC;
+      ICacheHit : IN     std_logic;
+      F3        : OUT    STD_LOGIC
    );
 
 -- Declarations
@@ -28,6 +28,6 @@ END IRespBAR ;
 --
 ARCHITECTURE untitled OF IRespBAR IS
 BEGIN
-  F3<=(IB_out NAND MResp_H) after CLOCK_PERIOD;--delay_logic2;
+  F3<=(IB_out NAND ICacheHit) after delay_logic2;
 END ARCHITECTURE untitled;
 

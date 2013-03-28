@@ -16,9 +16,9 @@ USE ece411.LC3b_types.all;
 
 ENTITY DRespBAR IS
    PORT( 
-      IB_out  : IN     STD_LOGIC;
-      MResp_H : IN     STD_LOGIC;
-      F2      : OUT    STD_LOGIC
+      DCacheHit : IN     std_logic;
+      IB_out    : IN     STD_LOGIC;
+      F2        : OUT    STD_LOGIC
    );
 
 -- Declarations
@@ -28,6 +28,6 @@ END DRespBAR ;
 --
 ARCHITECTURE untitled OF DRespBAR IS
 BEGIN
-  F2<=(MResp_H NAND NOT(IB_out)) after CLOCK_PERIOD;--delay_logic3;
+  F2<=(DCacheHit NAND NOT(IB_out)) after delay_logic3;
 END ARCHITECTURE untitled;
 
