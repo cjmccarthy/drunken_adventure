@@ -3,7 +3,7 @@ echo "--- Executing initialization force file for ../testcode/mp31cp.asm ---"
 echo "Resetting processor for 5 ns."
 force /reset_l 0 @0
 force /reset_l 1 @5
-force /stall_l 1 @0
+--force /stall_l 1 @0
 echo "Initializing the processor."
 --force /start_h 0 @0
 --force /start_h 1 @10
