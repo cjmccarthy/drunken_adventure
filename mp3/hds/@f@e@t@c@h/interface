@@ -535,23 +535,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@f@e@t@c@h/interface.info"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@f@e@t@c@h/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@f@e@t@c@h/interface.user"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@f@e@t@c@h/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -563,31 +563,31 @@ value "interface"
 )
 (vvPair
 variable "config"
-value "%(unit)_%(view)_config"
+value "%(unit)_config"
 )
 (vvPair
 variable "d"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@f@e@t@c@h"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@f@e@t@c@h"
 )
 (vvPair
 variable "d_logical"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/FETCH"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/FETCH"
 )
 (vvPair
 variable "date"
-value "03/14/13"
+value "03/27/13"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "14"
+value "27"
 )
 (vvPair
 variable "entity_name"
@@ -615,7 +615,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-12.ews.illinois.edu"
+value "gelib-057-35.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -647,11 +647,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@f@e@t@c@h/interface"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@f@e@t@c@h/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/FETCH/interface"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/FETCH/interface"
 )
 (vvPair
 variable "package_name"
@@ -675,7 +675,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -683,7 +683,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "<TBD>"
+value "$HDS_HOME/../Precision/Mgc_home/bin"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -707,7 +707,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "21:06:28"
+value "23:44:33"
 )
 (vvPair
 variable "unit"
@@ -715,7 +715,7 @@ value "FETCH"
 )
 (vvPair
 variable "user"
-value "mccart18"
+value "hyunyi1"
 )
 (vvPair
 variable "version"
@@ -774,8 +774,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,62000,2700"
-st "BRsel         : IN     STD_LOGIC  ;
-"
+st "BRsel         : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -819,8 +818,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,72000,4500"
-st "EXEC_ADDR_MEM : IN     STD_LOGIC_VECTOR (15 DOWNTO 0) ;
-"
+st "EXEC_ADDR_MEM : IN     STD_LOGIC_VECTOR (15 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -866,8 +864,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9000,62000,9900"
-st "I_ADDR        : OUT    LC3B_WORD  ;
-"
+st "I_ADDR        : OUT    LC3B_WORD  ;"
 )
 thePort (LogicalPort
 m 1
@@ -912,8 +909,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,62000,5400"
-st "I_DATAIN      : IN     LC3B_WORD  ;
-"
+st "I_DATAIN      : IN     LC3B_WORD  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -958,8 +954,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9900,62000,10800"
-st "I_MREAD_L     : OUT    std_logic  ;
-"
+st "I_MREAD_L     : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1004,8 +999,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,5400,62000,6300"
-st "I_MRESP_H     : IN     STD_LOGIC  ;
-"
+st "I_MRESP_H     : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1049,8 +1043,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,62000,3600"
-st "CLK           : IN     std_logic  ;
-"
+st "CLK           : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1095,8 +1088,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,8100,62000,9000"
-st "IR_OUT        : OUT    LC3B_WORD  ;
-"
+st "IR_OUT        : OUT    LC3B_WORD  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1142,8 +1134,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,10800,61000,11700"
-st "PC_PLUS2      : OUT    LC3B_WORD 
-"
+st "PC_PLUS2      : OUT    LC3B_WORD "
 )
 thePort (LogicalPort
 m 1
@@ -1188,8 +1179,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,6300,62000,7200"
-st "RESET_L       : IN     STD_LOGIC  ;
-"
+st "RESET_L       : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1233,8 +1223,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,7200,62000,8100"
-st "STALL_L       : IN     std_logic  ;
-"
+st "STALL_L       : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1956,6 +1945,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 4504,0
+lastUid 4527,0
 activeModelName "Symbol:CDM"
 )

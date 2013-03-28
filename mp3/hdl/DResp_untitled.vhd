@@ -28,6 +28,6 @@ END DResp ;
 --
 ARCHITECTURE untitled OF DResp IS
 BEGIN
-  DPResp_H<=(NOT(MResp_H) NOR IB_out) after delay_logic3;
+  DPResp_H<=(MResp_H AND NOT(IB_out)) after delay_logic3;
 END ARCHITECTURE untitled;
 
