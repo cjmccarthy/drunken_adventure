@@ -106,19 +106,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DMWrite_Calc"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -146,7 +146,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "gelib-057-35.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -238,7 +238,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "23:31:23"
+value "00:01:55"
 )
 (vvPair
 variable "unit"
@@ -1104,8 +1104,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,1800,34000,2700"
-st "CLK         : STD_LOGIC
-"
+st "CLK         : STD_LOGIC"
 )
 )
 *27 (Net
@@ -1122,8 +1121,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,5400,34000,6300"
-st "STALL_L     : STD_LOGIC
-"
+st "STALL_L     : STD_LOGIC"
 )
 )
 *28 (Net
@@ -1140,8 +1138,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,2700,34000,3600"
-st "MEM_WRITE_L : STD_LOGIC
-"
+st "MEM_WRITE_L : STD_LOGIC"
 )
 )
 *29 (PortIoIn
@@ -1204,8 +1201,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,9900,37500,10800"
-st "SIGNAL F           : STD_LOGIC
-"
+st "SIGNAL F           : STD_LOGIC"
 )
 )
 *31 (Net
@@ -1222,8 +1218,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,4500,34000,5400"
-st "RESET_L     : STD_LOGIC
-"
+st "RESET_L     : STD_LOGIC"
 )
 )
 *32 (SaComponent
@@ -1515,8 +1510,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,3600,34000,4500"
-st "MRESP_H     : std_logic
-"
+st "MRESP_H     : std_logic"
 )
 )
 *44 (Net
@@ -1533,8 +1527,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,6300,34000,7200"
-st "WRITE_L     : std_logic
-"
+st "WRITE_L     : std_logic"
 )
 )
 *45 (Net
@@ -1551,8 +1544,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,9000,37500,9900"
-st "SIGNAL DMReset     : STD_LOGIC
-"
+st "SIGNAL DMReset     : STD_LOGIC"
 )
 )
 *46 (SaComponent
@@ -1579,9 +1571,9 @@ uid 381,0
 va (VaSet
 font "courier,8,0"
 )
-xt "21000,22550,23500,23450"
+xt "20000,22550,22500,23450"
 st "BITin"
-blo "21000,23250"
+blo "20000,23250"
 )
 )
 thePort (LogicalPort
@@ -1613,10 +1605,10 @@ uid 385,0
 va (VaSet
 font "courier,8,0"
 )
-xt "21000,22550,24000,23450"
+xt "23000,22550,26000,23450"
 st "BITout"
 ju 2
-blo "24000,23250"
+blo "26000,23250"
 )
 )
 thePort (LogicalPort
@@ -1727,8 +1719,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,8100,37500,9000"
-st "SIGNAL BITout      : STD_LOGIC
-"
+st "SIGNAL BITout      : STD_LOGIC"
 )
 )
 *53 (Wire
@@ -2284,12 +2275,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "671,86,1686,776"
-viewArea "200,9116,36632,31794"
+windowSize "665,86,1680,776"
+viewArea "8932,9100,38236,27341"
 cachedDiagramExtent "0,0,69000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 393,0
+lastUid 426,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

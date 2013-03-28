@@ -526,7 +526,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-35.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -618,7 +618,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "00:01:55"
+value "11:22:17"
 )
 (vvPair
 variable "unit"
@@ -1626,6 +1626,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 241,0
+lastUid 264,0
 activeModelName "Symbol:CDM"
 )

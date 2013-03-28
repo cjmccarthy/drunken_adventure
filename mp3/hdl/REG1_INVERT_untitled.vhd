@@ -16,7 +16,6 @@ USE ece411.LC3b_types.all;
 ENTITY REG1_INVERT IS
 PORT( 
 	RESET_L : IN     STD_LOGIC;
-	SET_L   : IN     STD_LOGIC;
 	EN      : IN     STD_LOGIC;
 	CLK     : IN     STD_LOGIC;
 	F       : OUT    STD_LOGIC
@@ -32,8 +31,6 @@ BEGIN
 	BEGIN
 		IF(RESET_L = '0') THEN
 			STATE := '1';  -- DEFAULT VALUE
-		ELSIF(SET_L ='0') THEN
-		  STATE := '1';
 		ELSIF(CLK = '1' AND CLK'EVENT AND EN = '1') THEN -- HIGH ENABLE
 			STATE := '0';
 		ELSIF(EN /= '0' AND EN /= '1' AND CLK = '1' AND CLK'EVENT) THEN

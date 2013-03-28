@@ -16,9 +16,8 @@ USE ece411.LC3b_types.all;
 
 ENTITY IMread_Reset IS
    PORT( 
-      MREAD_L : IN     STD_LOGIC;
       MRESP_H : IN     std_logic;
-      STALL_L : IN     STD_LOGIC;
+      RESET_L : IN     STD_LOGIC;
       IMReset : OUT    STD_LOGIC
    );
 
@@ -29,6 +28,6 @@ END IMread_Reset ;
 --
 ARCHITECTURE untitled OF IMread_Reset IS
 BEGIN
-  IMReset<=((STALL_L NAND MRESP_H) OR MREAD_L)after DELAY_LOGIC4;
+  IMReset<=(RESET_L AND NOT(MRESP_H))after DELAY_LOGIC4;
 END ARCHITECTURE untitled;
 

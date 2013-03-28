@@ -175,19 +175,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/MEM_ACCESS"
 )
 (vvPair
 variable "date"
-value "03/27/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "27"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -215,7 +215,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-35.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -307,7 +307,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "23:46:51"
+value "11:22:36"
 )
 (vvPair
 variable "unit"
@@ -360,7 +360,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45700,50950"
+xt "32200,50050,45200,50950"
 st "
 by %user on %dd %month %year
 "
@@ -912,8 +912,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,9900,-30500,10800"
-st "RESET_L              : STD_LOGIC
-"
+st "RESET_L              : STD_LOGIC"
 )
 )
 *21 (PortIoIn
@@ -1020,8 +1019,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,23400,-27000,24300"
-st "SIGNAL MDRMUXSel            : STD_LOGIC
-"
+st "SIGNAL MDRMUXSel            : STD_LOGIC"
 )
 )
 *24 (PortIoIn
@@ -1084,8 +1082,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,18000,-30500,18900"
-st "MDROUT               : LC3B_WORD
-"
+st "MDROUT               : LC3B_WORD"
 )
 )
 *26 (PortIoOut
@@ -1192,8 +1189,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,4500,-30500,5400"
-st "D_MRESP_H            : STD_LOGIC
-"
+st "D_MRESP_H            : STD_LOGIC"
 )
 )
 *29 (PortIoIn
@@ -1256,8 +1252,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,1800,-30500,2700"
-st "CLK                  : std_logic
-"
+st "CLK                  : std_logic"
 )
 )
 *31 (Net
@@ -1274,8 +1269,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,3600,-30500,4500"
-st "D_MDATAIN            : LC3B_WORD
-"
+st "D_MDATAIN            : LC3B_WORD"
 )
 )
 *32 (Net
@@ -1292,8 +1286,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,13500,-30500,14400"
-st "D_MADDR              : LC3B_WORD
-"
+st "D_MADDR              : LC3B_WORD"
 )
 )
 *33 (PortIoIn
@@ -1356,8 +1349,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,10800,-30500,11700"
-st "STALL_L              : std_logic
-"
+st "STALL_L              : std_logic"
 )
 )
 *35 (Net
@@ -1375,8 +1367,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,24300,-27000,25200"
-st "SIGNAL MEM_READ_L           : STD_LOGIC
-"
+st "SIGNAL MEM_READ_L           : STD_LOGIC"
 )
 )
 *36 (Net
@@ -1393,8 +1384,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,25200,-27000,26100"
-st "SIGNAL MEM_WRITEH_L         : std_logic
-"
+st "SIGNAL MEM_WRITEH_L         : std_logic"
 )
 )
 *37 (Net
@@ -1411,8 +1401,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,26100,-27000,27000"
-st "SIGNAL MEM_WRITEL_L         : std_logic
-"
+st "SIGNAL MEM_WRITEL_L         : std_logic"
 )
 )
 *38 (PortIoOut
@@ -1474,8 +1463,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,15300,-30500,16200"
-st "D_MREAD_L            : std_logic
-"
+st "D_MREAD_L            : std_logic"
 )
 )
 *40 (PortIoOut
@@ -1582,8 +1570,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,16200,-30500,17100"
-st "D_MWRITEH_L          : std_logic
-"
+st "D_MWRITEH_L          : std_logic"
 )
 )
 *43 (Net
@@ -1600,8 +1587,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,17100,-30500,18000"
-st "D_MWRITEL_L          : std_logic
-"
+st "D_MWRITEL_L          : std_logic"
 )
 )
 *44 (SaComponent
@@ -2716,8 +2702,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,14400,-30500,15300"
-st "D_MDATAOUT           : lc3b_word
-"
+st "D_MDATAOUT           : lc3b_word"
 )
 )
 *82 (PortIoIn
@@ -2827,8 +2812,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,2700,-21000,3600"
-st "DR_MEM_IN            : STD_LOGIC_VECTOR(2 DOWNTO 0)
-"
+st "DR_MEM_IN            : STD_LOGIC_VECTOR(2 DOWNTO 0)"
 )
 )
 *85 (PortIoIn
@@ -2892,8 +2876,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,5400,-20500,6300"
-st "EXEC_ADDR_MEM        : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "EXEC_ADDR_MEM        : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *87 (PortIoIn
@@ -2957,8 +2940,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,8100,-20500,9000"
-st "MEM_CONTROL_WORD_IN  : STD_LOGIC_VECTOR(31 DOWNTO 0)
-"
+st "MEM_CONTROL_WORD_IN  : STD_LOGIC_VECTOR(31 DOWNTO 0)"
 )
 )
 *89 (SaComponent
@@ -3142,8 +3124,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,12600,-21000,13500"
-st "DR_MEM_OUT           : std_logic_vector(2 downto 0)
-"
+st "DR_MEM_OUT           : std_logic_vector(2 downto 0)"
 )
 )
 *96 (SaComponent
@@ -3908,8 +3889,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,19800,-30000,20700"
-st "MEM_CONTROL_WORD_OUT : lc3b_dword
-"
+st "MEM_CONTROL_WORD_OUT : lc3b_dword"
 )
 )
 *118 (Net
@@ -3927,8 +3907,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,6300,-20500,7200"
-st "MEM_ALU_IN           : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "MEM_ALU_IN           : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *119 (SaComponent
@@ -4103,8 +4082,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,18900,-30500,19800"
-st "MEM_ALU_OUT          : lc3b_word
-"
+st "MEM_ALU_OUT          : lc3b_word"
 )
 )
 *126 (PortIoOut
@@ -4213,8 +4191,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,9000,-20500,9900"
-st "MEM_PC_OUT           : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "MEM_PC_OUT           : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *129 (SaComponent
@@ -4434,8 +4411,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,20700,-30500,21600"
-st "M_PC_OUT             : LC3B_WORD
-"
+st "M_PC_OUT             : LC3B_WORD"
 )
 )
 *137 (PortIoIn
@@ -4499,8 +4475,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,7200,-21000,8100"
-st "MEM_CC_IN            : STD_LOGIC_VECTOR(2 DOWNTO 0)
-"
+st "MEM_CC_IN            : STD_LOGIC_VECTOR(2 DOWNTO 0)"
 )
 )
 *139 (SaComponent
@@ -4794,8 +4769,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,11700,-30500,12600"
-st "BRsel                : STD_LOGIC
-"
+st "BRsel                : STD_LOGIC"
 )
 )
 *149 (Net
@@ -4812,8 +4786,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-47000,22500,-27000,23400"
-st "SIGNAL BRen                 : STD_LOGIC
-"
+st "SIGNAL BRen                 : STD_LOGIC"
 )
 )
 *150 (SaComponent
@@ -7213,11 +7186,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,25,1686,1029"
-viewArea "-20687,3490,77736,59301"
+viewArea "-39915,13626,49694,64439"
 cachedDiagramExtent "-69000,0,89000,99900"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,0"
-lastUid 3672,0
+lastUid 3735,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

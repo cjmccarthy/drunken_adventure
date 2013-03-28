@@ -469,19 +469,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/IMREAD_Calc"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -509,7 +509,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -601,7 +601,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "21:37:29"
+value "11:18:16"
 )
 (vvPair
 variable "unit"
@@ -1565,6 +1565,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 899,0
+lastUid 945,0
 activeModelName "Symbol:CDM"
 )

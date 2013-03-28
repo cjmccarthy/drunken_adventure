@@ -17,8 +17,7 @@ USE ece411.LC3b_types.all;
 ENTITY DMwrite_Reset IS
    PORT( 
       MRESP_H : IN     std_logic;
-      STALL_L : IN     STD_LOGIC;
-      WRITE_L : IN     std_logic;
+      RESET_L : IN     STD_LOGIC;
       DMReset : OUT    STD_LOGIC
    );
 
@@ -29,6 +28,6 @@ END DMwrite_Reset ;
 --
 ARCHITECTURE untitled OF DMwrite_Reset IS
 BEGIN
-  DMReset<=((STALL_L NAND MRESP_H) OR WRITE_L)after DELAY_LOGIC4;
+  DMReset<=(RESET_L AND NOT(MRESP_H))after delay_logic4;--((STALL_L NAND MRESP_H) OR WRITE_L)after DELAY_LOGIC4;
 END ARCHITECTURE untitled;
 

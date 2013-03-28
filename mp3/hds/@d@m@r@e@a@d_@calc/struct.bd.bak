@@ -106,7 +106,7 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DMREAD_Calc"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/27/13"
 )
 (vvPair
 variable "day"
@@ -118,7 +118,7 @@ value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "27"
 )
 (vvPair
 variable "entity_name"
@@ -146,7 +146,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "gelib-057-35.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -238,7 +238,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "23:31:07"
+value "23:55:08"
 )
 (vvPair
 variable "unit"
@@ -709,8 +709,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,4500,33500,5400"
-st "RESET_L    : STD_LOGIC
-"
+st "RESET_L    : STD_LOGIC"
 )
 )
 *15 (Blk
@@ -807,8 +806,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,9000,37000,9900"
-st "SIGNAL DMReset    : STD_LOGIC
-"
+st "SIGNAL DMReset    : STD_LOGIC"
 )
 )
 *20 (Net
@@ -825,8 +823,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,3600,33500,4500"
-st "MRESP_H    : std_logic
-"
+st "MRESP_H    : std_logic"
 )
 )
 *21 (SaComponent
@@ -1101,8 +1098,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,9900,37000,10800"
-st "SIGNAL F          : STD_LOGIC
-"
+st "SIGNAL F          : STD_LOGIC"
 )
 )
 *31 (PortIoOut
@@ -1164,8 +1160,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,6300,33500,7200"
-st "MREAD_L    : STD_LOGIC
-"
+st "MREAD_L    : STD_LOGIC"
 )
 )
 *33 (PortIoIn
@@ -1228,8 +1223,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,1800,33500,2700"
-st "CLK        : STD_LOGIC
-"
+st "CLK        : STD_LOGIC"
 )
 )
 *35 (PortIoIn
@@ -1338,8 +1332,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,5400,33500,6300"
-st "STALL_L    : STD_LOGIC
-"
+st "STALL_L    : STD_LOGIC"
 )
 )
 *38 (Net
@@ -1356,8 +1349,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,2700,33500,3600"
-st "MEM_READ_L : STD_LOGIC
-"
+st "MEM_READ_L : STD_LOGIC"
 )
 )
 *39 (SaComponent
@@ -1579,9 +1571,9 @@ uid 407,0
 va (VaSet
 font "courier,8,0"
 )
-xt "25000,22550,27500,23450"
+xt "24000,22550,26500,23450"
 st "BITin"
-blo "25000,23250"
+blo "24000,23250"
 )
 )
 thePort (LogicalPort
@@ -1613,10 +1605,10 @@ uid 411,0
 va (VaSet
 font "courier,8,0"
 )
-xt "25000,22550,28000,23450"
+xt "27000,22550,30000,23450"
 st "BITout"
 ju 2
-blo "28000,23250"
+blo "30000,23250"
 )
 )
 thePort (LogicalPort
@@ -1630,6 +1622,7 @@ o 2
 )
 ]
 shape (Buf
+uid 453,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1650,9 +1643,9 @@ uid 415,0
 va (VaSet
 font "courier,8,1"
 )
-xt "26500,24000,29500,24900"
+xt "26500,25000,29500,25900"
 st "ece411"
-blo "26500,24700"
+blo "26500,25700"
 tm "BdLibraryNameMgr"
 )
 *50 (Text
@@ -1660,9 +1653,9 @@ uid 416,0
 va (VaSet
 font "courier,8,1"
 )
-xt "26500,24900,30500,25800"
+xt "26500,25900,30500,26800"
 st "DM_Delay"
-blo "26500,25600"
+blo "26500,26600"
 tm "CptNameMgr"
 )
 *51 (Text
@@ -1670,9 +1663,9 @@ uid 417,0
 va (VaSet
 font "courier,8,1"
 )
-xt "26500,25800,28000,26700"
+xt "26500,26800,28000,27700"
 st "U_3"
-blo "26500,26500"
+blo "26500,27500"
 tm "InstanceNameMgr"
 )
 ]
@@ -1726,8 +1719,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,8100,37000,9000"
-st "SIGNAL BITout     : STD_LOGIC
-"
+st "SIGNAL BITout     : STD_LOGIC"
 )
 )
 *53 (Wire
@@ -2283,12 +2275,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "266,70,1281,760"
-viewArea "2876,14934,41684,39091"
+windowSize "-8,25,1688,1033"
+viewArea "2900,-1100,61820,32380"
 cachedDiagramExtent "0,0,69000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 429,0
+lastUid 463,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
