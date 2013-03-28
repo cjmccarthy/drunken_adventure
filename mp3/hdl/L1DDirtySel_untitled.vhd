@@ -1,0 +1,37 @@
+--
+-- VHDL Architecture ece411.L1DDirtySel.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (evrt-252-10.ews.illinois.edu)
+--          at - 21:32:46 03/27/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY L1DDirtySel IS
+     PORT( 
+      DWRITEH_L : IN     std_logic;
+      DWRITEL_L : IN     std_logic;
+      DSel      : OUT    STD_LOGIC;
+      CacheHit  : IN     std_logic
+   );
+
+-- Declarations
+
+END L1DDirtySel ;
+
+--
+ARCHITECTURE untitled OF L1DDirtySel IS
+BEGIN
+  PROCESS(DWRITEH_L,DWRITEL_L,CACHEHIT)
+  BEGIN
+      DSel<=( (CACHEHIT)AND((DWRITEH_L)NAND(DWRITEL_L)))after DELAY_LOGIC4;
+  END PROCESS;
+END ARCHITECTURE untitled;
+

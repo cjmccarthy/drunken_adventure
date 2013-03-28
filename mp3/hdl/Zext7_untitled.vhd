@@ -1,0 +1,32 @@
+--
+-- VHDL Architecture ece411.Zext7.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (evrt-252-10.ews.illinois.edu)
+--          at - 19:26:50 03/26/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY Zext7 IS
+   PORT( 
+      A : IN     lc3b_c_tag;
+      B : OUT    LC3B_WORD
+   );
+
+-- Declarations
+
+END Zext7 ;
+
+--
+ARCHITECTURE untitled OF Zext7 IS
+BEGIN
+  B<= (A&"0000000");
+END ARCHITECTURE untitled;
+

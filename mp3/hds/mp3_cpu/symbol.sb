@@ -400,7 +400,7 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/mp3_cpu"
 )
 (vvPair
 variable "date"
-value "03/13/13"
+value "03/27/13"
 )
 (vvPair
 variable "day"
@@ -412,7 +412,7 @@ value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "13"
+value "27"
 )
 (vvPair
 variable "entity_name"
@@ -440,7 +440,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "evrt-252-10.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -532,7 +532,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "21:55:01"
+value "22:03:41"
 )
 (vvPair
 variable "unit"
@@ -1319,7 +1319,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 673,0
+lastUid 811,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

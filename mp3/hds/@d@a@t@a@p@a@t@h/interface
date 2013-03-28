@@ -628,19 +628,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/DATAPATH"
 )
 (vvPair
 variable "date"
-value "03/14/13"
+value "03/15/13"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "14"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -668,7 +668,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-05.ews.illinois.edu"
+value "evrt-252-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -760,7 +760,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "21:57:17"
+value "15:31:34"
 )
 (vvPair
 variable "unit"
@@ -1510,7 +1510,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45700,50950"
+xt "32200,50050,45200,50950"
 st "
 by %user on %dd %month %year
 "
@@ -2135,6 +2135,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 3827,0
+lastUid 3873,0
 activeModelName "Symbol:CDM"
 )

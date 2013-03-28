@@ -1,0 +1,32 @@
+--
+-- VHDL Architecture ece411.TagSycnhL1I.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (evrt-252-10.ews.illinois.edu)
+--          at - 20:05:48 03/26/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY TagSycnhL1I IS
+   PORT( 
+      Tag      : IN     LC3B_C_TAG;
+      TagSynch : OUT    LC3B_C_TAG
+   );
+
+-- Declarations
+
+END TagSycnhL1I ;
+
+--
+ARCHITECTURE untitled OF TagSycnhL1I IS
+BEGIN
+  
+END ARCHITECTURE untitled;
+

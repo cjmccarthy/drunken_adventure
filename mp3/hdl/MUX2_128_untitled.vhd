@@ -1,0 +1,42 @@
+--
+-- VHDL Architecture ece411.MUX2_128.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (evrt-252-10.ews.illinois.edu)
+--          at - 18:44:08 03/26/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+ENTITY MUX2_128 IS
+PORT( 
+	A   : IN     LC3B_OWORD;
+	B   : IN     LC3B_OWORD;
+	SEL : IN     STD_LOGIC;
+	F   : OUT    LC3B_OWORD
+);
+-- DECLARATIONS
+END MUX2_128 ;
+
+-- HDS INTERFACE_END
+ARCHITECTURE UNTITLED OF MUX2_128 IS
+BEGIN
+	MUX2_128: PROCESS(A,B,SEL)
+	VARIABLE STATE : LC3B_OWORD;
+	BEGIN
+		CASE SEL IS
+		WHEN '0' =>
+			STATE := A;
+		WHEN '1' =>
+			STATE := B;
+		WHEN OTHERS =>
+			STATE := (OTHERS => 'X');
+		END CASE;
+		F <= STATE AFTER DELAY_MUX2;
+	END PROCESS MUX2_128;
+END UNTITLED;

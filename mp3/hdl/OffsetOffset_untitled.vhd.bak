@@ -1,0 +1,31 @@
+--
+-- VHDL Architecture ece411.OffsetOffset.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (evrt-252-10.ews.illinois.edu)
+--          at - 20:55:19 03/27/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY OffsetOffset IS
+   PORT( 
+      OFFSET : IN     lc3b_c_offset;
+      SEL    : OUT    STD_LOGIC_VECTOR (2 DOWNTO 0)
+   );
+
+-- Declarations
+
+END OffsetOffset ;
+
+--
+ARCHITECTURE untitled OF OffsetOffset IS
+BEGIN
+END ARCHITECTURE untitled;
+

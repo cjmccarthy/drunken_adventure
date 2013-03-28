@@ -1,0 +1,153 @@
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 142,0 17 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 147,0 18 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 137,0 19 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 122,0 20 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 127,0 21 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 132,0 22 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 152,0 23 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 1,0 26 0 
+DESIGN @l1@d@write@back_@calc
+VIEW symbol.sb
+GRAPHIC 1,0 27 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+NO_GRAPHIC 30
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 41,0 39 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+NO_GRAPHIC 45
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 0,0 48 2 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 264,0 53 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 127,0 54 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+NO_GRAPHIC 55
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+NO_GRAPHIC 56
+LIBRARY ece411
+DESIGN @mem_@acc@l1@d
+VIEW untitled
+GRAPHIC 109,0 58 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 129,0 60 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 139,0 61 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 149,0 62 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 119,0 63 0 
+LIBRARY mp3lib
+DESIGN @a@n@d2
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 197,0 66 0 
+DESIGN @a@n@d2
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 52,0 68 0 
+DESIGN @a@n@d2
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 57,0 69 0 
+DESIGN @a@n@d2
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 62,0 70 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 226,0 73 0 
+DESIGN @m@u@x2_1
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 52,0 75 0 
+DESIGN @m@u@x2_1
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 57,0 76 0 
+DESIGN @m@u@x2_1
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 62,0 77 0 
+DESIGN @m@u@x2_1
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 67,0 78 0 
+LIBRARY ece411
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+NO_GRAPHIC 81
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 197,0 84 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 226,0 85 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 109,0 86 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+NO_GRAPHIC 89
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+NO_GRAPHIC 91
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 109,0 93 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 197,0 100 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 119,0 102 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 266,0 103 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 306,0 104 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 226,0 106 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 284,0 108 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 290,0 109 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 242,0 110 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+GRAPHIC 266,0 111 0 
+DESIGN @l1@d@write@back_@calc
+VIEW struct.bd
+NO_GRAPHIC 114

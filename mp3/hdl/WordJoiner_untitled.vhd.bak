@@ -1,0 +1,23 @@
+--
+-- VHDL Architecture ece411.WordJoiner.untitled
+--
+-- Created:
+--          by - hyunyi1.ews (evrt-252-10.ews.illinois.edu)
+--          at - 20:16:13 03/27/13
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+ENTITY WordJoiner IS
+END ENTITY WordJoiner;
+
+--
+ARCHITECTURE untitled OF WordJoiner IS
+BEGIN
+END ARCHITECTURE untitled;
+
