@@ -27,5 +27,6 @@ END DelayCHML1I ;
 --
 ARCHITECTURE untitled OF DelayCHML1I IS
 BEGIN
+  dMREAD_L<=MREAD_L after 18ns;
 END ARCHITECTURE untitled;
 

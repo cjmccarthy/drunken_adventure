@@ -602,7 +602,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "19:53:46"
+value "21:08:02"
 )
 (vvPair
 variable "unit"
@@ -1568,6 +1568,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 211,0
+lastUid 280,0
 activeModelName "Symbol:CDM"
 )

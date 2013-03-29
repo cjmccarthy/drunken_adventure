@@ -115,19 +115,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/MEM_WRITEBACK_LATCH"
 )
 (vvPair
 variable "date"
-value "03/15/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "15"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -155,7 +155,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-09.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -247,7 +247,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:31:28"
+value "20:12:55"
 )
 (vvPair
 variable "unit"
@@ -339,8 +339,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,2700,48000,3600"
-st "DR_MEM_OUT           : std_logic_vector(2 downto 0)
-"
+st "DR_MEM_OUT           : std_logic_vector(2 downto 0)"
 )
 )
 *3 (PortIoIn
@@ -403,8 +402,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,3600,38500,4500"
-st "MDROUT               : LC3B_WORD
-"
+st "MDROUT               : LC3B_WORD"
 )
 )
 *5 (PortIoIn
@@ -488,8 +486,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,1800,38500,2700"
-st "CLK                  : std_logic
-"
+st "CLK                  : std_logic"
 )
 )
 *8 (PortIoIn
@@ -573,8 +570,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,7200,38500,8100"
-st "RESET_L              : STD_LOGIC
-"
+st "RESET_L              : STD_LOGIC"
 )
 )
 *11 (PortIoIn
@@ -658,8 +654,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,8100,38500,9000"
-st "STALL_L              : std_logic
-"
+st "STALL_L              : std_logic"
 )
 )
 *14 (Grouping
@@ -1056,8 +1051,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,4500,38500,5400"
-st "MEM_ALU_OUT          : lc3b_word
-"
+st "MEM_ALU_OUT          : lc3b_word"
 )
 )
 *27 (PortIoOut
@@ -1425,8 +1419,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,9000,38000,9900"
-st "DR_WB_IN             : lc3b_REG
-"
+st "DR_WB_IN             : lc3b_REG"
 )
 )
 *39 (PortIoOut
@@ -1488,8 +1481,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,9900,38500,10800"
-st "WB_ALU_IN            : LC3B_WORD
-"
+st "WB_ALU_IN            : LC3B_WORD"
 )
 )
 *41 (Net
@@ -1506,8 +1498,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,11700,38500,12600"
-st "WB_MDR_IN            : LC3B_WORD
-"
+st "WB_MDR_IN            : LC3B_WORD"
 )
 )
 *42 (SaComponent
@@ -2092,8 +2083,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,5400,39000,6300"
-st "MEM_CONTROL_WORD_OUT : lc3b_dword
-"
+st "MEM_CONTROL_WORD_OUT : lc3b_dword"
 )
 )
 *62 (PortIoOut
@@ -2155,8 +2145,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,10800,39000,11700"
-st "WB_CONTROL_WORD_IN   : LC3B_DWORD
-"
+st "WB_CONTROL_WORD_IN   : LC3B_DWORD"
 )
 )
 *64 (SaComponent
@@ -2480,8 +2469,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,12600,48500,13500"
-st "WB_PC_OUT            : STD_LOGIC_VECTOR(15 DOWNTO 0)
-"
+st "WB_PC_OUT            : STD_LOGIC_VECTOR(15 DOWNTO 0)"
 )
 )
 *75 (SaComponent
@@ -2805,8 +2793,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "22000,6300,38500,7200"
-st "M_PC_OUT             : LC3B_WORD
-"
+st "M_PC_OUT             : LC3B_WORD"
 )
 )
 *86 (Wire
@@ -3988,11 +3975,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,37,1268,949"
-viewArea "15413,33082,86267,83172"
+viewArea "15400,33100,78460,76000"
 cachedDiagramExtent "-6500,0,109000,77000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-14000,0"
-lastUid 1553,0
+lastUid 1606,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

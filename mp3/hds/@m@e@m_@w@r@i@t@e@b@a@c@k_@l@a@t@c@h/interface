@@ -82,7 +82,7 @@ decl (Decl
 n "DR_MEM_OUT"
 t "std_logic_vector"
 b "(2 downto 0)"
-o 58
+o 2
 suid 183,0
 )
 )
@@ -94,7 +94,7 @@ m 1
 decl (Decl
 n "DR_WB_IN"
 t "lc3b_REG"
-o 60
+o 9
 suid 184,0
 )
 )
@@ -105,7 +105,7 @@ port (LogicalPort
 decl (Decl
 n "M_PC_OUT"
 t "LC3B_WORD"
-o 71
+o 6
 suid 185,0
 )
 )
@@ -116,7 +116,7 @@ port (LogicalPort
 decl (Decl
 n "MDROUT"
 t "LC3B_WORD"
-o 23
+o 3
 suid 186,0
 )
 )
@@ -127,7 +127,7 @@ port (LogicalPort
 decl (Decl
 n "MEM_ALU_OUT"
 t "lc3b_word"
-o 56
+o 4
 suid 187,0
 )
 )
@@ -138,7 +138,7 @@ port (LogicalPort
 decl (Decl
 n "MEM_CONTROL_WORD_OUT"
 t "lc3b_dword"
-o 56
+o 5
 suid 188,0
 )
 )
@@ -149,7 +149,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 6
+o 7
 suid 189,0
 )
 )
@@ -160,7 +160,7 @@ port (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 7
+o 8
 suid 190,0
 )
 )
@@ -172,7 +172,7 @@ m 1
 decl (Decl
 n "WB_ALU_IN"
 t "LC3B_WORD"
-o 61
+o 10
 suid 191,0
 )
 )
@@ -184,7 +184,7 @@ m 1
 decl (Decl
 n "WB_CONTROL_WORD_IN"
 t "LC3B_DWORD"
-o 63
+o 11
 suid 192,0
 )
 )
@@ -196,7 +196,7 @@ m 1
 decl (Decl
 n "WB_MDR_IN"
 t "LC3B_WORD"
-o 62
+o 12
 suid 193,0
 )
 )
@@ -209,7 +209,7 @@ decl (Decl
 n "WB_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 68
+o 13
 suid 194,0
 )
 )
@@ -612,19 +612,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/MEM_WRITEBACK_LATCH"
 )
 (vvPair
 variable "date"
-value "03/15/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "15"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -652,7 +652,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-09.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -744,7 +744,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:31:28"
+value "20:12:55"
 )
 (vvPair
 variable "unit"
@@ -810,6 +810,9 @@ uid 2000,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,1800,65500,2700"
+st "CLK                  : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -852,6 +855,9 @@ uid 2005,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,2700,75000,3600"
+st "DR_MEM_OUT           : IN     std_logic_vector (2 downto 0) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -859,7 +865,7 @@ decl (Decl
 n "DR_MEM_OUT"
 t "std_logic_vector"
 b "(2 downto 0)"
-o 58
+o 2
 suid 183,0
 )
 )
@@ -897,13 +903,16 @@ uid 2010,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,9000,65000,9900"
+st "DR_WB_IN             : OUT    lc3b_REG  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "DR_WB_IN"
 t "lc3b_REG"
-o 60
+o 9
 suid 184,0
 )
 )
@@ -940,12 +949,15 @@ uid 2015,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,6300,65500,7200"
+st "M_PC_OUT             : IN     LC3B_WORD  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "M_PC_OUT"
 t "LC3B_WORD"
-o 71
+o 6
 suid 185,0
 )
 )
@@ -982,12 +994,15 @@ uid 2020,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,3600,65500,4500"
+st "MDROUT               : IN     LC3B_WORD  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "MDROUT"
 t "LC3B_WORD"
-o 23
+o 3
 suid 186,0
 )
 )
@@ -1024,12 +1039,15 @@ uid 2025,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,4500,65500,5400"
+st "MEM_ALU_OUT          : IN     lc3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "MEM_ALU_OUT"
 t "lc3b_word"
-o 56
+o 4
 suid 187,0
 )
 )
@@ -1066,12 +1084,15 @@ uid 2030,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,5400,66000,6300"
+st "MEM_CONTROL_WORD_OUT : IN     lc3b_dword  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "MEM_CONTROL_WORD_OUT"
 t "lc3b_dword"
-o 56
+o 5
 suid 188,0
 )
 )
@@ -1108,12 +1129,15 @@ uid 2035,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,7200,65500,8100"
+st "RESET_L              : IN     STD_LOGIC  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 6
+o 7
 suid 189,0
 )
 )
@@ -1150,12 +1174,15 @@ uid 2040,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,8100,65500,9000"
+st "STALL_L              : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 7
+o 8
 suid 190,0
 )
 )
@@ -1193,13 +1220,16 @@ uid 2045,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,9900,65500,10800"
+st "WB_ALU_IN            : OUT    LC3B_WORD  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "WB_ALU_IN"
 t "LC3B_WORD"
-o 61
+o 10
 suid 191,0
 )
 )
@@ -1237,13 +1267,16 @@ uid 2050,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,10800,66000,11700"
+st "WB_CONTROL_WORD_IN   : OUT    LC3B_DWORD  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "WB_CONTROL_WORD_IN"
 t "LC3B_DWORD"
-o 63
+o 11
 suid 192,0
 )
 )
@@ -1281,13 +1314,16 @@ uid 2055,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,11700,65500,12600"
+st "WB_MDR_IN            : OUT    LC3B_WORD  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "WB_MDR_IN"
 t "LC3B_WORD"
-o 62
+o 12
 suid 193,0
 )
 )
@@ -1325,6 +1361,9 @@ uid 2060,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,12600,74500,13500"
+st "WB_PC_OUT            : OUT    STD_LOGIC_VECTOR (15 DOWNTO 0)
+"
 )
 thePort (LogicalPort
 m 1
@@ -1332,7 +1371,7 @@ decl (Decl
 n "WB_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 68
+o 13
 suid 194,0
 )
 )
@@ -2047,6 +2086,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2086,0
+lastUid 2109,0
 activeModelName "Symbol:CDM"
 )

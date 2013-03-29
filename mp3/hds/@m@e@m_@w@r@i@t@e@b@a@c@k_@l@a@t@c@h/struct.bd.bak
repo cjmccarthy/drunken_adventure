@@ -115,19 +115,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/MEM_WRITEBACK_LATCH"
 )
 (vvPair
 variable "date"
-value "03/14/13"
+value "03/15/13"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "14"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -155,7 +155,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-05.ews.illinois.edu"
+value "evrt-252-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -247,7 +247,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "21:58:47"
+value "15:31:28"
 )
 (vvPair
 variable "unit"
@@ -684,7 +684,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "72200,76050,85700,76950"
+xt "72200,76050,85200,76950"
 st "
 by %user on %dd %month %year
 "
@@ -3987,12 +3987,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,34,1268,946"
-viewArea "2704,33062,73486,83101"
+windowSize "-6,37,1268,949"
+viewArea "15413,33082,86267,83172"
 cachedDiagramExtent "-6500,0,109000,77000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-14000,0"
-lastUid 1500,0
+lastUid 1553,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
