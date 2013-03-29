@@ -235,7 +235,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:25:03"
+value "23:48:08"
 )
 (vvPair
 variable "unit"
@@ -1809,7 +1809,7 @@ fg "65535,65535,65535"
 lineColor "0,0,32768"
 lineWidth 2
 )
-xt "-21000,36000,-3000,41000"
+xt "-10000,36000,8000,41000"
 )
 oxt "0,0,18000,5000"
 text (MLText
@@ -1817,7 +1817,7 @@ uid 1476,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-20800,36200,-10800,37100"
+xt "-9800,36200,200,37100"
 st "
 
 "
@@ -1837,7 +1837,7 @@ fg "65535,65535,37120"
 lineColor "0,0,32768"
 lineWidth 2
 )
-xt "-14000,30000,-6000,40000"
+xt "-3000,30000,5000,40000"
 )
 oxt "0,0,8000,10000"
 ttg (MlTextGroup
@@ -1850,9 +1850,9 @@ uid 1470,0
 va (VaSet
 font "courier,8,1"
 )
-xt "-10750,34100,-9250,35000"
+xt "250,34100,1750,35000"
 st "eb1"
-blo "-10750,34800"
+blo "250,34800"
 tm "HdlTextNameMgr"
 )
 *60 (Text
@@ -1860,9 +1860,9 @@ uid 1471,0
 va (VaSet
 font "courier,8,1"
 )
-xt "-10750,35000,-10250,35900"
+xt "250,35000,750,35900"
 st "1"
-blo "-10750,35700"
+blo "250,35700"
 tm "HdlTextNumberMgr"
 )
 ]
@@ -1874,7 +1874,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "-13750,38250,-12250,39750"
+xt "-2750,38250,-1250,39750"
 iconName "TextFile.png"
 iconMaskName "TextFile.msk"
 ftype 21
@@ -2735,11 +2735,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,25,1686,1029"
-viewArea "-11988,5058,67338,50040"
+viewArea "-12000,5100,59981,45917"
 cachedDiagramExtent "-41000,0,66500,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,0"
-lastUid 2203,0
+lastUid 2258,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
