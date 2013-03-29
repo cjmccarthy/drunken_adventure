@@ -57,23 +57,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.info"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.user"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -85,31 +85,31 @@ value "struct"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/WRITEBACK"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/WRITEBACK"
 )
 (vvPair
 variable "date"
-value "03/15/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "15"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -137,7 +137,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-09.ews.illinois.edu"
+value "gelib-057-17.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -169,11 +169,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/WRITEBACK/struct.bd"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/WRITEBACK/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -197,7 +197,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -205,7 +205,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -229,7 +229,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:30:57"
+value "21:26:38"
 )
 (vvPair
 variable "unit"
@@ -237,7 +237,7 @@ value "WRITEBACK"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -564,7 +564,7 @@ tm "WireNameMgr"
 uid 77,0
 decl (Decl
 n "WB_CONTROL_WORD_IN"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 6
 suid 5,0
 )
@@ -573,8 +573,8 @@ uid 78,0
 va (VaSet
 font "courier,8,0"
 )
-xt "22000,6300,37500,7200"
-st "WB_CONTROL_WORD_IN : LC3B_WORD
+xt "22000,6300,38000,7200"
+st "WB_CONTROL_WORD_IN : LC3B_DWORD
 "
 )
 )
@@ -982,7 +982,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "63200,74050,76700,74950"
+xt "63200,74050,76200,74950"
 st "
 by %user on %dd %month %year
 "
@@ -2434,7 +2434,6 @@ shape (OrthoPolyLine
 uid 16,0
 va (VaSet
 vasetType 3
-lineWidth 2
 )
 xt "45750,20000,61000,20000"
 pts [
@@ -2446,7 +2445,6 @@ start &1
 end &65
 sat 32
 eat 32
-sty 1
 stc 0
 st 0
 sf 1
@@ -2475,7 +2473,6 @@ shape (OrthoPolyLine
 uid 30,0
 va (VaSet
 vasetType 3
-lineWidth 2
 )
 xt "25000,20000,37250,20000"
 pts [
@@ -2487,7 +2484,6 @@ start &3
 end &64
 sat 32
 eat 32
-sty 1
 stc 0
 st 0
 sf 1
@@ -2556,7 +2552,6 @@ shape (OrthoPolyLine
 uid 58,0
 va (VaSet
 vasetType 3
-lineWidth 2
 )
 xt "25000,30000,35250,30000"
 pts [
@@ -2568,7 +2563,6 @@ start &7
 end &36
 sat 32
 eat 32
-sty 1
 stc 0
 st 0
 sf 1
@@ -2597,7 +2591,6 @@ shape (OrthoPolyLine
 uid 72,0
 va (VaSet
 vasetType 3
-lineWidth 2
 )
 xt "7000,53000,18250,53000"
 pts [
@@ -2609,7 +2602,6 @@ start &9
 end &47
 sat 32
 eat 32
-sty 1
 stc 0
 st 0
 sf 1
@@ -2638,7 +2630,6 @@ shape (OrthoPolyLine
 uid 86,0
 va (VaSet
 vasetType 3
-lineWidth 2
 )
 xt "25000,34000,35250,34000"
 pts [
@@ -2650,7 +2641,6 @@ start &11
 end &37
 sat 32
 eat 32
-sty 1
 stc 0
 st 0
 sf 1
@@ -2679,7 +2669,6 @@ shape (OrthoPolyLine
 uid 100,0
 va (VaSet
 vasetType 3
-lineWidth 2
 )
 xt "44750,32000,56000,32000"
 pts [
@@ -2691,7 +2680,6 @@ start &13
 end &39
 sat 32
 eat 32
-sty 1
 stc 0
 st 0
 sf 1
@@ -3056,12 +3044,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "216,28,1908,1059"
-viewArea "-48990,31688,43557,87632"
+windowSize "-6,25,1686,1029"
+viewArea "-49000,31700,46993,82499"
 cachedDiagramExtent "-14500,0,100000,75000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-82000,0"
-lastUid 667,0
+lastUid 696,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4217,7 +4205,7 @@ uid 160,0
 port (LogicalPort
 decl (Decl
 n "WB_CONTROL_WORD_IN"
-t "LC3B_WORD"
+t "LC3B_DWORD"
 o 6
 suid 5,0
 )

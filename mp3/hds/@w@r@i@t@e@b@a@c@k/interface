@@ -70,7 +70,7 @@ m 1
 decl (Decl
 n "DR"
 t "lc3b_reg"
-o 59
+o 9
 suid 66,0
 )
 )
@@ -82,7 +82,7 @@ m 1
 decl (Decl
 n "LD_REG"
 t "STD_LOGIC"
-o 57
+o 10
 suid 67,0
 )
 )
@@ -94,7 +94,7 @@ m 1
 decl (Decl
 n "WDATA"
 t "LC3B_WORD"
-o 58
+o 11
 suid 68,0
 )
 )
@@ -116,7 +116,7 @@ port (LogicalPort
 decl (Decl
 n "DR_WB_IN"
 t "lc3b_REG"
-o 60
+o 2
 suid 70,0
 )
 )
@@ -127,7 +127,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 6
+o 3
 suid 71,0
 )
 )
@@ -138,7 +138,7 @@ port (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 7
+o 4
 suid 72,0
 )
 )
@@ -149,7 +149,7 @@ port (LogicalPort
 decl (Decl
 n "WB_ALU_IN"
 t "LC3B_WORD"
-o 61
+o 5
 suid 73,0
 )
 )
@@ -160,7 +160,7 @@ port (LogicalPort
 decl (Decl
 n "WB_CONTROL_WORD_IN"
 t "LC3B_DWORD"
-o 63
+o 6
 suid 74,0
 )
 )
@@ -171,7 +171,7 @@ port (LogicalPort
 decl (Decl
 n "WB_MDR_IN"
 t "LC3B_WORD"
-o 62
+o 7
 suid 75,0
 )
 )
@@ -183,7 +183,7 @@ decl (Decl
 n "WB_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 68
+o 8
 suid 76,0
 )
 )
@@ -534,23 +534,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/interface.info"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/interface.user"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -562,31 +562,31 @@ value "interface"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k"
 )
 (vvPair
 variable "d_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/WRITEBACK"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/WRITEBACK"
 )
 (vvPair
 variable "date"
-value "03/15/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "15"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -614,7 +614,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-09.ews.illinois.edu"
+value "gelib-057-17.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -646,11 +646,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/interface"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/WRITEBACK/interface"
+value "/home/mccart18/ece411/drunken_adventure2/drunken_adventure/mp3/hds/WRITEBACK/interface"
 )
 (vvPair
 variable "package_name"
@@ -674,7 +674,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -682,7 +682,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "$HDS_HOME/../Precision/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -706,7 +706,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:31:34"
+value "21:26:38"
 )
 (vvPair
 variable "unit"
@@ -714,7 +714,7 @@ value "WRITEBACK"
 )
 (vvPair
 variable "user"
-value "hyunyi1"
+value "mccart18"
 )
 (vvPair
 variable "version"
@@ -782,7 +782,7 @@ m 1
 decl (Decl
 n "DR"
 t "lc3b_reg"
-o 59
+o 9
 suid 66,0
 )
 )
@@ -829,7 +829,7 @@ m 1
 decl (Decl
 n "LD_REG"
 t "STD_LOGIC"
-o 57
+o 10
 suid 67,0
 )
 )
@@ -876,7 +876,7 @@ m 1
 decl (Decl
 n "WDATA"
 t "LC3B_WORD"
-o 58
+o 11
 suid 68,0
 )
 )
@@ -966,7 +966,7 @@ thePort (LogicalPort
 decl (Decl
 n "DR_WB_IN"
 t "lc3b_REG"
-o 60
+o 2
 suid 70,0
 )
 )
@@ -1011,7 +1011,7 @@ thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "STD_LOGIC"
-o 6
+o 3
 suid 71,0
 )
 )
@@ -1056,7 +1056,7 @@ thePort (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 7
+o 4
 suid 72,0
 )
 )
@@ -1101,7 +1101,7 @@ thePort (LogicalPort
 decl (Decl
 n "WB_ALU_IN"
 t "LC3B_WORD"
-o 61
+o 5
 suid 73,0
 )
 )
@@ -1146,7 +1146,7 @@ thePort (LogicalPort
 decl (Decl
 n "WB_CONTROL_WORD_IN"
 t "LC3B_DWORD"
-o 63
+o 6
 suid 74,0
 )
 )
@@ -1191,7 +1191,7 @@ thePort (LogicalPort
 decl (Decl
 n "WB_MDR_IN"
 t "LC3B_WORD"
-o 62
+o 7
 suid 75,0
 )
 )
@@ -1237,7 +1237,7 @@ decl (Decl
 n "WB_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 68
+o 8
 suid 76,0
 )
 )
@@ -1952,6 +1952,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 869,0
+lastUid 892,0
 activeModelName "Symbol:CDM"
 )

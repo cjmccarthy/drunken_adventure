@@ -57,23 +57,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hdl"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.info"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.user"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -85,31 +85,31 @@ value "struct"
 )
 (vvPair
 variable "config"
-value "%(unit)_%(view)_config"
+value "%(unit)_config"
 )
 (vvPair
 variable "d"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k"
 )
 (vvPair
 variable "d_logical"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/WRITEBACK"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/WRITEBACK"
 )
 (vvPair
 variable "date"
-value "03/14/13"
+value "03/15/13"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "14"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -137,7 +137,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-12.ews.illinois.edu"
+value "evrt-252-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -169,11 +169,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/@w@r@i@t@e@b@a@c@k/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/mccart18/ece411/test_dir/drunken_adventure/mp3/hds/WRITEBACK/struct.bd"
+value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/WRITEBACK/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -197,7 +197,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "/software/mentor/ModelSim-SE-10.1d/modeltech/linux"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -205,7 +205,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "<TBD>"
+value "$HDS_HOME/../Precision/Mgc_home/bin"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -229,7 +229,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "19:53:44"
+value "15:30:57"
 )
 (vvPair
 variable "unit"
@@ -237,7 +237,7 @@ value "WRITEBACK"
 )
 (vvPair
 variable "user"
-value "mccart18"
+value "hyunyi1"
 )
 (vvPair
 variable "version"
@@ -2415,7 +2415,7 @@ decl (Decl
 n "WB_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 12
+o 8
 suid 15,0
 )
 declText (MLText
@@ -3056,12 +3056,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "222,28,1914,1059"
-viewArea "-28233,20633,70221,80148"
+windowSize "216,28,1908,1059"
+viewArea "-48990,31688,43557,87632"
 cachedDiagramExtent "-14500,0,100000,75000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-82000,0"
-lastUid 638,0
+lastUid 667,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4289,7 +4289,7 @@ decl (Decl
 n "WB_PC_OUT"
 t "STD_LOGIC_VECTOR"
 b "(15 DOWNTO 0)"
-o 12
+o 8
 suid 15,0
 )
 )
