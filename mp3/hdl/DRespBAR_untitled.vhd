@@ -28,6 +28,6 @@ END DRespBAR ;
 --
 ARCHITECTURE untitled OF DRespBAR IS
 BEGIN
-  F2<=(DCacheHit NAND NOT(IB_out)) after delay_logic3;
+  F2<=(NOT DCacheHit)after delay_logic2;-- NAND NOT(IB_out)) after delay_logic3;
 END ARCHITECTURE untitled;
 
