@@ -575,19 +575,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/FETCH"
 )
 (vvPair
 variable "date"
-value "03/27/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "27"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -615,7 +615,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-35.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -707,7 +707,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "23:44:33"
+value "18:31:53"
 )
 (vvPair
 variable "unit"
@@ -1320,7 +1320,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45700,50950"
+xt "32200,50050,45200,50950"
 st "
 by %user on %dd %month %year
 "
@@ -1945,6 +1945,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 4527,0
+lastUid 4550,0
 activeModelName "Symbol:CDM"
 )

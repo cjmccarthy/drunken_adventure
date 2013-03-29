@@ -16,10 +16,10 @@ USE ece411.LC3b_types.all;
 
 ENTITY L1DWriteSel IS
    PORT( 
-      WSel_Out : OUT    STD_LOGIC;
       Hit1     : IN     STD_LOGIC;
       CacheHit : IN     STD_LOGIC;
-      LRUout   : IN     std_logic
+      LRUout   : IN     std_logic;
+      WSel_Out : OUT    STD_LOGIC
    );
 
 -- Declarations

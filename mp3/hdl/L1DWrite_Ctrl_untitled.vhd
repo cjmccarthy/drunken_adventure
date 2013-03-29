@@ -16,7 +16,7 @@ USE ece411.LC3b_types.all;
 
 ENTITY L1DWrite_Ctrl IS
    PORT( 
-      WResp     : OUT    STD_LOGIC;
+      WRESP     : OUT    STD_LOGIC;
       CacheHit  : IN     STD_LOGIC;
       PWL_Delay : IN     std_logic;
       WriteBack : IN     STD_LOGIC;

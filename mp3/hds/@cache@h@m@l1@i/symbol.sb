@@ -470,19 +470,19 @@ value "/home/hyunyi1/ece411/drunken_adventure/mp3/hds/CacheHML1I"
 )
 (vvPair
 variable "date"
-value "03/26/13"
+value "03/28/13"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "26"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -510,7 +510,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "evrt-252-10.ews.illinois.edu"
+value "gelib-057-09.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -602,7 +602,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "20:15:36"
+value "19:53:46"
 )
 (vvPair
 variable "unit"
@@ -669,8 +669,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,60000,4500"
-st "VFlag     : IN     STD_LOGIC  ;
-"
+st "VFlag     : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -714,8 +713,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,60000,2700"
-st "HIT       : IN     STD_LOGIC  ;
-"
+st "HIT       : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -759,8 +757,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,60000,3600"
-st "MREAD_L   : IN     std_logic  ;
-"
+st "MREAD_L   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -805,8 +802,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,5400,59000,6300"
-st "CacheMiss : OUT    STD_LOGIC 
-"
+st "CacheMiss : OUT    STD_LOGIC "
 )
 thePort (LogicalPort
 m 1
@@ -852,8 +848,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,60000,5400"
-st "CacheHit  : OUT    STD_LOGIC  ;
-"
+st "CacheHit  : OUT    STD_LOGIC  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1573,6 +1568,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 165,0
+lastUid 211,0
 activeModelName "Symbol:CDM"
 )
